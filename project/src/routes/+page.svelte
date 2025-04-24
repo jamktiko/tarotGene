@@ -3,6 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 
 	let pakka: Kortit[] = $state([]);
+
 	onMount(async () => {
 		const response = await fetch('/json/Tarot.json');
 		if (response.ok) {
@@ -12,3 +13,9 @@
 		}
 	});
 </script>
+
+{#each pakka as kortti (kortti.name)}
+	<h1>{kortti.name}</h1>
+	<p>{kortti.description}</p>
+	<img src={kortti.image} alt="Kortin kuvateksti" />
+{/each}
