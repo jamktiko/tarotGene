@@ -18,7 +18,7 @@
 
 ## Projektin tiedot
 
-\<Projektin nimi>Deck of Destiny -ohjelma
+\Deck of Destiny -ohjelma
 
 Tekijät:Eetu Auvinen, Thomas Vainikainen, Joonathan Anjam
 
@@ -26,7 +26,7 @@ Tekijät:Eetu Auvinen, Thomas Vainikainen, Joonathan Anjam
 Tarot korttien nosto, Tarot galleria
 ### Kuvaus
 
-_Tarot ennustus sovellus, Käyttäjä voi valita montako korttia nostaa ja sovellus antaa kortit ja käyttäjällä on mahdollisuus katsoa kortin tarkoitus. Käyttäjä voi myös katsoa galleriasta kortit_
+Tarot ennustus sovellus, Käyttäjä voi valita montako korttia nostaa ja sovellus antaa kortit ja käyttäjällä on mahdollisuus katsoa kortin tarkoitus. Käyttäjä voi myös katsoa galleriasta kortit
 
 ### Projektiryhmä
 
@@ -41,9 +41,8 @@ _Ketä projektiin kuuluu ja mitkä ovat henkilöiden päävastuut._
 
 ### Tavoite
 
-_Mikä on ohjelmistoprojektin tavoiteltu lopputulos?_
 
-_Tavoite on saada sovelluksen perustoiminnallisuus toimimaan ja sovelluksen visuaalinen puoli on hyvä_
+Tavoite on saada sovelluksen perustoiminnallisuus toimimaan ja sovelluksen visuaalinen puoli on hyvä_
 
 ## Aikataulu
 
@@ -54,8 +53,8 @@ _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte
 | Projekti alkaa   | 22.04.2025 | Ohjelmistoprojekti 1 alkaa               |
 | Idean valinta    | 24.04.2025 | Valitaan tuotantoon menevä projekti-idea |
 | Prototyypp valmis| 25.04.2025 | Kehitysympäristo pystytty, Ulkoasu hahmoteltu |
-| TuotanPlaceholder| 02.05.2025 | Sovelluksen päätoiminnallisuus toimii.   |
-| Tuotanto         | 02.05.2025 | Sovelluksen päätoiminnallisuus toimii.   |
+| TuotanPlaceholder| 29.05.2025 | placeholderit tehty jotta tyylityksiä voi alkaa työstämään   |
+| Tuotanto         | 02.05.2025 | <- Sovelluksen päätoiminnallisuus toimii ja sovellus näyttää hyvältä  |
 | Tuotanto         | 09.05.2025 | Sovellus alkaa olemaan valmis.           |
 | Loppuviilaus     | 14.05.2025 | Sovellus täysin valmis kokonaisuudessaan.|
 | Projekti päättyy | 16.05.2025 | Ohjelmistoprojekti 1 päättyy             |
@@ -64,40 +63,34 @@ _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte
 
 ### Raportointi
 
-_Kuinka projekti raportoi toiminnastaan? Kuka raportoi, kenelle, ja milloin?_
-_2 lyhyttä viikkopalaveria. Maanantaina käydään läpi mitä viikolla pitäisi saada valmiiksi. Perjantaina palaveroidaan siitä mitä on saatu tehtyä ja mahdolliset kehittäminen. Kirjoitetaan pieni palaveri pöytäkirja perjantaisin joka palautetaan Moodleen
+2 lyhyttä viikkopalaveria. Maanantaina käydään läpi mitä viikolla pitäisi saada valmiiksi. Perjantaina palaveroidaan siitä mitä on saatu tehtyä ja mahdolliset kehittäminen. Kirjoitetaan pieni palaveri pöytäkirja perjantaisin joka palautetaan Moodleen
 
 ### Tuntikirjaukset
 
-_Kuinka projekti tekee tuntikirjausta? Missä se tehdään, ja miten se jaetaan?_
-_Jokainen merkkaa henkilökohtaiset tunnit Excel tiedostoon
+Jokainen merkkaa henkilökohtaiset tunnit Excel tiedostoon
 
 ### Palaverikäytänteet
 
-_Projektin viikkopalaveri pidetään xxx paikassa xxx. Kuka kirjoittaa palaveripöytäkirjan, ja missä ne elävät?_
-_Palaverit Maanantaisin ja Perjantaisin. Opettajien määräämässä luokassa. Palaveripöytäkirjan kirjoittaa Joonathan ja se säilytetään tiimin yhteisessä Teams -ryhmässä
+Palaverit Maanantaisin ja Perjantaisin. Opettajien määräämässä luokassa. Palaveripöytäkirjan kirjoittaa Joonathan ja se säilytetään tiimin yhteisessä Teams -ryhmässä
 
 ### Kommunikointitavat
 
-_Mitkä ovat projektin kommunikointikanavat? Viralliset, epäviralliset? Sisäiset, ulkoiset?_
 Kommunikointiin käytämme. Teams -sovellusta ja fyysistä viestittelyä.
 
 ### Dokumentointi
 
-_Kirjaa tähän miten projekti on ajatellut työnsä dokumentoida. Mitä dokumentteja projekti tuottaa?_
 Dokumentoidaan päväkohtaiset työt markdownina ja kehitysympäristön yhteydessä koodissa kommentit. Projektituottaa: Työajanseuranta, Työtehtävä dokumentit ja Viikkopalaveri pöytäkirjat
 
 ### Dokumenttien hallinta
 
 _Kuvaa dokumenttien säilytys; kenellä on oikeudet dokumenttien hallintaan, miten backupit on hoidettu, kuinka dokumentteja versioidaan (esim. 1.0, 1.1, 1.2 jne.) ja nimetään (onko esim. dokumentin nimessä versionumero)._
-Kaikilla tiimin jäsenillä on oikeudet kaikkiin dokumentteihin.
+Kaikilla tiimin jäsenillä on oikeudet kaikkiin dokumentteihin. Dokumentit versioidaan tapaan 1.0, 1.1, 1.2
 Dokumentti backupit: GitHub ja Outlook, OneDrive
 
 ## Riskien hallinta
 
 _Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
 
-Esimerkiksi näin.
 
 | Riskit                                                       | Todennäköisyys |  Impakti | Minimointi                             |
 | ------------------------------------------------------------ | -------------- | -------- | -------------------------------------- |
