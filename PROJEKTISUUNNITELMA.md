@@ -52,9 +52,9 @@ _Kirjaa tähän lukuun aikataulu. Millä tavoin projekti viedään läpi. Voitte
 | ---------------- | ---------- | ---------------------------------------- |
 | Projekti alkaa   | 22.04.2025 | Ohjelmistoprojekti 1 alkaa               |
 | Idean valinta    | 24.04.2025 | Valitaan tuotantoon menevä projekti-idea |
-| Prototyypp valmis| 25.04.2025 | Kehitysympäristo pystytty, Ulkoasu hahmoteltu |
+| Prototyypp valmis| 25.04.2025 | Kehitysympäristo pystytetty, Ulkoasu hahmoteltu |
 | TuotanPlaceholder| 29.05.2025 | placeholderit tehty jotta tyylityksiä voi alkaa työstämään   |
-| Tuotanto         | 02.05.2025 | <- Sovelluksen päätoiminnallisuus toimii ja sovellus näyttää hyvältä  |
+| Tuotanto         | 02.05.2025 | <- Sovelluksen päätoiminnallisuus toimii ja sovellus on visuaalisesti miellyttävä  |
 | Tuotanto         | 09.05.2025 | Sovellus alkaa olemaan valmis.           |
 | Loppuviilaus     | 14.05.2025 | Sovellus täysin valmis kokonaisuudessaan.|
 | Projekti päättyy | 16.05.2025 | Ohjelmistoprojekti 1 päättyy             |
@@ -99,4 +99,3 @@ _Kuvaa tässä kuinka projekti aikoo hallinnoida ja seurata projektiriskejä._
 | Tiimi jäsenten sairastuminen                                 |Keskisuuri      |Keskisuuri| Ylläpidetään terveellistä elämäntapaa. |
 | Koneet hajoavat/käyttökelvottomat                            | Pieni          |  Suuri   | Pidetään rauta turvassa ja kunnossa.   |
 | Tiiminväliset kiistat                                        | Pieni          |  Suuri   | Kuunnellaan ja kunnioitetaan toista.   |
-|  | Pieni          |  Suuri   | Pidetään työpaikalla kahvia ja pullaa. |
