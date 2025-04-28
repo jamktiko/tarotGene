@@ -8,14 +8,15 @@
 	
 	let oldpicks = new Set();
 	let naytaTulos = $state(false);
-
+let maara= $state(0)
 	function reset() {
 		oldpicks.clear();
 		picker=[]
+		naytaTulos=!naytaTulos
 	}
 	function rmFrmDck() {
 		let chosen
-		for (let i = 0; i < 2; i++) {
+		for (let i = 0; i < maara; i++) {
 			do {
 			chosen = Math.floor(Math.random() * pakka.length);
 		} while (oldpicks.has(chosen));
@@ -48,6 +49,14 @@
 <div>Korttisi on {pakka[kortti].name}</div>
 	<img src={pakka[kortti].image} alt="">
 	{/each}
-
+<button onclick={reset}>takaisin</button>
 {/if}
-<button onclick={boleChang}>Vaihda</button>
+
+{#if !naytaTulos}
+<button onclick={()=>maara--}>vähennä</button>
+<div>{maara}</div>
+<button onclick={()=>maara++}>lisää</button>
+<div></div>
+<button onclick={boleChang}>Näytä korttisi</button>
+	
+{/if}
