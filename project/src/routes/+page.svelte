@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import type { Kortit } from '$lib/types/Kortit';
 
+	import Button from "$lib/components/Button.svelte"
 	let pakka: Kortit[] = $state([]); // Jsonin tiedot sisältävä muuttuja
 
 	let nostot:number[] = $state([]); // Tällä hetkellä nostetut kortit
@@ -9,7 +10,7 @@
 	let joNostetut = new Set(); // Nostettujen korttien pino
 	let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
 	let maara= $state(0) //Montako korttia halutaan nostaa
-	function reset() { // Sivuissa takaisin meneva funktio, resettaa molemmat taulukot
+	function palaa() { // Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
 		joNostetut.clear();
 		nostot=[]
 		naytaTulos=!naytaTulos
@@ -42,11 +43,14 @@
 </script>
 
 {#if !naytaTulos} <!-- Alkusivu -->
-<button onclick={()=>maara--}>vähennä</button>
+<Button onclick={()=>maara--} text="Vähennä"/>
+
 <div>{maara}</div>
-<button onclick={()=>maara++}>lisää</button>
+<Button onclick={()=>maara++} text="Lisää"/>
+
 <div></div>
-<button onclick={kortinNaytto}>Näytä korttisi</button>
+<Button onclick={kortinNaytto} text="Nosta kohtalosi"/>
+
 {/if}
 
 {#if naytaTulos} <!-- Kortin valittua -->
@@ -54,5 +58,5 @@
 <div>Korttisi on {pakka[kortti].name}</div>
 	<img src={pakka[kortti].image} alt="Ei ollut budjettia kuvaan">
 	{/each}
-<button onclick={reset}>takaisin</button>
+<Button onclick={palaa} text="Takaisin"/>
 {/if}

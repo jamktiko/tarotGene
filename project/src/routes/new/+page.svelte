@@ -9,7 +9,7 @@
 	let joNostetut = new Set();
 	let boolean = false;
 
-	function reset() {
+	function palaa() {
 		joNostetut.clear();
 	}
 	function randomisointi() {
