@@ -4,24 +4,32 @@
 
 	let pakka: Kortit[] = $state([]);
 
-	let picker = 0;
+	let picker:number[] = $state([]);
 	
 	let oldpicks = new Set();
-	let boolean = false;
+	let naytaTulos = $state(false);
 
 	function reset() {
 		oldpicks.clear();
+		picker=[]
 	}
 	function rmFrmDck() {
-		do {
-			picker = Math.floor(Math.random() * pakka.length);
-		} while (oldpicks.has(picker));
+		let chosen
+		for (let i = 0; i < 2; i++) {
+			do {
+			chosen = Math.floor(Math.random() * pakka.length);
+		} while (oldpicks.has(chosen));
+		picker.push(chosen)
+		oldpicks.add(chosen);
+		console.log(chosen);
+		
+		}
 
-		oldpicks.add(picker);
+
 	}
 
 	function boleChang() {
-		boolean = !boolean;
+		naytaTulos = !naytaTulos;
 		rmFrmDck();
 	}
 
@@ -35,8 +43,11 @@
 	});
 </script>
 
-{#each pakka as kortti (kortti.name)}
-	<h1>{kortti.name}</h1>
-	<p>{kortti.description}</p>
-	<img src={kortti.image} alt="Kortin kuvateksti" />
-{/each}
+{#if naytaTulos}
+	{#each picker as kortti }
+<div>Korttisi on {pakka[kortti].name}</div>
+	<img src={pakka[kortti].image} alt="">
+	{/each}
+
+{/if}
+<button onclick={boleChang}>Vaihda</button>
