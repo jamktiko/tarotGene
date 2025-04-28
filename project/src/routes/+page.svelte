@@ -3,6 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte'
 
+<<<<<<< HEAD
 	let pakka: Kortit[] = $state([]) 
 
 	onMount(async () => {
@@ -27,20 +28,39 @@
 
 	function reset() {
 		oldpicks.clear();
-	}
-	function rmFrmDck() {
-		do {
-			picker = Math.floor(Math.random() * pakka.length);
-		} while (oldpicks.has(picker));
+=======
+	import Button from "$lib/components/Button.svelte"
+	let pakka: Kortit[] = $state([]); // Jsonin tiedot sisältävä muuttuja
 
-		oldpicks.add(picker);
+	let nostot:number[] = $state([]); // Tällä hetkellä nostetut kortit
+	
+	let joNostetut = new Set(); // Nostettujen korttien pino
+	let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
+	let maara= $state(0) //Montako korttia halutaan nostaa
+	function palaa() { // Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
+		joNostetut.clear();
+		nostot=[]
+		naytaTulos=!naytaTulos
+>>>>>>> develop
+	}
+	function randomisointi() { //kortin randomisoija, joka samalla lisää nostetut kortit joNostetut pinoon
+		let chosen
+		for (let i = 0; i < maara; i++) {
+			do {
+			chosen = Math.floor(Math.random() * pakka.length);
+		} while (joNostetut.has(chosen));
+		nostot.push(chosen)
+		joNostetut.add(chosen);
+		
+		}
 	}
 
-	function boleChang() {
-		boolean = !boolean;
-		rmFrmDck();
+	function kortinNaytto() {// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
+		naytaTulos = !naytaTulos;
+		randomisointi();
 	}
 
+<<<<<<< HEAD
 
 </script>
 
@@ -54,3 +74,33 @@
 	</div>
 
 {/each}
+=======
+	onMount(async () => { //json fetchit
+		const response = await fetch('/json/Tarot.json');
+		if (response.ok) {
+			pakka = await response.json();
+		} else {
+			console.error('Failed to fetch cards:', response.statusText);
+		}
+	});
+</script>
+
+{#if !naytaTulos} <!-- Alkusivu -->
+<Button onclick={()=>maara--} text="Vähennä"/>
+
+<div>{maara}</div>
+<Button onclick={()=>maara++} text="Lisää"/>
+
+<div></div>
+<Button onclick={kortinNaytto} text="Nosta kohtalosi"/>
+
+{/if}
+
+{#if naytaTulos} <!-- Kortin valittua -->
+	{#each nostot as kortti }
+<div>Korttisi on {pakka[kortti].name}</div>
+	<img src={pakka[kortti].image} alt="Ei ollut budjettia kuvaan">
+	{/each}
+<Button onclick={palaa} text="Takaisin"/>
+{/if}
+>>>>>>> develop
