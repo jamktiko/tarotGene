@@ -62,7 +62,7 @@
 {/if}
 
 {#if naytaTulos}
-	{#if maara === 0}
+	{#if maara <= 0}
 		<div>Nosta kortti nössö</div>
 	{/if}
 	<!-- Kortin valittua -->
