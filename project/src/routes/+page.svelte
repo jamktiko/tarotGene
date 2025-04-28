@@ -20,15 +20,6 @@
 		valittuKortti = valittuKortti === kortti ? null : kortti;
 	}
 
-	let picker = 0;
-
-	let oldpicks = new Set();
-	let boolean = false;
-
-	function reset() {
-		oldpicks.clear();
-	}
-
 	let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
 
 	let joNostetut = new Set(); // Nostettujen korttien pino
@@ -71,6 +62,9 @@
 {/if}
 
 {#if naytaTulos}
+	{#if maara === 0}
+		<div>Nosta kortti nössö</div>
+	{/if}
 	<!-- Kortin valittua -->
 	{#each nostot as kortti (kortti.name)}
 		<h1>{kortti.name}</h1>
