@@ -52,10 +52,10 @@
 
 {#if !naytaTulos}
 	<!-- Alkusivu -->
-	<Button onclick={() => maara--} text="Vähennä" />
+	<Button onclick={() => maara--} text="Vähennä" disabled={maara <= 0} />
 
 	<div>{maara}</div>
-	<Button onclick={() => maara++} text="Lisää" />
+	<Button onclick={() => maara++} text="Lisää" disabled={maara >= 3} />
 
 	<div></div>
 	<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
