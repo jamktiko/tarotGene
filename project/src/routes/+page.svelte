@@ -4,6 +4,27 @@
 
 	let pakka: Kortit[] = $state([]);
 
+	let picker = 0;
+	
+	let oldpicks = new Set();
+	let boolean = false;
+
+	function reset() {
+		oldpicks.clear();
+	}
+	function rmFrmDck() {
+		do {
+			picker = Math.floor(Math.random() * pakka.length);
+		} while (oldpicks.has(picker));
+
+		oldpicks.add(picker);
+	}
+
+	function boleChang() {
+		boolean = !boolean;
+		rmFrmDck();
+	}
+
 	onMount(async () => {
 		const response = await fetch('/json/Tarot.json');
 		if (response.ok) {
