@@ -4,25 +4,25 @@
 
 	let pakka: Kortit[] = $state([]);
 
-	let picker = 0;
+	let nostot = 0;
 	
-	let oldpicks = new Set();
+	let joNostetut = new Set();
 	let boolean = false;
 
 	function reset() {
-		oldpicks.clear();
+		joNostetut.clear();
 	}
-	function rmFrmDck() {
+	function randomisointi() {
 		do {
-			picker = Math.floor(Math.random() * pakka.length);
-		} while (oldpicks.has(picker));
+			nostot = Math.floor(Math.random() * pakka.length);
+		} while (joNostetut.has(nostot));
 
-		oldpicks.add(picker);
+		joNostetut.add(nostot);
 	}
 
-	function boleChang() {
+	function kortinNaytto() {
 		boolean = !boolean;
-		rmFrmDck();
+		randomisointi();
 	}
 
 	onMount(async () => {
