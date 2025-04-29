@@ -52,9 +52,8 @@
 
 <div class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow" style="background: radial-gradient(circle at center, #472454, #200f25);">
 <div class="gap grid p-6">
-
-  <img src="/src/static/cardBack.png"></div>
 {#if !naytaTulos}
+<img src="cardBack.png" class="mx-auto flex h-110 w-80" alt="Kortti">
 	<!-- Alkusivu -->
   <div class="gap grid m-6 grid-cols-3">
 	<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
