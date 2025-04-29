@@ -3,6 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte'
 	import Button from "$lib/components/Button.svelte"
+	import '../app.css';
 
 	let pakka: Kortit[] = $state([]) 
 
@@ -70,6 +71,9 @@
 
 <div></div>
 <Button onclick={kortinNaytto} text="Nosta kohtalosi"/>
+
+<a href="/gallery">galleria</a>
+<p class="font-rosarivo">Hello there</p>
 
 {/if}
 
