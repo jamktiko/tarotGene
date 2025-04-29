@@ -1,6 +1,12 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @layer utilities {
   .text-shadow-valkoinen {
     text-shadow: 0 0 10px #a78bfa, 0 0 10px #8b5cf6;
@@ -13,7 +19,12 @@
   }
 }
 
-/* src/styles/app.css */
+@layer base {
+  html{
+    font-family: 'Rosarivo', sans-serif;
+  }
+}
+
 @font-face {
   font-family: 'Rosarivo';
   src: url('/font/Rosarivo/Rosarivo-Italic.ttf') format('truetype'),

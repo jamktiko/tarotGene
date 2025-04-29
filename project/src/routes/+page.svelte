@@ -50,18 +50,20 @@
 	}
 </script>
 
-<div class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow" style="background: radial-gradient(circle at center, #472454, #200f25);">
-<div class="gap grid p-6">
-{#if !naytaTulos}
-<img src="cardBack.png" class="mx-auto flex h-110 w-80" alt="Kortti">
-	<!-- Alkusivu -->
-  <div class="gap grid m-6 grid-cols-3">
-	<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
-	<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">{maara}</div>
-	<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
-	<div></div>
-	<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
-  </div>
+
+
+{#if !naytaTulos} <!-- Alkusivu -->
+<Button onclick={()=>maara--} text="Vähennä"/>
+
+<div>{maara}</div>
+<Button onclick={()=>maara++} text="Lisää"/>
+
+<div></div>
+<Button onclick={kortinNaytto} text="Nosta kohtalosi"/>
+
+<a href="/gallery">galleria</a>
+<p class="font-['rosarivo']">Hello there</p>
+
 {/if}
 
 
@@ -86,5 +88,4 @@
 	{/each}
 	<Button onclick={palaa} text="Takaisin" />
 {/if}
-</div>
-</div>
+
