@@ -73,7 +73,7 @@
 <Button onclick={kortinNaytto} text="Nosta kohtalosi"/>
 
 <a href="/gallery">galleria</a>
-<p class="font-rosarivo">Hello there</p>
+<p class="font-['rosarivo']">Hello there</p>
 
 {/if}
 
