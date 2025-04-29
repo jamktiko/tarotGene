@@ -1,6 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer utilities {
   .text-shadow-valkoinen {
     text-shadow: 0 0 10px #a78bfa, 0 0 10px #8b5cf6;

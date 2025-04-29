@@ -8,4 +8,8 @@
 	let { text, onclick, disabled = false }: Props = $props();
 </script>
 
-<button {onclick} {disabled}>{text}</button>
+<button class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-black outline outline-amber-400" {onclick} {disabled}>
+
+  <img src={text} alt="">
+</button>
+
