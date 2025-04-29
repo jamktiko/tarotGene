@@ -52,6 +52,10 @@
 
 {#if !naytaTulos}
 	<!-- Alkusivu -->
+	<button onclick={kortinNaytto}>
+		<img src="/cardBack.png" alt="eipä näy" width="10%" />
+	</button>
+	<div></div>
 	<Button onclick={() => maara--} text="Vähennä" disabled={maara <= 0} />
 
 	<div>{maara}</div>
