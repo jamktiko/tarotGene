@@ -53,12 +53,14 @@
 <div class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow" style="background: radial-gradient(circle at center, #472454, #200f25);">
 <div class="gap grid p-6">
 {#if !naytaTulos}
-<img src="cardBack.png" class="mx-auto flex h-110 w-80" alt="Kortti">
+<img src="cardBack.png" class="mx-auto flex h-90 w-60 pt-10" alt="Kortti">
 	<!-- Alkusivu -->
   <div class="gap grid m-6 grid-cols-3">
 	<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+
 	<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">{maara}</div>
 	<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+
 	<div></div>
 	<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
   </div>
@@ -67,23 +69,26 @@
 
 {#if naytaTulos}
 	{#if maara <= 0}
-		<div>Nosta kortti nössö</div>
+		<div class="grid place-items-center text-white text-xl text-shadow-valkoinen pt-20 pb-60">Nosta kortti nössö</div>
 	{/if}
 	<!-- Kortin valittua -->
+  <div class="flex flex-wrap justify-center gap-4 ">
 	{#each nostot as kortti (kortti.name)}
-		<h1>{kortti.name}</h1>
-		<div>
+
+  <div class="flex flex-col items-center gap-6 pb-14">
+		<h1 class="text-shadow-valkoinen font-['Rosarivo'] text-amber-50 text-2xl">{kortti.name}</h1>
 			<img
 				onclick={() => naytaKortti(kortti)}
-				class="h-sm w-sm"
+				class=" sm:w-30 sm:h-45 md:w-60 md:h-90 object-cover"
 				src={kortti.image}
 				alt="Kortin kuvateksti"
 			/>
+    </div>
 			{#if valittuKortti === kortti}
 				<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
 			{/if}
-		</div>
 	{/each}
+  </div>
 	<Button onclick={palaa} text="Takaisin" />
 {/if}
 </div>
