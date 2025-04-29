@@ -1,3 +1,29 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-shadow-custom {
+    text-shadow: 0 0 10px #a78bfa, 0 0 10px #8b5cf6;
+  }
+}
+
+
+@font-face {
+  font-family: 'Rosarivo';
+  src: url('/fonts/Rosarivo/Rosarivo-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rosarivo';
+  src: url('/fonts/Rosarivo/Rosarivo-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+

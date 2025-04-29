@@ -1,31 +1,17 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { Kortit } from '$lib/types/Kortit';
+	import Modal from '$lib/components/Modal.svelte'
+    
 
-	let pakka: Kortit[] = $state([]);
+    let pakka: Kortit[] = $state([])
 
-	let nostot = 0;
-	
-	let joNostetut = new Set();
-	let boolean = false;
-
-	function palaa() {
-		joNostetut.clear();
-	}
-	function randomisointi() {
-		do {
-			nostot = Math.floor(Math.random() * pakka.length);
-		} while (joNostetut.has(nostot));
-
-		joNostetut.add(nostot);
+    let valittuKortti: Kortit | null = $state(null)
+	function naytaKortti(kortti: Kortit) {
+		valittuKortti = valittuKortti === kortti ? null:kortti;
 	}
 
-	function kortinNaytto() {
-		boolean = !boolean;
-		randomisointi();
-	}
-
-	onMount(async () => {
+    onMount(async () => {
 		const response = await fetch('/json/Tarot.json');
 		if (response.ok) {
 			pakka = await response.json();
@@ -33,11 +19,20 @@
 			console.error('Failed to fetch cards:', response.statusText);
 		}
 	});
+
 </script>
 
-
-{#each pakka as kortti (kortti.name)}
-	<h1>{kortti.name}</h1>
-	<p>{kortti.description}</p>
-	<img src={kortti.image} alt="Kortin kuvateksti" />
-{/each}
+<header>
+    <h1><a href="/">Takaisin arvontaan</a></h1>
+</header>
+<div class="grid grid-cols-6 gap-4 ">
+    {#each pakka as kortti (kortti.name)}
+        <div class="flex flex-col items-center w-3xs h-3xs">
+            <h1>{kortti.name}</h1>
+            <button onclick={() => naytaKortti(kortti)}><img class='w-sm h-sm' src={kortti.image} alt="Kortin kuvateksti" /></button>
+            {#if valittuKortti === kortti}
+                <Modal pakka={kortti} sulje={() =>naytaKortti(kortti)}/>
+            {/if}
+        </div>
+    {/each}
+</div>
