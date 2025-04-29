@@ -3,6 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import { text } from '@sveltejs/kit';
 
 	let pakka: Kortit[] = $state([]);
 
@@ -45,46 +46,50 @@
 
 	function kortinNaytto() {
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
-		naytaTulos = !naytaTulos;
 		randomisointi();
+		naytaTulos = !naytaTulos;
 	}
 </script>
 
-<div class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow" style="background: radial-gradient(circle at center, #472454, #200f25);">
-<div class="gap grid p-6">
-{#if !naytaTulos}
-<img src="cardBack.png" class="mx-auto flex h-110 w-80" alt="Kortti">
-	<!-- Alkusivu -->
-  <div class="gap grid m-6 grid-cols-3">
-	<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
-	<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">{maara}</div>
-	<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
-	<div></div>
-	<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
-  </div>
-{/if}
+<div
+	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
+	style="background: radial-gradient(circle at center, #472454, #200f25);"
+>
+	<div class="gap grid p-6">
+		{#if !naytaTulos}
+			<img src="cardBack.png" class="mx-auto flex h-110 w-80" alt="Kortti" onclick={kortinNaytto} />
+			<!-- Alkusivu -->
+			<div class="gap m-6 grid grid-cols-3">
+				<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
+					{maara}
+				</div>
+				<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+				<div></div>
+				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
+			</div>
+		{/if}
 
-
-{#if naytaTulos}
-	{#if maara <= 0}
-		<div>Nosta kortti nössö</div>
-	{/if}
-	<!-- Kortin valittua -->
-	{#each nostot as kortti (kortti.name)}
-		<h1>{kortti.name}</h1>
-		<div>
-			<img
-				onclick={() => naytaKortti(kortti)}
-				class="h-sm w-sm"
-				src={kortti.image}
-				alt="Kortin kuvateksti"
-			/>
-			{#if valittuKortti === kortti}
-				<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+		{#if naytaTulos}
+			{#if maara <= 0}
+				<div>Nosta kortti nössö</div>
 			{/if}
-		</div>
-	{/each}
-	<Button onclick={palaa} text="Takaisin" />
-{/if}
-</div>
+			<!-- Kortin valittua -->
+			{#each nostot as kortti (kortti.name)}
+				<h1>{kortti.name}</h1>
+				<div>
+					<img
+						onclick={() => naytaKortti(kortti)}
+						class="h-sm w-sm"
+						src={kortti.image}
+						alt="Kortin kuvateksti"
+					/>
+					{#if valittuKortti === kortti}
+						<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+					{/if}
+				</div>
+			{/each}
+			<Button onclick={palaa} text="Takaisin" />
+		{/if}
+	</div>
 </div>
