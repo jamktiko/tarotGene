@@ -51,9 +51,9 @@
 </script>
 
 <div class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow" style="background: radial-gradient(circle at center, #472454, #200f25);">
-<div class="gap grid m-6 grid-cols-3">
+<div class="gap grid p-6">
 
-  <div class="mx-auto flex h-80 w-50 rounded-4xl border-4 border-black bg-gray-400"></div>
+  <img src="/src/static/cardBack.png"></div>
 {#if !naytaTulos}
 	<!-- Alkusivu -->
   <div class="gap grid m-6 grid-cols-3">
