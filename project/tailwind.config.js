@@ -4,7 +4,7 @@ export default {
     theme: {
       extend: {
         fontFamily: {
-          'rosarivo': ['Rosarivo', 'serif']
+          'rosarivo': ['Rosarivo', 'sans-serif']
         },
       },
     },
