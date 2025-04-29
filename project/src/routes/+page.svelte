@@ -88,4 +88,3 @@
 	<Button onclick={palaa} text="Takaisin" />
 {/if}
 </div>
-</div>
