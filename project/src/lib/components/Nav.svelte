@@ -3,10 +3,10 @@
 </script>
 
 <header>
-	<nav>
+	<nav class="grid grid-cols-2 bg-black p-4">
 		{#key page.url.pathname}
-			<a href="/">Kotisivu</a>
-			<a href="/gallery">Galleria</a>
+			<a class="text-shadow-valkoinen font-['Rosarivo'] text-amber-50" href="/">Kotisivu</a>
+			<a class="text-shadow-valkoinen font-['Rosarivo'] text-amber-50" href="/gallery">Galleria</a>
 		{/key}
 	</nav>
 </header>
