@@ -3,6 +3,7 @@
 		text: string;
 		onclick: () => void;
 		disabled?: boolean;
+		
 	}
 
 	let { text, onclick, disabled = false }: Props = $props();
