@@ -57,14 +57,26 @@
 >
 	<div class="gap grid p-6">
 		{#if !naytaTulos}
-			<img src="cardBack.png" class="mx-auto flex h-110 w-80" alt="Kortti" onclick={kortinNaytto} />
+			<img
+				src="cardBack.png"
+				class="mx-auto flex h-110 w-80 translate-y-1/2 blur-[2px]"
+				alt="Kortti"
+			/>
+
+			<img
+				src="cardBack.png"
+				class="mx-auto flex h-110 w-80 -translate-y-1/2 animate-[bounce_1s_ease-in-out_infinite] shadow-md"
+				alt="Kortti"
+				onclick={kortinNaytto}
+			/>
+
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3">
-				<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
 				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
 					{maara}
 				</div>
-				<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
 				<div></div>
 				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
 			</div>
