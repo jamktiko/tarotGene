@@ -94,12 +94,12 @@
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostot as kortti (kortti.name)}
 					<div class="flex flex-col items-center gap-6 pb-14">
-						<h1 class="text-shadow-valkoinen font-['Rosarivo'] text-2xl text-amber-50">
+						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class=" object-cover sm:h-45 sm:w-30 md:h-90 md:w-60"
+							class=" object-cover sm:h-45 sm:w-30 md:h-90 md:w-60 transition duration-175 ease-in-out hover:scale-101 w-75 h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 						/>
