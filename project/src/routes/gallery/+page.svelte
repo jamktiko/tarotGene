@@ -22,9 +22,6 @@
 
 </script>
 
-<header>
-    <h1><a href="/">Takaisin arvontaan</a></h1>
-</header>
 <div class="p-10 mx-auto min-h-screen min-w-screen space-y-4 bg-radial from-[#472454] to-[#200f25] grid grid-cols-6 gap-4 ">
     {#each pakka as kortti (kortti.name)}
         <div class="flex flex-col items-center w-4xs h-6xs">
