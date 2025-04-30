@@ -3,6 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import { text } from '@sveltejs/kit';
 
 	let pakka: Kortit[] = $state([]);
 
@@ -45,52 +46,70 @@
 
 	function kortinNaytto() {
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
-		naytaTulos = !naytaTulos;
 		randomisointi();
+		naytaTulos = !naytaTulos;
 	}
 </script>
 
-<div class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow" style="background: radial-gradient(circle at center, #472454, #200f25);">
-<div class="gap grid p-6">
-{#if !naytaTulos}
-<!--Etusivun korttitakapuoli-->
-<img src="cardBack.png" class="shadow-3xl border-shadow mx-auto mt-8 flex h-90 w-60 rounded-xl border-4 border-black shadow-xl outline-2 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700]" alt="Kortti" />
-<!-- Alkusivu -->
-  <div class="gap grid m-6 grid-cols-3">
-	<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
-
-	<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">{maara}</div>
-	<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
-
-	<div></div>
-	<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
-  </div>
-{/if}
-
-
-{#if naytaTulos}
-	{#if maara <= 0}
-		<div class="grid place-items-center text-white text-xl text-shadow-valkoinen pt-20 pb-60">Nosta kortti nössö</div>
-	{/if}
-	<!-- Kortin valittua -->
-  <div class="flex flex-wrap justify-center gap-4 ">
-	{#each nostot as kortti (kortti.name)}
-
-  <div class="mx-auto flex flex-col items-center gap-6 pb-14">
-		<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-valkoinen text-shadow-sm">{kortti.name}</h1>
+<div
+	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
+	style="background: radial-gradient(circle at center, #472454, #200f25);"
+>
+	<div class="gap grid p-6">
+		{#if !naytaTulos}
 			<img
-				onclick={() => naytaKortti(kortti)}
-			  class="transition duration-175 ease-in-out hover:scale-101 w-75 h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700] sm:w-15 sm:h-23 md:w-60 md:h-90"
-				src={kortti.image}
-				alt="Kortin kuvateksti"
+				src="cardBack.png"
+				class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px]"
+				alt="Kortti"
 			/>
-    </div>
-			{#if valittuKortti === kortti}
-				<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+
+			<img
+				src="cardBack.png"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite]"
+				alt="Kortti"
+				onclick={kortinNaytto}
+			/>
+
+			<!-- Alkusivu -->
+			<div class="gap m-6 grid grid-cols-3">
+				<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+
+				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
+					{maara}
+				</div>
+				<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+
+				<div></div>
+				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
+			</div>
+		{/if}
+
+		{#if naytaTulos}
+			{#if maara <= 0}
+				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
+					Nosta kortti nössö
+				</div>
 			{/if}
-	{/each}
-  </div>
-	<Button onclick={palaa} text="Takaisin" />
-{/if}
-</div>
+			<!-- Kortin valittua -->
+			<div class="flex flex-wrap justify-center gap-4">
+				{#each nostot as kortti (kortti.name)}
+					<div class="flex flex-col items-center gap-6 pb-14">
+						<h1 class="text-shadow-valkoinen font-['Rosarivo'] text-2xl text-amber-50">
+							{kortti.name}
+						</h1>
+						<img
+							onclick={() => naytaKortti(kortti)}
+							class=" object-cover sm:h-45 sm:w-30 md:h-90 md:w-60"
+							src={kortti.image}
+							alt="Kortin kuvateksti"
+						/>
+					</div>
+					{#if valittuKortti === kortti}
+						<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+					{/if}
+				{/each}
+			</div>
+			<Button onclick={palaa} text="Takaisin" />
+		{/if}
+	</div>
 </div>

@@ -1,25 +1,39 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @layer utilities {
-  .text-shadow-valkoinen {
-    text-shadow: 0 0 10px #a78bfa, 0 0 10px #8b5cf6;
-  }
+	.text-shadow-valkoinen {
+		text-shadow:
+			0 0 10px #a78bfa,
+			0 0 10px #8b5cf6;
+	}
 }
 /*Asetetaan Rosarivo default fontiks */
 @layer base {
-  html {
+	html {
+		font-family: 'Rosarivo', sans-serif;
+	}
+}
+
+@layer base {
+  html{
     font-family: 'Rosarivo', sans-serif;
   }
 }
 
-/* src/styles/app.css */
 @font-face {
-  font-family: 'Rosarivo';
-  src: url('/font/Rosarivo/Rosarivo-Italic.ttf') format('truetype'),
-       url('/font/Rosarivo/Rosarivo-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'Rosarivo';
+	src:
+		url('/font/Rosarivo/Rosarivo-Italic.ttf') format('truetype'),
+		url('/font/Rosarivo/Rosarivo-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 @font-face {
