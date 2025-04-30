@@ -72,12 +72,12 @@
 
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3">
-				<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
 
 				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
 					{maara}
 				</div>
-				<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
 
 				<div></div>
 				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
