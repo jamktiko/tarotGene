@@ -57,12 +57,14 @@
 >
 	<div class="gap grid p-6">
 		{#if !naytaTulos}
+			<!-- Tausta Kuva -->
 			<img
 				src="cardBack.png"
 				class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px]"
 				alt="Kortti"
 			/>
 
+			<!-- Liikkuva kuva -->
 			<img
 				src="cardBack.png"
 				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-xl/30 shadow-md motion-safe:animate-[bounce_5s_linear_infinite]"
