@@ -65,7 +65,7 @@
 
 			<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite]"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-xl/30 shadow-md motion-safe:animate-[bounce_5s_linear_infinite]"
 				alt="Kortti"
 				onclick={kortinNaytto}
 			/>
