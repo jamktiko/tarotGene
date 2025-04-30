@@ -59,24 +59,26 @@
 		{#if !naytaTulos}
 			<img
 				src="cardBack.png"
-				class="mx-auto flex h-110 w-80 translate-y-1/2 blur-[2px]"
+				class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px]"
 				alt="Kortti"
 			/>
 
 			<img
 				src="cardBack.png"
-				class="mx-auto flex h-110 w-80 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_3s_infinite]"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_3s_infinite]"
 				alt="Kortti"
 				onclick={kortinNaytto}
 			/>
 
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3">
-				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
+				<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+
 				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
 					{maara}
 				</div>
-				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
+				<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+
 				<div></div>
 				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
 			</div>
@@ -84,23 +86,29 @@
 
 		{#if naytaTulos}
 			{#if maara <= 0}
-				<div>Nosta kortti nössö</div>
+				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
+					Nosta kortti nössö
+				</div>
 			{/if}
 			<!-- Kortin valittua -->
-			{#each nostot as kortti (kortti.name)}
-				<h1>{kortti.name}</h1>
-				<div>
-					<img
-						onclick={() => naytaKortti(kortti)}
-						class="h-sm w-sm"
-						src={kortti.image}
-						alt="Kortin kuvateksti"
-					/>
+			<div class="flex flex-wrap justify-center gap-4">
+				{#each nostot as kortti (kortti.name)}
+					<div class="flex flex-col items-center gap-6 pb-14">
+						<h1 class="text-shadow-valkoinen font-['Rosarivo'] text-2xl text-amber-50">
+							{kortti.name}
+						</h1>
+						<img
+							onclick={() => naytaKortti(kortti)}
+							class=" object-cover sm:h-45 sm:w-30 md:h-90 md:w-60"
+							src={kortti.image}
+							alt="Kortin kuvateksti"
+						/>
+					</div>
 					{#if valittuKortti === kortti}
 						<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
 					{/if}
-				</div>
-			{/each}
+				{/each}
+			</div>
 			<Button onclick={palaa} text="Takaisin" />
 		{/if}
 	</div>
