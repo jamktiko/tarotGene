@@ -3,7 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
-	import { text } from '@sveltejs/kit';
+	// import { text } from '@sveltejs/kit';
 
 	let pakka: Kortit[] = $state([]);
 
@@ -72,12 +72,12 @@
 
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3">
-				<Button onclick={() => maara--} text="aaaaaa" disabled={maara <= 0} />
+				<Button onclick={() => maara--} text="images/minus.png" disabled={maara <= 0} />
 
 				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
 					{maara}
 				</div>
-				<Button onclick={() => maara++} text="aaaaaa" disabled={maara >= 3} />
+				<Button onclick={() => maara++} text="images/plus.png" disabled={maara >= 3} />
 
 				<div></div>
 				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
