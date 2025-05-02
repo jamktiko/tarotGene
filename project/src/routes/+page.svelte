@@ -57,41 +57,51 @@
 >
 	<div class="gap grid p-6">
 		{#if !naytaTulos}
-			<!-- Tausta Kuva -->
-			<img
-				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
-				alt="Kortti"
-			/>
-
-			<!-- Liikkuva kuva -->
-			<img
-				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
-  			alt="Kortti"
-				onclick={kortinNaytto}
-			/>
 
 			<!-- Alkusivu -->
-			<div class="gap m-6 grid grid-cols-3">
+			<div class="gap m-6 grid grid-cols-3 items-center">
+
+        <div>
 				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
+        </div>
 
-				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
-					{maara}
-				</div>
+          <!--BOUNCY KORTIT-->
+          <div>
+          <img
+          src="cardBack.png"
+          class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
+          alt="Kortti"
+        />
+        <img
+          src="cardBack.png"
+          class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+          alt="Kortti"
+          onclick={kortinNaytto}
+        />
+          </div>
+          <!--/BOUNCY KORTIT-->
+
+
+          <!--korttien lkm "index"-->
+				<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
+					<!-- {maara} -->
+				<!-- </div> -->
+        <div class="flex justify-center">
 				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
+        </div>
 
-				<div></div>
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 		  </div>
 		{/if}
 
+    
 		{#if naytaTulos}
 			{#if maara <= 0}
 				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
 					Nosta kortti nössö
 				</div>
 			{/if}
+    
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostot as kortti (kortti.name)}
@@ -111,7 +121,7 @@
 					{/if}
 				{/each}
 			</div>
-			<Button onclick={palaa} text="Takaisin" />
+			<Button onclick={palaa} text="/images/x_ikoni.png" />
 		{/if}
 	</div>
 </div>
