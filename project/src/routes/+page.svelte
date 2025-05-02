@@ -60,7 +60,7 @@
 
 
 			<!-- Alkusivu -->
-			<div class="gap m-6 grid grid-cols-3">
+			<div class="gap m-6 grid grid-cols-3 items-center">
 
         <div>
 				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
@@ -87,10 +87,10 @@
 				<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
 					<!-- {maara} -->
 				<!-- </div> -->
-        <div>
+        <div class="flex justify-center">
 				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
         </div>
-        
+
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 		  </div>
 		{/if}
