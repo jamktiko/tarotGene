@@ -31,6 +31,7 @@
 		joNostetut.clear();
 		nostot = [];
 		naytaTulos = !naytaTulos;
+		maara = 0
 	}
 	function randomisointi() {
 		//kortin randomisoija, joka samalla lisää nostetut kortit joNostetut pinoon
@@ -44,6 +45,12 @@
 		}
 	}
 
+	function rakkaus() {
+		maara=6;
+		randomisointi();
+		naytaTulos=!naytaTulos
+
+	}
 	function kortinNaytto() {
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
 		randomisointi();
