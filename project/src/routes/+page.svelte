@@ -3,18 +3,13 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
-	import { text } from '@sveltejs/kit';
+	import {pakka} from '$lib/datanhaku.svelte'
 
-	let pakka: Kortit[] = $state([]);
 
 	onMount(async () => {
-		const response = await fetch('/json/Tarot.json');
-		if (response.ok) {
-			pakka = await response.json();
-		} else {
-			console.error('Failed to fetch cards:', response.statusText);
-		}
-	});
+		await pakka.hKortit()
+	})
+	$inspect(pakka.tKortit)
 
 	let valittuKortti: Kortit | null = $state(null);
 	function naytaKortti(kortti: Kortit) {
@@ -37,9 +32,9 @@
 		let chosen;
 		for (let i = 0; i < maara; i++) {
 			do {
-				chosen = Math.floor(Math.random() * pakka.length);
+				chosen = Math.floor(Math.random() * pakka.tKortit.length);
 			} while (joNostetut.has(chosen));
-			nostot.push(pakka[chosen]);
+			nostot.push(pakka.tKortit[chosen]);
 			joNostetut.add(chosen);
 		}
 	}
@@ -65,7 +60,7 @@
 
 			<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite]"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] border-1 border-c rounded-lg border-black"
 				alt="Kortti"
 				onclick={kortinNaytto}
 			/>
