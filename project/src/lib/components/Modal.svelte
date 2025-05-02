@@ -16,7 +16,7 @@
             <img class="transition duration-175 ease-in-out hover:scale-101 w-75 h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]" src={pakka.image} alt="kortin kuva"/>
             <div class="flex flex-col justify-between">
                 <p class="text-lg text-white">{pakka.description}</p>
-                <div class="flex mr-[250px] flex-col items-center mb-6">
+                <div class="flex mr-[250px] mt-5 flex-col items-center mb-6">
                     <button class="w-30 px-4  py-2 text-[#FFD700] bg-[#000000] hover:bg-[#222222] rounded ring-2 ring-[#FFD700]" onclick={sulje}>
                         sulje
                     </button>
