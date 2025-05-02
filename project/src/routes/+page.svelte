@@ -80,8 +80,8 @@
 				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
 
 				<div></div>
-				<Button onclick={kortinNaytto} text="Nosta kohtalosi" />
-			</div>
+				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
+		  </div>
 		{/if}
 
 		{#if naytaTulos}
