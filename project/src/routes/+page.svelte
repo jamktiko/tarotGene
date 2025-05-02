@@ -7,7 +7,7 @@
 	// import { flip } from 'svelte/animate';
 	// import { text } from '@sveltejs/kit';
 	import {pakka} from '$lib/datanhaku.svelte'
-
+// import Nosto from "$lib/components/Nosto.svelte";
 
 	onMount(async () => {
 		await pakka.hKortit()
@@ -79,13 +79,15 @@
        transition:fade />
 
 				{#if maara>0}
+
+			
 				<img
 				src="cardBack.png"
 				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				alt="Kortti"
 				onclick={kortinNaytto}
 		
-			out:fly|global={{ x: 0, y: -500 ,  duration: 1000}}/>
+			out:fly|global={{ x: 0, y: -1500 ,  duration: 1000}}/>
 				{/if}
      
 				<!-- {#if maara>1}
@@ -132,8 +134,8 @@
     
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
-				{#each nostot as kortti (kortti.name)}
-					<div in:fly|global={{ x: 0, y: -300 , delay: 1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
+				{#each nostot as kortti, i(kortti.name)}
+					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
