@@ -3,11 +3,7 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
-<<<<<<< HEAD
 	import {pakka} from '$lib/datanhaku.svelte'
-=======
-	// import { text } from '@sveltejs/kit';
->>>>>>> e99a2685f52659ac411199b320e6f849981dcc3e
 
 
 	onMount(async () => {
@@ -66,13 +62,8 @@
 			<!-- Liikkuva kuva -->
 			<img
 				src="cardBack.png"
-<<<<<<< HEAD
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] border-1 border-c rounded-lg border-black"
-				alt="Kortti"
-=======
 				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
   			alt="Kortti"
->>>>>>> e99a2685f52659ac411199b320e6f849981dcc3e
 				onclick={kortinNaytto}
 			/>
 

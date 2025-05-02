@@ -8,7 +8,12 @@
 	function naytaKortti(kortti: Kortit) {
 		valittuKortti = valittuKortti === kortti ? null:kortti;
 	}
-	
+	if (pakka.tKortit.length === 0){
+	onMount(
+	async () => {
+		await pakka.hKortit()
+	})
+	}
 	$inspect(pakka.tKortit)
 
 </script>
