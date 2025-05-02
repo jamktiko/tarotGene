@@ -57,30 +57,40 @@
 >
 	<div class="gap grid p-6">
 		{#if !naytaTulos}
-			<img
-				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
-				alt="Kortti"
-			/>
 
-			<img
-				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
-				alt="Kortti"
-				onclick={kortinNaytto}
-			/>
 
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3">
+
+        <div>
 				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
+        </div>
+
+          <!--BOUNCY KORTIT-->
+          <div>
+          <img
+          src="cardBack.png"
+          class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
+          alt="Kortti"
+        />
+        <img
+          src="cardBack.png"
+          class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+          alt="Kortti"
+          onclick={kortinNaytto}
+        />
+          </div>
+          <!--/BOUNCY KORTIT-->
+
 
           <!--korttien lkm "index"-->
-				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
-					{maara}
-				</div>
+				<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
+					<!-- {maara} -->
+				<!-- </div> -->
+        <div>
 				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
-
-				<div></div>
+        </div>
+        
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 		  </div>
 		{/if}
