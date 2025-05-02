@@ -3,6 +3,8 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import { fly, fade } from "svelte/transition";
+	import { flip } from 'svelte/animate';
 	// import { text } from '@sveltejs/kit';
 
 	let pakka: Kortit[] = $state([]);
@@ -45,12 +47,12 @@
 		}
 	}
 
-	function rakkaus() {
-		maara=6;
-		randomisointi();
-		naytaTulos=!naytaTulos
+	// function rakkaus() {
+	// 	maara=6;
+	// 	randomisointi();
+	// 	naytaTulos=!naytaTulos
 
-	}
+	// }
 	function kortinNaytto() {
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
 		randomisointi();
@@ -88,7 +90,7 @@
 				</div>
 				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
 
-				<div></div>
+				<!-- <Button onclick={rakkaus} text="Rakkaus"/> -->
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 		  </div>
 		{/if}
@@ -102,7 +104,7 @@
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostot as kortti (kortti.name)}
-					<div class="flex flex-col items-center gap-6 pb-14">
+					<div in:fly|global={{ x: 0, y: -300 , delay: 100, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
@@ -111,6 +113,7 @@
 							class=" object-cover sm:h-45 sm:w-30 md:h-90 md:w-60 transition duration-175 ease-in-out hover:scale-101 w-75 h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
+							
 						/>
 					</div>
 					{#if valittuKortti === kortti}
