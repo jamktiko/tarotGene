@@ -74,6 +74,7 @@
 			<div class="gap m-6 grid grid-cols-3">
 				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
 
+          <!--korttien lkm "index"-->
 				<div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white">
 					{maara}
 				</div>
@@ -84,12 +85,14 @@
 		  </div>
 		{/if}
 
+    
 		{#if naytaTulos}
 			{#if maara <= 0}
 				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
 					Nosta kortti nössö
 				</div>
 			{/if}
+    
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostot as kortti (kortti.name)}
@@ -109,7 +112,7 @@
 					{/if}
 				{/each}
 			</div>
-			<Button onclick={palaa} text="Takaisin" />
+			<Button onclick={palaa} text="/images/x_ikoni.png" />
 		{/if}
 	</div>
 </div>
