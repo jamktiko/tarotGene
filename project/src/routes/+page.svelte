@@ -8,8 +8,8 @@
 	// import { text } from '@sveltejs/kit';
 	import {pakka} from '$lib/datanhaku.svelte'
 // import Nosto from "$lib/components/Nosto.svelte";
-import {nostetut} from "$lib/valitutkortit.svelte"
-import {fiftyFifty} from "$lib/tulosruutu.svelte"
+import {nostetut} from "$lib/valitutkortit.svelte" // Tällä hetkellä nostetut kortit sijaisee täällä
+import {fiftyFifty} from "$lib/tulosruutu.svelte" // Hallitsee ruudun vaihdon booleania sekä nostettujen korttien määrää
 
 // console.log(fiftyFifty.maara);
 
@@ -30,7 +30,7 @@ import {fiftyFifty} from "$lib/tulosruutu.svelte"
 	// let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
 	// let maara = $state(0); //Montako korttia halutaan nostaa
 	function palaa() {
-		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
+		// Sivuissa takaisin meneva funktio, palauttaa molemmat taulukot
 		joNostetut.clear();
 		// nostot=[]
 nostetut.tyhjenna()
