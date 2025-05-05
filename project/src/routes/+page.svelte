@@ -33,7 +33,8 @@ import {nostetut} from "$lib/valitutkortit.svelte"
 nostetut.tyhjenna()
 		naytaTulos = !naytaTulos;
 		maara = 0
-	$inspect(nostetut.nNostetut)
+	// $inspect(nostetut.nNostetut)
+	console.log(nostetut.nNostetut);
 
 	}
 	function randomisointi() {
@@ -48,7 +49,8 @@ nostetut.tyhjenna()
 			nostot.push(pakka.tKortit[chosen])
 
 		}
-	$inspect(nostetut.nNostetut)
+	// $inspect(nostetut.nNostetut)
+console.log(nostetut.nNostetut);
 
 	}
 
@@ -62,7 +64,8 @@ nostetut.tyhjenna()
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
 		randomisointi();
 		naytaTulos = !naytaTulos;
-	$inspect(nostetut.nNostetut)
+	// $inspect(nostetut.nNostetut)
+	console.log(nostetut.nNostetut);
 
 	}
 </script>
