@@ -16,13 +16,12 @@ import {nostetut} from "$lib/valitutkortit.svelte"
 	import type { fromStore } from 'svelte/store';
 	$inspect(pakka.tKortit)
 
-	$inspect(nostetut.nNostetut)
 	let valittuKortti: Kortit | null = $state(null);
 	function naytaKortti(kortti: Kortit) {
 		valittuKortti = valittuKortti === kortti ? null : kortti;
 	}
 
-	// let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
+	let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
 
 	let joNostetut = new Set(); // Nostettujen korttien pino
 	let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
@@ -30,9 +29,12 @@ import {nostetut} from "$lib/valitutkortit.svelte"
 	function palaa() {
 		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
 		joNostetut.clear();
+		nostot=[]
 nostetut.tyhjenna()
 		naytaTulos = !naytaTulos;
 		maara = 0
+	$inspect(nostetut.nNostetut)
+
 	}
 	function randomisointi() {
 		//kortin randomisoija, joka samalla lisää nostetut kortit joNostetut pinoon
@@ -43,7 +45,11 @@ nostetut.tyhjenna()
 			} while (joNostetut.has(chosen));
 			nostetut.tyonna(pakka.tKortit[chosen]);
 			joNostetut.add(chosen);
+			nostot.push(pakka.tKortit[chosen])
+
 		}
+	$inspect(nostetut.nNostetut)
+
 	}
 
 	// function rakkaus() {
@@ -56,6 +62,8 @@ nostetut.tyhjenna()
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
 		randomisointi();
 		naytaTulos = !naytaTulos;
+	$inspect(nostetut.nNostetut)
+
 	}
 </script>
 
@@ -137,7 +145,7 @@ nostetut.tyhjenna()
     
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
-				{#each nostetut as kortti, i(kortti.name)}
+				{#each nostot as kortti, i(kortti.name)}
 					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
