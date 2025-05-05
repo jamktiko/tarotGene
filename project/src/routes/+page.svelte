@@ -11,7 +11,7 @@
 import {nostetut} from "$lib/valitutkortit.svelte"
 import {fiftyFifty} from "$lib/tulosruutu.svelte"
 
-console.log(fiftyFifty.maara);
+// console.log(fiftyFifty.maara);
 
 	onMount(async () => {
 		await pakka.hKortit()
@@ -37,7 +37,7 @@ nostetut.tyhjenna()
 		fiftyFifty.vaihda()
 		fiftyFifty.maara = 0
 	// $inspect(nostetut.nNostetut)
-	console.log(nostetut.nNostetut);
+	// console.log(nostetut.nNostetut);
 
 	}
 	function randomisointi() {
@@ -53,7 +53,7 @@ nostetut.tyhjenna()
 
 		}
 	// $inspect(nostetut.nNostetut)
-console.log(nostetut.nNostetut);
+// console.log(nostetut.nNostetut);
 
 	}
 
@@ -69,8 +69,8 @@ console.log(nostetut.nNostetut);
 		fiftyFifty.vaihda()
 		
 	// $inspect(nostetut.nNostetut)
-	console.log(nostetut.nNostetut);
-console.log(fiftyFifty.booleani);
+	// console.log(nostetut.nNostetut);
+// console.log(fiftyFifty.booleani);
 
 	}
 </script>
