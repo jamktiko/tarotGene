@@ -90,31 +90,36 @@ nostetut.tyhjenna()
         </div>
 
           <!--BOUNCY KORTIT-->
-          <div class="flex items-end h-90">
+
+          <!--Blurrattu tausta kortti-->
+          <div>
+          <div class=" flex h-90">
           <img
           src="cardBack.png"
-          class="mx-auto flex h-90 w-60 fixed top-0 right-0 left-0 bottom-0 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
+          class="mx-auto flex h-90 w-60 top-0 right-0 left-0 bottom-0 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
           alt="Kortti"
 					onclick={kortinNaytto}
        transition:fade />
 
-				{#if fiftyFifty.maara>0}
 
-			
+       <!--Eka kortti-->
+				{#if fiftyFifty.maara>0}
+		
 				<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 fixed shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="mx-auto flex h-90 w-60 -translate-x-[100%] motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				alt="Kortti"
 				onclick={kortinNaytto}
 
 		in:fade
 			out:fly|global={{ x: 0, y: -1500 ,  duration: 1000}}/>
 				{/if}
-     
-				<!-- {#if fiftyFifty.maara>1}
+
+       <!--Toka kortti-->
+				{#if fiftyFifty.maara>1}
 				<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-x-[200%] shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="mx-auto flex h-90 w-60 -translate-x-[200%] motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				alt="Kortti"
 				onclick={kortinNaytto}
 
@@ -123,18 +128,19 @@ nostetut.tyhjenna()
 			/>
 				{/if}
 
+       <!--Kolmas kortti-->
 				{#if fiftyFifty.maara>2}
 				<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-x-[300%] shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="mx-auto flex h-90 w-60 -translate-x-[300%] motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				alt="Kortti"
 				onclick={kortinNaytto}
 				in:fade
 				out:fly|global={{ x: 0, y: -1500 ,  duration: 1000, delay:200}}
 			/>
-				{/if} -->
-
-          </div>
+				{/if}
+      </div>
+    </div>
           <!--/BOUNCY KORTIT-->
 
 
