@@ -21,7 +21,7 @@
 
 </script>
 
-<div class="p-10 mx-auto min-h-screen min-w-screen space-y-4 bg-radial from-[#472454] to-[#200f25] grid grid-cols-6 gap-4 ">
+<div class="p-10 mx-auto min-h-screen min-w-screen space-y-4 bg-radial from-[#472454] to-[#200f25] grid grid-cols-3 sm:grid-cols-6 gap-4 ">
     {#each pakka.tKortit as kortti (kortti.name)}
         <div class="flex flex-col items-center w-4xs h-6xs">
             <h1 class="p-3 font-['rosarivo'] italic text-white text-2xl text-shadow-white text-shadow-sm">{kortti.name}</h1>
