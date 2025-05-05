@@ -8,18 +8,21 @@
 	// import { text } from '@sveltejs/kit';
 	import {pakka} from '$lib/datanhaku.svelte'
 // import Nosto from "$lib/components/Nosto.svelte";
+import {nostetut} from "$lib/valitutkortit.svelte"
 
 	onMount(async () => {
 		await pakka.hKortit()
 	})
+	import type { fromStore } from 'svelte/store';
 	$inspect(pakka.tKortit)
 
+	$inspect(nostetut.nNostetut)
 	let valittuKortti: Kortit | null = $state(null);
 	function naytaKortti(kortti: Kortit) {
 		valittuKortti = valittuKortti === kortti ? null : kortti;
 	}
 
-	let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
+	// let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
 
 	let joNostetut = new Set(); // Nostettujen korttien pino
 	let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
@@ -27,7 +30,7 @@
 	function palaa() {
 		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
 		joNostetut.clear();
-		nostot = [];
+nostetut.tyhjenna()
 		naytaTulos = !naytaTulos;
 		maara = 0
 	}
@@ -38,7 +41,7 @@
 			do {
 				chosen = Math.floor(Math.random() * pakka.tKortit.length);
 			} while (joNostetut.has(chosen));
-			nostot.push(pakka.tKortit[chosen]);
+			nostetut.tyonna(pakka.tKortit[chosen]);
 			joNostetut.add(chosen);
 		}
 	}
@@ -134,7 +137,7 @@
     
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
-				{#each nostot as kortti, i(kortti.name)}
+				{#each nostetut as kortti, i(kortti.name)}
 					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
