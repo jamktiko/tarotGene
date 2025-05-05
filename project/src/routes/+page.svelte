@@ -9,6 +9,9 @@
 	import {pakka} from '$lib/datanhaku.svelte'
 // import Nosto from "$lib/components/Nosto.svelte";
 import {nostetut} from "$lib/valitutkortit.svelte"
+import {fiftyFifty} from "$lib/tulosruutu.svelte"
+
+console.log(fiftyFifty.maara);
 
 	onMount(async () => {
 		await pakka.hKortit()
@@ -24,15 +27,15 @@ import {nostetut} from "$lib/valitutkortit.svelte"
 	let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
 
 	let joNostetut = new Set(); // Nostettujen korttien pino
-	let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
-	let maara = $state(0); //Montako korttia halutaan nostaa
+	// let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
+	// let maara = $state(0); //Montako korttia halutaan nostaa
 	function palaa() {
 		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
 		joNostetut.clear();
 		nostot=[]
 nostetut.tyhjenna()
-		naytaTulos = !naytaTulos;
-		maara = 0
+		fiftyFifty.vaihda()
+		fiftyFifty.maara = 0
 	// $inspect(nostetut.nNostetut)
 	console.log(nostetut.nNostetut);
 
@@ -40,7 +43,7 @@ nostetut.tyhjenna()
 	function randomisointi() {
 		//kortin randomisoija, joka samalla lisää nostetut kortit joNostetut pinoon
 		let chosen;
-		for (let i = 0; i < maara; i++) {
+		for (let i = 0; i < fiftyFifty.maara; i++) {
 			do {
 				chosen = Math.floor(Math.random() * pakka.tKortit.length);
 			} while (joNostetut.has(chosen));
@@ -63,9 +66,11 @@ console.log(nostetut.nNostetut);
 	function kortinNaytto() {
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
 		randomisointi();
-		naytaTulos = !naytaTulos;
+		fiftyFifty.vaihda()
+		
 	// $inspect(nostetut.nNostetut)
 	console.log(nostetut.nNostetut);
+console.log(fiftyFifty.booleani);
 
 	}
 </script>
@@ -75,13 +80,13 @@ console.log(nostetut.nNostetut);
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
 	<div class="gap grid p-6">
-		{#if !naytaTulos}
+		{#if !fiftyFifty.booleani}
 
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3 items-center">
 
         <div>
-				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
+				<Button onclick={() => fiftyFifty.maara--} text="/images/minus.png" disabled={fiftyFifty.maara <= 0} />
         </div>
 
           <!--BOUNCY KORTIT-->
@@ -92,7 +97,7 @@ console.log(nostetut.nNostetut);
           alt="Kortti"
        transition:fade />
 
-				{#if maara>0}
+				{#if fiftyFifty.maara>0}
 
 			
 				<img
@@ -131,7 +136,7 @@ console.log(nostetut.nNostetut);
 					<!-- {maara} -->
 				<!-- </div> -->
         <div class="flex justify-center">
-				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
+				<Button onclick={() => fiftyFifty.maara++} text="/images/plus.png" disabled={fiftyFifty.maara >= 3} />
         </div>
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
@@ -139,8 +144,8 @@ console.log(nostetut.nNostetut);
 		{/if}
 
     
-		{#if naytaTulos}
-			{#if maara <= 0}
+		{#if fiftyFifty.booleani }
+			{#if fiftyFifty.maara <= 0}
 				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
 					Nosta kortti nössö
 				</div>
