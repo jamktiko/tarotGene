@@ -64,12 +64,12 @@
           <div>
           <img
           src="cardBack.png"
-          class="mx-auto flex h-90 w-60 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
+          class="mx-auto flex h-45 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
           alt="Kortti"
         />
         <img
           src="cardBack.png"
-          class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+          class="mx-auto flex h-45 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] hover:shadow-[#FFD700]"
           alt="Kortti"
           onclick={kortinNaytto}
         />
