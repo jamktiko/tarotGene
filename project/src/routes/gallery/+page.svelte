@@ -22,7 +22,7 @@
     {#each pakka.tKortit as kortti (kortti.name)}
         <div class="flex flex-col items-center w-4xs h-6xs">
             <h1 class="p-3 font-['rosarivo'] italic text-white text-2xl text-shadow-white text-shadow-sm">{kortti.name}</h1>
-            <button onclick={() => naytaKortti(kortti)}><img class='transition  duration-175 ease-in-out hover:scale-101 w-75 h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" /></button>
+            <button onclick={() => naytaKortti(kortti)}><img class='h-45 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 transition  duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" /></button>
             {#if valittuKortti === kortti}
                 <Modal pakka={kortti} sulje={() =>naytaKortti(kortti)}/>
             {/if}
