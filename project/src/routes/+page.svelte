@@ -3,12 +3,20 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte';
 	import Button from '$lib/components/Button.svelte';
+	import { fly, fade } from "svelte/transition";
+	// import { flip } from 'svelte/animate';
+	// import { text } from '@sveltejs/kit';
 	import {pakka} from '$lib/datanhaku.svelte'
+// import Nosto from "$lib/components/Nosto.svelte";
+import {nostetut} from "$lib/valitutkortit.svelte"
+import {fiftyFifty} from "$lib/tulosruutu.svelte"
 
+// console.log(fiftyFifty.maara);
 
 	onMount(async () => {
 		await pakka.hKortit()
 	})
+	import type { fromStore } from 'svelte/store';
 	$inspect(pakka.tKortit)
 
 	let valittuKortti: Kortit | null = $state(null);
@@ -16,33 +24,54 @@
 		valittuKortti = valittuKortti === kortti ? null : kortti;
 	}
 
-	let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
+	// let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
 
 	let joNostetut = new Set(); // Nostettujen korttien pino
-	let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
-	let maara = $state(0); //Montako korttia halutaan nostaa
+	// let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
+	// let maara = $state(0); //Montako korttia halutaan nostaa
 	function palaa() {
 		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
 		joNostetut.clear();
-		nostot = [];
-		naytaTulos = !naytaTulos;
+		// nostot=[]
+nostetut.tyhjenna()
+		fiftyFifty.vaihda()
+		fiftyFifty.maara = 0
+	// $inspect(nostetut.nNostetut)
+	// console.log(nostetut.nNostetut);
+
 	}
 	function randomisointi() {
 		//kortin randomisoija, joka samalla lisää nostetut kortit joNostetut pinoon
 		let chosen;
-		for (let i = 0; i < maara; i++) {
+		for (let i = 0; i < fiftyFifty.maara; i++) {
 			do {
 				chosen = Math.floor(Math.random() * pakka.tKortit.length);
 			} while (joNostetut.has(chosen));
-			nostot.push(pakka.tKortit[chosen]);
+			nostetut.tyonna(pakka.tKortit[chosen]);
 			joNostetut.add(chosen);
+			// nostot.push(pakka.tKortit[chosen])
+
 		}
+	// $inspect(nostetut.nNostetut)
+// console.log(nostetut.nNostetut);
+
 	}
 
+	// function rakkaus() {
+	// 	maara=6;
+	// 	randomisointi();
+	// 	naytaTulos=!naytaTulos
+
+	// }
 	function kortinNaytto() {
 		// suorittaa randomisointi() funktion ja vaihtaa näkymän tulospuolelle
 		randomisointi();
-		naytaTulos = !naytaTulos;
+		fiftyFifty.vaihda()
+		
+	// $inspect(nostetut.nNostetut)
+	// console.log(nostetut.nNostetut);
+// console.log(fiftyFifty.booleani);
+
 	}
 </script>
 
@@ -51,13 +80,13 @@
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
 	<div class="gap grid p-6 place-items-center h-screen">
-		{#if !naytaTulos}
+		{#if !fiftyFifty.booleani}
 
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3 items-center">
 
         <div>
-				<Button onclick={() => maara--} text="/images/minus.png" disabled={maara <= 0} />
+				<Button onclick={() => fiftyFifty.maara--} text="/images/minus.png" disabled={fiftyFifty.maara <= 0} />
         </div>
 
           <!--BOUNCY KORTIT-->
@@ -82,7 +111,7 @@
 					<!-- {maara} -->
 				<!-- </div> -->
         <div class="flex justify-center">
-				<Button onclick={() => maara++} text="/images/plus.png" disabled={maara >= 3} />
+				<Button onclick={() => fiftyFifty.maara++} text="/images/plus.png" disabled={fiftyFifty.maara >= 3} />
         </div>
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
@@ -90,8 +119,8 @@
 		{/if}
 
     
-		{#if naytaTulos}
-			{#if maara <= 0}
+		{#if fiftyFifty.booleani }
+			{#if fiftyFifty.maara <= 0}
 				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
 					Nosta kortti nössö
 				</div>
@@ -99,8 +128,8 @@
     
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
-				{#each nostot as kortti (kortti.name)}
-					<div class="flex flex-col items-center gap-6 pb-14">
+				{#each nostetut.nNostetut as kortti, i(kortti.name)}
+					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
@@ -109,6 +138,7 @@
 							class=" object-cover h-45 w-30 md:h-90 md:w-60 transition duration-175 ease-in-out hover:scale-101 lg:w-75 lg:h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
+							
 						/>
 					</div>
 					{#if valittuKortti === kortti}

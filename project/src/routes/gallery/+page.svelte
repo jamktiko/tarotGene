@@ -3,7 +3,10 @@
 	import type { Kortit } from '$lib/types/Kortit';
 	import Modal from '$lib/components/Modal.svelte'
     import {pakka} from '$lib/datanhaku.svelte'
+		// import {fiftyFifty} from "$lib/tulosruutu.svelte"
 
+		// console.log(fiftyFifty.maara);
+		
     let valittuKortti: Kortit | null = $state(null)
 	function naytaKortti(kortti: Kortit) {
 		valittuKortti = valittuKortti === kortti ? null:kortti;
