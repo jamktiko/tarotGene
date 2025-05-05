@@ -79,7 +79,7 @@ nostetut.tyhjenna()
 	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
-	<div class="gap grid p-6 place-items-center h-screen">
+	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 
 			<!-- Alkusivu -->
@@ -93,15 +93,40 @@ nostetut.tyhjenna()
           <div>
           <img
           src="cardBack.png"
-          class="mx-auto flex h-45 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 translate-y-1/2 pt-10 blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
+          class="mx-auto flex h-90 w-60 translate-y-1/2  blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
           alt="Kortti"
-        />
-        <img
-          src="cardBack.png"
-          class="mx-auto flex h-45 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] hover:shadow-[#FFD700]"
-          alt="Kortti"
-          onclick={kortinNaytto}
-        />
+       transition:fade />
+
+				{#if fiftyFifty.maara>0}
+
+			
+				<img
+				src="cardBack.png"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				alt="Kortti"
+				onclick={kortinNaytto}
+		
+			out:fly|global={{ x: 0, y: -1500 ,  duration: 1000}}/>
+				{/if}
+     
+				<!-- {#if maara>1}
+				<img
+				src="cardBack.png"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				alt="Kortti"
+				onclick={kortinNaytto}
+			/>
+				{/if} -->
+
+				<!-- {#if maara>2}
+				<img
+				src="cardBack.png"
+				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				alt="Kortti"
+				onclick={kortinNaytto}
+			/>
+				{/if} -->
+
           </div>
           <!--/BOUNCY KORTIT-->
 
@@ -135,7 +160,7 @@ nostetut.tyhjenna()
 						</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class=" object-cover h-45 w-30 md:h-90 md:w-60 transition duration-175 ease-in-out hover:scale-101 lg:w-75 lg:h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+							class=" object-cover sm:h-45 sm:w-30 md:h-90 md:w-60 transition duration-175 ease-in-out hover:scale-101 w-75 h-100 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 							
