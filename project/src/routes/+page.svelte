@@ -24,7 +24,7 @@ console.log(fiftyFifty.maara);
 		valittuKortti = valittuKortti === kortti ? null : kortti;
 	}
 
-	let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
+	// let nostot: Kortit[] = $state([]); // Tällä hetkellä nostetut kortit
 
 	let joNostetut = new Set(); // Nostettujen korttien pino
 	// let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
@@ -32,7 +32,7 @@ console.log(fiftyFifty.maara);
 	function palaa() {
 		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
 		joNostetut.clear();
-		nostot=[]
+		// nostot=[]
 nostetut.tyhjenna()
 		fiftyFifty.vaihda()
 		fiftyFifty.maara = 0
@@ -49,7 +49,7 @@ nostetut.tyhjenna()
 			} while (joNostetut.has(chosen));
 			nostetut.tyonna(pakka.tKortit[chosen]);
 			joNostetut.add(chosen);
-			nostot.push(pakka.tKortit[chosen])
+			// nostot.push(pakka.tKortit[chosen])
 
 		}
 	// $inspect(nostetut.nNostetut)
@@ -153,7 +153,7 @@ console.log(fiftyFifty.booleani);
     
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
-				{#each nostot as kortti, i(kortti.name)}
+				{#each nostetut.nNostetut as kortti, i(kortti.name)}
 					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
