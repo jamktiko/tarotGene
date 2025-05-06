@@ -5,9 +5,10 @@
 	let { children } = $props();
 	
 </script>
+<div class="overflow-x-hidden overscroll-none">
+	<Header></Header>
 
-<Header></Header>
+	{@render children()}
 
-{@render children()}
-
-<Footer></Footer>
+	<Footer></Footer>
+</div>
