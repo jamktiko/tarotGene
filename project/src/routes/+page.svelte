@@ -78,7 +78,6 @@
 >
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
-			<AiheValinta />
 			<!-- Alkusivu -->
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
 				<div class="w-16 sm:w-20">
@@ -159,6 +158,7 @@
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
+			<AiheValinta />
 		{/if}
 
 		{#if fiftyFifty.booleani}
