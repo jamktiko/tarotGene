@@ -25,7 +25,7 @@
     {#each pakka.tKortit as kortti, i(kortti.name)}
         <div class="flex flex-col items-center w-4xs h-6xs" in:fly|global={{ delay: i*100, duration: 50, x: 300, y: 0 }}>
             <h1 class="p-3 font-['rosarivo'] italic text-white text-xl sm:text-2xl text-shadow-white text-shadow-sm">{kortti.ename}</h1>
-            <button onclick={() => naytaKortti(kortti)}><img class='h-45 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 transition  duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" /></button>
+            <button onclick={() => naytaKortti(kortti)}><img class='h-40 w-30 md:h-90 md:w-60 lg:w-75 lg:h-100 transition  duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" /></button>
             {#if valittuKortti === kortti}
                 <Modal pakka={kortti} sulje={() =>naytaKortti(kortti)}/>
             {/if}
