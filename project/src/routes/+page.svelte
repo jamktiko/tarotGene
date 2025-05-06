@@ -10,6 +10,7 @@
 // import Nosto from "$lib/components/Nosto.svelte";
 import {nostetut} from "$lib/valitutkortit.svelte" // Tällä hetkellä nostetut kortit sijaisee täällä
 import {fiftyFifty} from "$lib/tulosruutu.svelte" // Hallitsee ruudun vaihdon booleania sekä nostettujen korttien määrää
+import AiheValinta from "$lib/components/AiheVal.svelte"
 
 // console.log(fiftyFifty.maara);
 
@@ -81,7 +82,7 @@ nostetut.tyhjenna()
 >
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
-
+<AiheValinta></AiheValinta>
 			<!-- Alkusivu -->
 			<div class="gap m-6 grid grid-cols-3 items-center">
 
@@ -161,7 +162,7 @@ nostetut.tyhjenna()
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostetut.nNostetut as kortti, i(kortti.name)}
-					<div in:fly|global={{ x: 0, y: -300 , delay:i*1000, duration: 1000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
+					<div in:fly|global={{ x: 0, y: -300 , delay:2000+i*1000, duration: 1000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
