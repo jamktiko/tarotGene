@@ -424,7 +424,7 @@
 		"ename": "Page of Swords",
 		"description": "Terävä mieli ja uteliaisuus ovat vahvuutesi. Etsi totuutta ja tietoa innokkaasti. Valpas havainnointi paljastaa tärkeitä oivalluksia.",
 		"image": "/tarotdeck/pageofswords.jpeg",
-		"rakkaus": "Kysyt pariltasi saako uusi paita näyttämään sinut lihavalta. Hän vastaa "
+		"rakkaus": "Kysyt pariltasi saako uusi paita näyttämään sinut lihavalta. Hänen mielestä et näytä normaalia lihavammalta."
 	},
 	{
 		"name": "Miekkojen Ritari",
@@ -445,7 +445,7 @@
 		"ename": "King of Swords",
 		"description": "Oikeudenmukaisuus ja viisaus ohjaavat päätöksiäsi. Johda älykkäästi ja puolueettomasti. Totuus ja selkeys ovat tärkeimmät työkalusi.",
 		"image": "/tarotdeck/kingofswords.jpeg",
-		"rakkaus": "."
+		"rakkaus": "Riita kasvaa liian suureksi, joten haet lohtua Kekkosen pahvihahmolta."
 	},
 	{
 		"name": "Sauvojen Ässä",
