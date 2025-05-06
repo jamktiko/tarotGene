@@ -154,7 +154,7 @@ nostetut.tyhjenna()
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostetut.nNostetut as kortti, i(kortti.name)}
-					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
+					<div in:fly|global={{ x: 0, y: -300 , delay:i*1000, duration: 1000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
