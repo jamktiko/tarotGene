@@ -3,7 +3,7 @@ export interface Kortit {
 	ename: string;
 	description: string;
 	image: string;
-	love?: string;
+	rakkaus?: string;
 	future?: string;
 	school?: string;
 }
