@@ -354,168 +354,195 @@
 		"ename": "Ace of Swords",
 		"description": "Totuus ja selkeys valtaavat mielesi. On aika leikata läpi hämmennyksen ja nähdä asiat sellaisina kuin ne todella ovat. Älyllinen voima ja päättäväisyys ovat puolellasi.",
 		"image": "/tarotdeck/aceofswords.jpeg",
-		"rakkaus":""
+		"rakkaus": "Väittelette parisi kanssa verhojen väristä."
 	},
 	{
 		"name": "Miekkojen Kaksi",
 		"ename": "Two of Swords",
 		"description": "Vaikea päätös vaatii harkintaa. Punnitse vaihtoehtoja rauhassa ja tasapainoisesti. Totuus löytyy, kun lasket alas suojauksesi.",
-		"image": "/tarotdeck/twoofswords.jpeg"
+		"image": "/tarotdeck/twoofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa mekon väristä."
 	},
 	{
 		"name": "Miekkojen Kolme",
 		"ename": "Three of Swords",
 		"description": "Sydänsuru ja pettymys opettavat tärkeitä läksyjä. Anna tuskan puhdistaa ja vahvistaa sinua. Parantuminen alkaa totuuden hyväksymisestä.",
-		"image": "/tarotdeck/threeofswords.jpeg"
+		"image": "/tarotdeck/threeofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa tiskivuorosta."
 	},
 	{
 		"name": "Miekkojen Neljä",
 		"ename": "Four of Swords",
 		"description": "Lepo ja palautuminen ovat nyt tarpeen. Anna mielesi rauhoittua ja kerää voimiasi. Hiljaisuudessa löydät uuden suunnan.",
-		"image": "/tarotdeck/fourofswords.jpeg"
+		"image": "/tarotdeck/fourofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa nukkuma-ajasta."
 	},
 	{
 		"name": "Miekkojen Viisi",
 		"ename": "Five of Swords",
 		"description": "Konfliktit ja erimielisyydet haastavat sinua. Mieti, mitkä taistelut ovat taistelun arvoisia. Joskus viisaus on perääntyä kunniakkaasti.",
-		"image": "/tarotdeck/fiveofswords.jpeg"
+		"image": "/tarotdeck/fiveofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa vessapaperirullan suunnasta."
 	},
 	{
 		"name": "Miekkojen Kuusi",
 		"ename": "Six of Swords",
 		"description": "Matka parempaan on alkanut. Jätä vaikeudet taaksesi ja suuntaa kohti tyynempää tulevaisuutta. Muutos tuo rauhan mieleesi.",
-		"image": "/tarotdeck/sixofswords.jpeg"
+		"image": "/tarotdeck/sixofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa sohvan paikasta."
 	},
 	{
 		"name": "Miekkojen Seitsemän",
 		"ename": "Seven of Swords",
 		"description": "Harkitse toimiasi ja motiivejasi tarkkaan. Ole rehellinen itsellesi ja muille. Oikotiet voivat johtaa harhaan.",
-		"image": "/tarotdeck/sevenofswords.jpeg"
+		"image": "/tarotdeck/sevenofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa sijainnista kartalla."
 	},
 	{
 		"name": "Miekkojen Kahdeksan",
 		"ename": "Eight of Swords",
 		"description": "Vapaudu itse asettamistasi rajoitteista. Näe tilanteesi uusin silmin. Ratkaisu on lähempänä kuin uskotkaan.",
-		"image": "/tarotdeck/eightofswords.jpeg"
+		"image": "/tarotdeck/eightofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa työkalulaukun sijainnista."
 	},
 	{
 		"name": "Miekkojen Yhdeksän",
 		"ename": "Nine of Swords",
 		"description": "Huolet ja pelot varjostavat ajatuksiasi. Kohtaa ahdistuksesi valossa, ne menettävät voimansa. Aamunkoitto seuraa aina pimeintä hetkeä.",
-		"image": "/tarotdeck/nineofswords.jpeg"
+		"image": "/tarotdeck/nineofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa lampun voimakkuudesta."
 	},
 	{
 		"name": "Miekkojen Kymmenen",
 		"ename": "Ten of Swords",
 		"description": "Vanha tilanne on tullut päätökseensä. Hyväksy loppu, sillä se avaa tien uuteen alkuun. Vaikein hetki on jo takana.",
-		"image": "/tarotdeck/tenofswords.jpeg"
+		"image": "/tarotdeck/tenofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa sängyn sijainnista."
 	},
 	{
 		"name": "Miekkojen Page",
 		"ename": "Page of Swords",
 		"description": "Terävä mieli ja uteliaisuus ovat vahvuutesi. Etsi totuutta ja tietoa innokkaasti. Valpas havainnointi paljastaa tärkeitä oivalluksia.",
-		"image": "/tarotdeck/pageofswords.jpeg"
+		"image": "/tarotdeck/pageofswords.jpeg",
+		"rakkaus": "Kysyt pariltasi saako uusi paita näyttämään sinut lihavalta. Hän vastaa "
 	},
 	{
 		"name": "Miekkojen Ritari",
 		"ename": "Knight of Swords",
 		"description": "Päättäväisyys ja nopea toiminta vievät eteenpäin. Keskity tavoitteeseesi, mutta varo hätiköintiä. Rohkeus ja viisaus kulkevat käsi kädessä.",
-		"image": "/tarotdeck/knightofswords.jpeg"
+		"image": "/tarotdeck/knightofswords.jpeg",
+		"rakkaus": "Parisi hieroo vahingossa isäsi reittä illallispöydässä."
 	},
 	{
 		"name": "Miekkojen Kuningatar",
 		"ename": "Queen of Swords",
 		"description": "Terävä äly ja selkeä kommunikaatio ovat valttikorttejasi. Näe totuus ilman tunteiden verhoa. Rehellisyys itseä ja muita kohtaan on voimasi.",
-		"image": "/tarotdeck/queenofswords.jpeg"
+		"image": "/tarotdeck/queenofswords.jpeg",
+		"rakkaus": "Teille ei synny riitaa, koska kommunikoitte selvästi teidän tunteenne."
 	},
 	{
 		"name": "Miekkojen Kuningas",
 		"ename": "King of Swords",
 		"description": "Oikeudenmukaisuus ja viisaus ohjaavat päätöksiäsi. Johda älykkäästi ja puolueettomasti. Totuus ja selkeys ovat tärkeimmät työkalusi.",
-		"image": "/tarotdeck/kingofswords.jpeg"
+		"image": "/tarotdeck/kingofswords.jpeg",
+		"rakkaus": "."
 	},
 	{
 		"name": "Sauvojen Ässä",
 		"ename": "Ace of Wands",
 		"description": "Uusi innostuksen kipinä on syttynyt. Luova energiasi on huipussaan ja uudet mahdollisuudet odottavat. Tartu toimeen rohkeasti ja anna intohimosi johdattaa.",
-		"image": "/tarotdeck/aceofwands.jpeg"
+		"image": "/tarotdeck/aceofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa keikalle."
 	},
 	{
 		"name": "Sauvojen Kaksi",
 		"ename": "Two of Wands",
 		"description": "Tulevaisuutesi on avoin mahdollisuuksille. Suunnittele viisaasti ja katso kauas. Rohkeat päätökset avaavat uusia polkuja.",
-		"image": "/tarotdeck/twoofwands.jpeg"
+		"image": "/tarotdeck/twoofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa vuorille."
 	},
 	{
 		"name": "Sauvojen Kolme",
 		"ename": "Three of Wands",
 		"description": "Visiosi alkaa toteutua. Laajenna näköalojasi ja etsi uusia mahdollisuuksia. Luota siihen, että ponnistelusi kantavat hedelmää.",
-		"image": "/tarotdeck/threeofwands.jpeg"
+		"image": "/tarotdeck/threeofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa poimimaan omenia."
 	},
 	{
 		"name": "Sauvojen Neljä",
 		"ename": "Four of Wands",
 		"description": "Saavutustesi aika on koittanut. Juhli onnistumisia ja jaa ilosi muiden kanssa. Vakaa perusta kantaa tuleviin haasteisiin.",
-		"image": "/tarotdeck/fourofwands.jpeg"
+		"image": "/tarotdeck/fourofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa klubille."
 	},
 	{
 		"name": "Sauvojen Viisi",
 		"ename": "Five of Wands",
 		"description": "Kilpailu ja haasteet koettelevat sinua. Käytä energiasi rakentavasti ja opi vastustajiltasi. Konflikti voi johtaa kasvuun.",
-		"image": "/tarotdeck/fiveofwands.jpeg"
+		"image": "/tarotdeck/fiveofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa pelihallille."
 	},
 	{
 		"name": "Sauvojen Kuusi",
 		"ename": "Six of Wands",
 		"description": "Voitto ja tunnustus ovat ulottuvillasi. Nauti menestyksestä mutta säilytä nöyryys. Saavutuksesi inspiroivat muitakin.",
-		"image": "/tarotdeck/sixofwands.jpeg"
+		"image": "/tarotdeck/sixofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa karaokeen."
 	},
 	{
 		"name": "Sauvojen Seitsemän",
 		"ename": "Seven of Wands",
 		"description": "Puolusta asemaasi ja vakaumuksiasi. Seiso ylpeänä haasteiden edessä. Sinnikkyys ja rohkeus johtavat voittoon.",
-		"image": "/tarotdeck/sevenofwands.jpeg"
+		"image": "/tarotdeck/sevenofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa salille."
 	},
 	{
 		"name": "Sauvojen Kahdeksan",
 		"ename": "Eight of Wands",
 		"description": "Nopeat muutokset ja edistys ovat käsillä. Tartu tilaisuuksiin niiden ilmaantuessa. Energia virtaa vapaasti kohti päämäärääsi.",
-		"image": "/tarotdeck/eightofwands.jpeg"
+		"image": "/tarotdeck/eightofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa soutureissulle."
 	},
 	{
 		"name": "Sauvojen Yhdeksän",
 		"ename": "Nine of Wands",
 		"description": "Sisäinen voimasi on koeteltu ja vahva. Pysy valppaana mutta luota kestävyyteesi. Viimeinen ponnistus vie sinut maaliin.",
-		"image": "/tarotdeck/nineofwands.jpeg"
+		"image": "/tarotdeck/nineofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa lenkille."
 	},
 	{
 		"name": "Sauvojen Kymmenen",
 		"ename": "Ten of Wands",
 		"description": "Vastuu ja taakka tuntuvat raskailta. Opettele delegoimaan ja keventämään kuormaasi. Määränpää on jo näkyvissä.",
-		"image": "/tarotdeck/tenofwands.jpeg"
+		"image": "/tarotdeck/tenofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa torille."
 	},
 	{
 		"name": "Sauvojen Page",
 		"ename": "Page of Wands",
 		"description": "Uusi seikkailu kutsuu sinua. Anna innostuksen ja luovuuden johdattaa. Spontaanius ja ilo ovat parhaat oppaasi.",
-		"image": "/tarotdeck/pageofwands.jpeg"
+		"image": "/tarotdeck/pageofwands.jpeg",
+		"rakkaus": "Parisi yllättää sinut romanttisella matkalla tallinnaan."
 	},
 	{
 		"name": "Sauvojen Ritari",
 		"ename": "Knight of Wands",
 		"description": "Energinen toiminta ja intohimo vievät eteenpäin. Seuraa seikkailunhaluasi mutta harkitse seurauksia. Karismasi tempaa muut mukaasi.",
-		"image": "/tarotdeck/knightofwands.jpeg"
+		"image": "/tarotdeck/knightofwands.jpeg",
+		"rakkaus": "Parisi vie sinut Tandemhypylle."
 	},
 	{
 		"name": "Sauvojen Kuningatar",
 		"ename": "Queen of Wands",
 		"description": "Säteile itsevarmuutta ja luovaa voimaa. Inspiroi muita esimerkillä ja lämmöllä. Intohimosi ja elinvoimasi ovat tarttuvia.",
-		"image": "/tarotdeck/queenofwands.jpeg"
+		"image": "/tarotdeck/queenofwands.jpeg",
+		"rakkaus": "Menette parinne kanssa piknikille."
 	},
 	{
 		"name": "Sauvojen Kuningas",
 		"ename": "King of Wands",
 		"description": "Luova visionääri ja rohkea johtaja sisälläsi herää. Inspiroi muita esimerkillä ja johda intohimolla. Karismasi ja voimasi ovat huipussaan.",
-		"image": "/tarotdeck/kingofwands.jpeg"
+		"image": "/tarotdeck/kingofwands.jpeg",
+		"rakkaus": "Viet parisi perhomessuille."
 	}
 ]
