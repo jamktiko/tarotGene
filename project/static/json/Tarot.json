@@ -11,28 +11,28 @@
 		"ename": "The Magician",
 		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi. Olet voimakkaampi kuin uskotkaan.",
 		"image": "/tarotdeck/themagician.jpeg",
-		"rakkaus": "Sinulla on kaikki tarvittava luodaksesi haluamasi rakkauden. Viehätysvoimasi on vahva ja pystyt ilmaisemaan tunteitasi taitavasti. Vedä puoleesi kumppani, joka arvostaa todellista itseäsi."
+		"rakkaus": "Paranna itseäsi fyysisesti ja henkisesti. Lataa sitten tinder."
 	},
 	{
 		"name": "Ylipapitar",
 		"ename": "The High Priestess",
 		"description": "Kuuntele sisäistä ääntäsi ja luota intuitioosi. Pinnan alla on syvempiä totuuksia, jotka paljastuvat kun maltat odottaa ja tarkkailla. Älä kiirehdi päätöksissä, vaan anna viisauden nousta hiljaisuudesta.",
 		"image": "/tarotdeck/thehighpriestess.jpeg",
-		"rakkaus": "Luota vaistoihisi ihmissuhteissa. Rakkaudessa ei ole kyse vain järjestä vaan syvästä sielullisesta yhteydestä. Anna asioiden paljastua omalla ajallaan äläkä kiirehdi."
+		"rakkaus": "Olette aika intiimissä suhteessa."
 	},
 	{
 		"name": "Keisarinna",
 		"ename": "The Empress",
 		"description": "Luovuutesi ja elämänvoimasi ovat huipussaan. Anna sisäisen viisautesi kukoistaa ja hoivaa unelmiasi hellästi. Nyt on aika nauttia elämän antimista ja jakaa runsautta muille.",
 		"image": "/tarotdeck/theempress.jpeg",
-		"rakkaus": "Rakkautesi kukoistaa kun annat sille tilaa kasvaa. Osoita hellyyttä ja huolenpitoa kumppanillesi. Aistillisuus ja lämpö tuovat suhteeseen uutta syvyyttä."
+		"rakkaus": "Olet unelma äijä/typy/pari."
 	},
 	{
 		"name": "Keisari",
 		"ename": "The Emperor",
 		"description": "Järjestys ja rakenteet tuovat vakautta elämääsi. On aika ottaa ohjat käsiisi ja tehdä selkeitä päätöksiä. Johda viisaasti ja muista, että todellinen voima on myös kykyä joustaa.",
 		"image": "/tarotdeck/theemperor.jpeg",
-		"rakkaus": "Sitoutuminen ja vakaus ovat rakkauselämäsi avaimet. Etsi kumppani, jonka kanssa voitte rakentaa vahvan perustan. Selkeät odotukset ja rajat vahvistavat suhdettanne."
+		"rakkaus": "."
 	},
 	{
 		"name": "Hierofantti",
