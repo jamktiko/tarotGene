@@ -3,133 +3,155 @@
 		"name": "Narri",
 		"ename": "The Fool",
 		"description": "Tämä kortti kertoo uusista mahdollisuuksista ja alkavasta matkasta. Sinun tulisi luottaa vaistoihisi ja ottaa rohkeasti askelia tuntemattomaan. Älä kuitenkaan unohda varovaisuutta matkan varrella. Muista, että joskus viisain on se, joka uskaltaa tunnustaa tietämättömyytensä.",
-		"image": "/tarotdeck/thefool.jpeg"
+		"image": "/tarotdeck/thefool.jpeg",
+		"rakkaus": "Rakkauselämäsi on uuden alun kynnyksellä. Heittäydy mahdollisuuksiin avoimin mielin ja luota intuitioosi. Älä pelkää ottaa riskejä, mutta pysy silti aitona itsellesi."
 	},
 	{
 		"name": "Taikuri",
-		"ename": "The Magician", 
+		"ename": "The Magician",
 		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi. Olet voimakkaampi kuin uskotkaan.",
-		"image": "/tarotdeck/themagician.jpeg"
+		"image": "/tarotdeck/themagician.jpeg",
+		"rakkaus": "Sinulla on kaikki tarvittava luodaksesi haluamasi rakkauden. Viehätysvoimasi on vahva ja pystyt ilmaisemaan tunteitasi taitavasti. Vedä puoleesi kumppani, joka arvostaa todellista itseäsi."
 	},
 	{
 		"name": "Ylipapitar",
 		"ename": "The High Priestess",
 		"description": "Kuuntele sisäistä ääntäsi ja luota intuitioosi. Pinnan alla on syvempiä totuuksia, jotka paljastuvat kun maltat odottaa ja tarkkailla. Älä kiirehdi päätöksissä, vaan anna viisauden nousta hiljaisuudesta.",
-		"image": "/tarotdeck/thehighpriestess.jpeg"
+		"image": "/tarotdeck/thehighpriestess.jpeg",
+		"rakkaus": "Luota vaistoihisi ihmissuhteissa. Rakkaudessa ei ole kyse vain järjestä vaan syvästä sielullisesta yhteydestä. Anna asioiden paljastua omalla ajallaan äläkä kiirehdi."
 	},
 	{
 		"name": "Keisarinna",
 		"ename": "The Empress",
 		"description": "Luovuutesi ja elämänvoimasi ovat huipussaan. Anna sisäisen viisautesi kukoistaa ja hoivaa unelmiasi hellästi. Nyt on aika nauttia elämän antimista ja jakaa runsautta muille.",
-		"image": "/tarotdeck/theempress.jpeg"
+		"image": "/tarotdeck/theempress.jpeg",
+		"rakkaus": "Rakkautesi kukoistaa kun annat sille tilaa kasvaa. Osoita hellyyttä ja huolenpitoa kumppanillesi. Aistillisuus ja lämpö tuovat suhteeseen uutta syvyyttä."
 	},
 	{
 		"name": "Keisari",
 		"ename": "The Emperor",
 		"description": "Järjestys ja rakenteet tuovat vakautta elämääsi. On aika ottaa ohjat käsiisi ja tehdä selkeitä päätöksiä. Johda viisaasti ja muista, että todellinen voima on myös kykyä joustaa.",
-		"image": "/tarotdeck/theemperor.jpeg"
+		"image": "/tarotdeck/theemperor.jpeg",
+		"rakkaus": "Sitoutuminen ja vakaus ovat rakkauselämäsi avaimet. Etsi kumppani, jonka kanssa voitte rakentaa vahvan perustan. Selkeät odotukset ja rajat vahvistavat suhdettanne."
 	},
 	{
 		"name": "Hierofantti",
 		"ename": "The Hierophant",
 		"description": "Perinteiset opit ja viisaus ohjaavat sinua. Etsi opastusta kokeneemmilta ja kunnioita vanhaa tietoa. Menestys löytyy tasapainosta perinteiden ja uudistumisen välillä.",
-		"image": "/tarotdeck/thehierophant.jpeg"
+		"image": "/tarotdeck/thehierophant.jpeg",
+		"rakkaus": "Perinteiset arvot voivat tuoda kaipaamaasi vakautta rakkauteen. Sitoutuminen ja yhteinen arvomaailma auttavat rakentamaan kestävän suhteen. Etsi syvempää merkitystä yhteydessänne."
 	},
 	{
 		"name": "Rakastavaiset",
 		"ename": "The Lovers",
 		"description": "Sydämesi tietää oikean suunnan. Tee valintoja, jotka ovat sopusoinnussa arvojesi kanssa. Rakkaus ja harmonia johdattavat sinut oikealle polulle.",
-		"image": "/tarotdeck/TheLovers.jpg"
+		"image": "/tarotdeck/TheLovers.jpg",
+		"rakkaus": "Aito ja syvä yhteys on kehittymässä tai vahvistumassa. Tämä suhde haastaa sinut valitsemaan sydämesi viisauden mukaan. Anna rakkauden ohjata, mutta tee päätöksesi tietoisesti."
 	},
 	{
 		"name": "Vaunut",
 		"ename": "The Chariot",
 		"description": "Määrätietoisuus ja tahdonvoima vievät sinut voittoon. Hallitse vastakkaisia voimia ja pysy kurssissa. Menestys odottaa sinua matkan päässä.",
-		"image": "/tarotdeck/thechariot.jpeg"
+		"image": "/tarotdeck/thechariot.jpeg",
+		"rakkaus": "Rakkaudessa tarvitaan nyt päättäväisyyttä ja selkeää suuntaa. Voita sisäiset epäilysi ja etene suhteessa määrätietoisesti. Tasapainota tunteet ja järki kulkiessasi eteenpäin."
 	},
 	{
 		"name": "Voima",
 		"ename": "Strength",
 		"description": "Todellinen voima on lempeydessä ja kärsivällisyydessä. Kesytä sisäiset haasteesi hellästi mutta päättäväisesti. Luota sisäiseen voimaasi.",
-		"image": "/tarotdeck/thestrength.jpeg"
+		"image": "/tarotdeck/thestrength.jpeg",
+		"rakkaus": "Lempeä kärsivällisyys on avain rakkauden onneen. Hillitse impulssejasi ja osoita rakkautta myös vaikeina hetkinä. Todellinen rakkaus vaatii sisäistä vahvuutta ja rohkeutta."
 	},
 	{
 		"name": "Erakko",
 		"ename": "The Hermit",
 		"description": "Viisaus löytyy hiljaisuudesta ja yksinäisyydestä. Käänny sisäänpäin löytääksesi vastaukset. Valo polullasi johdattaa muutkin oikeaan suuntaan.",
-		"image": "/tarotdeck/thehermit.jpeg"
+		"image": "/tarotdeck/thehermit.jpeg",
+		"rakkaus": "Etsi aikaa itsellesi ja pohdi, mitä todella haluat rakkaudelta. Itsesi tunteminen on askel kohti aitoa rakkautta. Älä pelkää olla hetki yksin löytääksesi todellisen yhteyden."
 	},
 	{
 		"name": "Onnenpyörä",
 		"ename": "Wheel of Fortune",
 		"description": "Kohtalon pyörä kääntyy, tuoden muutosta ja uusia mahdollisuuksia. Hyväksy elämän ylä- ja alamäet. Onni suosii sitä, joka on valmis muutokseen.",
-		"image": "/tarotdeck/wheeloffortune.jpeg"
+		"image": "/tarotdeck/wheeloffortune.jpeg",
+		"rakkaus": "Rakkauselämässäsi tapahtuu odottamattomia käänteitä. Hyväksy muutokset osana matkaa. Se mikä on tarkoitettu sinulle, löytää tiensä luoksesi oikeaan aikaan."
 	},
 	{
 		"name": "Oikeus",
 		"ename": "Justice",
 		"description": "Totuus ja tasapaino hallitsevat nyt. Tee päätöksiä rehellisesti ja harkiten. Oikeudenmukaisuus palkitsee ja jokainen saa ansionsa mukaan.",
-		"image": "/tarotdeck/justice.jpeg"
+		"image": "/tarotdeck/justice.jpeg",
+		"rakkaus": "Rehellisyys ja tasapaino ovat avaimet onnelliseen rakkauteen. Kohtele kumppaniasi oikeudenmukaisesti ja odota samaa itsellesi. Teot ja niiden seuraukset linkittyvät nyt vahvasti."
 	},
 	{
 		"name": "Hirtetty",
 		"ename": "The Hanged Man",
 		"description": "Uusi näkökulma avaa silmäsi. Joskus luopuminen on voittamista. Anna vanhojen ajatusten mennä ja näe maailma uusin silmin.",
-		"image": "/tarotdeck/thehangedman.jpeg"
+		"image": "/tarotdeck/thehangedman.jpeg",
+		"rakkaus": "Rakkaus vaatii nyt uutta näkökulmaa ja kenties jonkin uhraamista. Päästä irti vanhoista odotuksista. Paradoksaalisesti, antamalla periksi saatat löytää juuri sen, mitä etsit."
 	},
 	{
 		"name": "Kuolema",
 		"ename": "Death",
 		"description": "Suuri muutos on välttämätön uudelle alulle. Vanhan on kuoltava, jotta uusi voi syntyä. Älä pelkää muutosta, se johdattaa sinut parempaan.",
-		"image": "/tarotdeck/death.jpeg"
+		"image": "/tarotdeck/death.jpeg",
+		"rakkaus": "Rakkauselämäsi kokee merkittävän muutoksen. Päästä irti vanhoista kaavoista ja suhteista, jotka eivät enää palvele sinua. Uusi, syvempi rakkaus on mahdollinen vain muutoksen kautta."
 	},
 	{
 		"name": "Kohtuus",
 		"ename": "Temperance",
 		"description": "Tasapaino ja harmonia löytyvät kultaiselta keskitieltä. Yhdistä vastakohdat viisaasti. Maltillisuus ja kärsivällisyys ovat nyt avaimesi.",
-		"image": "/tarotdeck/temperance.jpeg"
+		"image": "/tarotdeck/temperance.jpeg",
+		"rakkaus": "Harmonia rakkaudessa syntyy, kun löydät tasapainon antamisen ja vastaanottamisen välillä. Ole kärsivällinen ja sulata erilaisuutenne toimivaksi kokonaisuudeksi."
 	},
 	{
 		"name": "Paholainen",
 		"ename": "The Devil",
 		"description": "Kohtaa varjosi ja tunnista kahlitsevat pelkosi. Materiaaliset kiusaukset ja riippuvuudet rajoittavat sinua. Vapaudu tietoisilla valinnoilla.",
-		"image": "/tarotdeck/thedevil.jpeg"
+		"image": "/tarotdeck/thedevil.jpeg",
+		"rakkaus": "Tutki tarkasti, mitkä kahleet pitävät sinua kiinni epäterveessä rakkaussuhteessa. Intohimo ei ole sama asia kuin riippuvuus. Vapautuaksesi sinun tulee ensin tunnistaa omat varjosi."
 	},
 	{
 		"name": "Torni",
 		"ename": "The Tower",
 		"description": "Äkillinen muutos ravistelee perustuksia. Vanhat rakenteet sortuvat tehdäkseen tilaa uudelle. Muutoksen myrskyn jälkeen näet kirkkaammin.",
-		"image": "/tarotdeck/thetower.jpeg"
+		"image": "/tarotdeck/thetower.jpeg",
+		"rakkaus": "Rakkauselämäsi kokee odottamattoman mullistuksen, joka paljastaa totuuden. Vaikka muutos tuntuu nyt tuskalliselta, se vapauttaa sinut suhteesta, joka oli rakennettu epävakaalle pohjalle."
 	},
 	{
 		"name": "Tähti",
 		"ename": "The Star",
 		"description": "Toivo ja inspiraatio valaisevat polkusi. Luota siihen, että universumi ohjaa sinua. Unelmasi ovat lähempänä kuin uskotkaan.",
-		"image": "/tarotdeck/thestar.jpeg"
+		"image": "/tarotdeck/thestar.jpeg",
+		"rakkaus": "Toivo ja usko rakkauteen palautuvat. Avaa sydämesi uudelleen ja luota, että ansaitsemasi rakkaus löytää luoksesi. Tämä aika tuo parantumista ja optimismia rakkauselämääsi."
 	},
 	{
 		"name": "Kuu",
 		"ename": "The Moon",
 		"description": "Intuitiosi paljastaa syvemmät totuudet. Älä pelkää kulkea läpi pimeyden. Alitajuntasi viisaus ohjaa sinua eteenpäin.",
-		"image": "/tarotdeck/themoon.jpeg"
+		"image": "/tarotdeck/themoon.jpeg",
+		"rakkaus": "Rakkaudessa pinnan alla on enemmän kuin näkyy päällepäin. Luota vaistoosi ja tutki tunteitasi syvemmin. Älä anna illuusioiden johtaa sinua harhaan - etsi todellista yhteyttä."
 	},
 	{
 		"name": "Aurinko",
 		"ename": "The Sun",
 		"description": "Ilo ja elinvoima täyttävät elämäsi. Anna sisäisen valosi loistaa kirkkaasti. Menestys ja onni seuraavat askeleitasi.",
-		"image": "/tarotdeck/thesun.jpeg"
+		"image": "/tarotdeck/thesun.jpeg",
+		"rakkaus": "Rakkautesi kukoistaa täydessä valossa ja ilossa. Nauti tästä kirkkaasta ajasta kumppanisi kanssa. Avoimuus ja rehellisyys luovat suhteeseen lämpöä ja onnea."
 	},
 	{
 		"name": "Tuomio",
 		"ename": "Judgement",
 		"description": "Uudestisyntymisen aika on käsillä. Vastaa kutsuun ja nouse uudistuneena. Mennyt antaa tilaa uudelle tarkoitukselle.",
-		"image": "/tarotdeck/judgement.jpeg"
+		"image": "/tarotdeck/judgement.jpeg",
+		"rakkaus": "Rakkauselämäsi on henkisen heräämisen äärellä. Vanhat haavat paranevat ja kyky rakastaa syvemmin herää. Kuule sydämesi kutsu ja anna anteeksi sekä itsellesi että muille."
 	},
 	{
 		"name": "Maailma",
 		"ename": "The World",
 		"description": "Täyttymys ja saavutus kruunaavat matkasi. Ympyrä sulkeutuu ja uusi alkaa. Juhli saavutuksiasi ja valmistaudu uuteen seikkailuun.",
-		"image": "/tarotdeck/theworld.jpeg"
+		"image": "/tarotdeck/theworld.jpeg",
+		"rakkaus": "Rakkauselämäsi saavuttaa täyttymyksen ja kokonaisuuden. Suhteesi on saavuttanut uuden tason, jossa molemmat osapuolet kasvavat yhdessä. Juhli tätä täydellistä vaihetta."
 	},
 	{
 		"name": "Maljojen Ässä",
