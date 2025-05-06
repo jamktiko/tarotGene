@@ -157,175 +157,204 @@
 		"name": "Maljojen Ässä",
 		"ename": "Ace of Cups",
 		"description": "Uusi tunne-elämän vaihe on alkamassa. Avaa sydämesi rakkaudelle ja mahdollisuuksille. Luova energiasi on voimakkaimmillaan. Anna tunteiden virrata vapaasti.",
-		"image": "/tarotdeck/aceofcups.jpeg"
+		"image": "/tarotdeck/aceofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä päivän päästä"
 	},
 	{
 		"name": "Maljojen Kaksi",
 		"ename": "Two of Cups",
 		"description": "Merkityksellinen kumppanuus tai yhteys kukoistaa. Anna sydämesi avautua ja luota jakamisen voimaan. Yhdessä olette enemmän kuin osienne summa.",
-		"image": "/tarotdeck/twoofcups.jpeg"
+		"image": "/tarotdeck/twoofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kahden päivän päästä"
 	},
 	{
 		"name": "Maljojen Kolme",
 		"ename": "Three of Cups",
 		"description": "Ilo ja yltäkylläisyys kutsuvat juhlimaan. Jaa onnesi ystävien kanssa. Yhteisöllisyys tuo elämääsi erityistä siunausta.",
-		"image": "/tarotdeck/threeofcups.jpeg"
+		"image": "/tarotdeck/threeofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kolmen päivän päästä"
 	},
 	{
 		"name": "Maljojen Neljä",
 		"ename": "Four of Cups",
 		"description": "Tyytymättömyys varjostaa mieltäsi. Näe pintaa syvemmälle ja tunnista elämän tarjoamat lahjat. Uudet mahdollisuudet odottavat, kun avaat silmäsi.",
-		"image": "/tarotdeck/fourofcups.jpeg"
+		"image": "/tarotdeck/fourofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä neljän päivän päästä"
 	},
 	{
 		"name": "Maljojen Viisi",
 		"ename": "Five of Cups",
 		"description": "Menetyksen tunteet valtaavat mielesi. Muista, että kaikki ei ole menetetty. Käänny kohti jäljellä olevaa valoa ja anna surun opettaa.",
-		"image": "/tarotdeck/fiveofcups.jpeg"
+		"image": "/tarotdeck/fiveofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä viiden päivän päästä"
 	},
 	{
 		"name": "Maljojen Kuusi",
 		"ename": "Six of Cups",
 		"description": "Menneiden muistot tuovat iloa ja lohtua. Anna lapsuuden viattomuuden ja puhtauden koskettaa sydäntäsi. Jaa rakkautta ja ystävällisyyttä pyyteettömästi.",
-		"image": "/tarotdeck/sixofcups.jpeg"
+		"image": "/tarotdeck/sixofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kuuden päivän päästä"
 	},
 	{
 		"name": "Maljojen Seitsemän",
 		"ename": "Seven of Cups",
 		"description": "Unelmat ja fantasiat täyttävät mielesi. Valitse viisaasti monista mahdollisuuksista. Varo harhaisten toiveiden luomia illuusioita.",
-		"image": "/tarotdeck/sevenofcups.jpeg"
+		"image": "/tarotdeck/sevenofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä seitsemän päivän päästä"
 	},
 	{
 		"name": "Maljojen Kahdeksan",
 		"ename": "Eight of Cups",
 		"description": "On aika jättää taakse se, mikä ei enää palvele sinua. Kulje kohti syvempää merkitystä ja tarkoitusta. Henkinen kasvu vaatii rohkeutta muutokseen.",
-		"image": "/tarotdeck/eightofcups.jpeg"
+		"image": "/tarotdeck/eightofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kahdeksan päivän päästä"
 	},
 	{
 		"name": "Maljojen Yhdeksän",
 		"ename": "Nine of Cups",
 		"description": "Toiveet täyttyvät ja tyytyväisyys valtaa mielesi. Nauti saavutuksistasi ja ole kiitollinen siunauksista. Emotionaalinen täyttymys on käsillä.",
-		"image": "/tarotdeck/nineofcups.jpeg"
+		"image": "/tarotdeck/nineofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä yhdeksän päivän päästä"
 	},
 	{
 		"name": "Maljojen Kymmenen",
 		"ename": "Ten of Cups",
 		"description": "Täydellinen harmonia ja onni ympäröivät sinua. Rakkaus kukoistaa ja perhesuhteet vahvistuvat. Jaa sydämesi iloa ja kiitollisuutta.",
-		"image": "/tarotdeck/tenofcups.jpeg"
+		"image": "/tarotdeck/tenofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kymmenen päivän päästä"
 	},
 	{
 		"name": "Maljojen Page",
 		"ename": "Page of Cups",
 		"description": "Uudet luovat ideat ja tunteet heräävät. Ole avoin sydämeltäsi kuin lapsi. Viesti rakkaudesta tai uudesta alusta on tulossa.",
-		"image": "/tarotdeck/pageofcups.jpeg"
+		"image": "/tarotdeck/pageofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä, joten käyt hakemassa ne itse"
 	},
 	{
 		"name": "Maljojen Ritari",
 		"ename": "Knight of Cups",
 		"description": "Romanttinen seikkailija sisälläsi herää. Seuraa sydämesi kutsua ja unelmiasi. Tunteiden viesti kantaa sinut uusiin mahdollisuuksiin.",
-		"image": "/tarotdeck/knightofcups.jpeg"
+		"image": "/tarotdeck/knightofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä, joten aloitat viinitarhan takapihallesi"
 	},
 	{
 		"name": "Maljojen Kuningatar",
 		"ename": "Queen of Cups",
 		"description": "Intuitiosi ja emotionaalinen viisautesi ovat vahvimmillaan. Hoivaa ja ymmärrä myötätunnolla. Sisäinen äänesi ohjaa sinua oikein.",
-		"image": "/tarotdeck/queenofcups.jpeg"
+		"image": "/tarotdeck/queenofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä, mutta annat hänelle armoa."
 	},
 	{
 		"name": "Maljojen Kuningas",
 		"ename": "King of Cups",
 		"description": "Hallitse tunteitasi viisaudella ja tasapainolla. Ole lempeä johtaja ja ymmärtävä neuvonantaja. Emotionaalinen kypsyys tuo menestystä.",
-		"image": "/tarotdeck/kingofcups.jpeg"
+		"image": "/tarotdeck/kingofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä. Jätät hänet, koska olet vahva, itsenäinen henkilö."
 	},
 	{
 		"name": "Lanttien Ässä",
 		"ename": "Ace of Pentacles",
 		"description": "Materiaalisen menestyksen siemen on kylvetty. Uudet mahdollisuudet tuovat vaurautta, mutta vain jos olet valmis tekemään töitä niiden eteen. Ole käytännöllinen ja määrätietoinen.",
-		"image": "/tarotdeck/aceofpentacles.jpeg"
+		"image": "/tarotdeck/aceofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta euron."
 	},
 	{
 		"name": "Lanttien Kaksi",
 		"ename": "Two of Pentacles",
 		"description": "Tasapainottele velvollisuuksiasi taitavasti. Sopeudu muutoksiin ketterästi kuin tanssija. Joustavuus on nyt suurin voimavarasi.",
-		"image": "/tarotdeck/twoofpentacles.jpeg"
+		"image": "/tarotdeck/twoofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kaksi euroa."
 	},
 	{
 		"name": "Lanttien Kolme",
 		"ename": "Three of Pentacles",
 		"description": "Yhteistyö ja ammattitaito tuovat menestystä. Arvosta jokaisen panosta ja jaa osaamistasi. Yhdessä rakennatte jotain kestävää.",
-		"image": "/tarotdeck/threeofpentacles.jpeg"
+		"image": "/tarotdeck/threeofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kolme euroa."
 	},
 	{
 		"name": "Lanttien Neljä",
 		"ename": "Four of Pentacles",
 		"description": "Taloudellinen vakaus houkuttaa pitämään kiinni. Muista, että todellinen turva tulee tasapainosta. Löydä kultainen keskitie säästämisen ja antamisen välillä.",
-		"image": "/tarotdeck/fourofpentacles.jpeg"
+		"image": "/tarotdeck/fourofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta neljä euroa."
 	},
 	{
 		"name": "Lanttien Viisi",
 		"ename": "Five of Pentacles",
 		"description": "Vaikeudet ja puute koettelevat uskoasi. Muista, että apu on lähellä, kun uskallat pyytää. Vaikeat ajat ovat väliaikaisia.",
-		"image": "/tarotdeck/fiveofpentacles.jpeg"
+		"image": "/tarotdeck/fiveofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta viisi euroa."
 	},
 	{
 		"name": "Lanttien Kuusi",
 		"ename": "Six of Pentacles",
 		"description": "Anteliaisuus ja oikeudenmukaisuus tuovat siunausta. Anna ja vastaanota tasapainoisesti. Jaettu varallisuus kasvaa ja kukoistaa.",
-		"image": "/tarotdeck/sixofpentacles.jpeg"
+		"image": "/tarotdeck/sixofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kuusi euroa."
 	},
 	{
 		"name": "Lanttien Seitsemän",
 		"ename": "Seven of Pentacles",
 		"description": "Kärsivällinen työ alkaa kantaa hedelmää. Arvioi saavutuksiasi ja suunnittele tulevaa. Pitkäjänteisyys palkitaan aikanaan.",
-		"image": "/tarotdeck/sevenofpentacles.jpeg"
+		"image": "/tarotdeck/sevenofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta seitsemän euroa."
 	},
 	{
 		"name": "Lanttien Kahdeksan",
 		"ename": "Eight of Pentacles",
 		"description": "Omistautuminen työllesi tuo mestaruuden. Hio taitojasi ja kehity jatkuvasti. Yksityiskohtiin keskittyminen vie sinut huipulle.",
-		"image": "/tarotdeck/eightofpentacles.jpeg"
+		"image": "/tarotdeck/eightofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kahdeksan euroa."
 	},
 	{
 		"name": "Lanttien Yhdeksän",
 		"ename": "Nine of Pentacles",
 		"description": "Itsenäisyys ja itsekuri tuovat menestystä. Nauti työsi hedelmistä ja saavutuksistasi. Sisäinen ja ulkoinen rikkaus ovat tasapainossa.",
-		"image": "/tarotdeck/nineofpentacles.jpeg"
+		"image": "/tarotdeck/nineofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta yhdeksän euroa."
 	},
 	{
 		"name": "Lanttien Kymmenen",
 		"ename": "Ten of Pentacles",
 		"description": "Pysyvä menestys ja perintö odottavat. Perheen ja tradition voima tukee sinua. Rakenna vaurautta, joka kestää sukupolvelta toiselle.",
-		"image": "/tarotdeck/tenofpentacles.jpeg"
+		"image": "/tarotdeck/tenofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kymmenen euroa."
 	},
 	{
 		"name": "Lanttien Page",
 		"ename": "Page of Pentacles",
 		"description": "Uusi mahdollisuus oppimiseen ja kasvuun avautuu. Ole ahkera ja käytännöllinen pyrkimyksissäsi. Maallinen menestys alkaa pienistä askeleista.",
-		"image": "/tarotdeck/pageofpentacles.jpeg"
+		"image": "/tarotdeck/pageofpentacles.jpeg",
+		"rakkaus": "Parisi ostaa sata riviä eurojaskaa, eikä voita mitään."
 	},
 	{
 		"name": "Lanttien Ritari",
 		"ename": "Knight of Pentacles",
 		"description": "Luotettavuus ja sitoutuminen ovat voimavarojasi. Etene määrätietoisesti kohti tavoitteitasi. Kärsivällisyys ja perusteellisuus palkitaan.",
-		"image": "/tarotdeck/knightofpentacles.jpeg"
+		"image": "/tarotdeck/knightofpentacles.jpeg",
+		"rakkaus": "Parisi ostaa tuhat riviä eurojaskaa, ja voittaa 5,39€"
 	},
 	{
 		"name": "Lanttien Kuningatar",
 		"ename": "Queen of Pentacles",
 		"description": "Maanläheinen viisaus ohjaa toimiasi. Luo turvallisuutta ja vaurautta ympärillesi. Käytännöllinen huolenpito tuo menestystä.",
-		"image": "/tarotdeck/queenofpentacles.jpeg"
+		"image": "/tarotdeck/queenofpentacles.jpeg",
+		"rakkaus": "Et anna parisi pelata eurojaskaa. Sijoitat ne sen sijaan lomamatkalle leville"
 	},
 	{
 		"name": "Lanttien Kuningas",
 		"ename": "King of Pentacles",
 		"description": "Materiaalinen menestys ja vakaus ovat hallinnassasi. Johda esimerkillä ja viisailla päätöksillä. Vastuullinen vauraus luo kestävää hyvinvointia.",
-		"image": "/tarotdeck/kingofpentacles.jpeg"
+		"image": "/tarotdeck/kingofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa eurojaskassa päävoiton. Sijoitatte rahat saunalauttoihin"
 	},
 	{
 		"name": "Miekkojen Ässä",
 		"ename": "Ace of Swords",
 		"description": "Totuus ja selkeys valtaavat mielesi. On aika leikata läpi hämmennyksen ja nähdä asiat sellaisina kuin ne todella ovat. Älyllinen voima ja päättäväisyys ovat puolellasi.",
-		"image": "/tarotdeck/aceofswords.jpeg"
+		"image": "/tarotdeck/aceofswords.jpeg",
+		"rakkaus":""
 	},
 	{
 		"name": "Miekkojen Kaksi",
