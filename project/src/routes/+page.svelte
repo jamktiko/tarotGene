@@ -140,24 +140,15 @@ nostetut.tyhjenna()
 				{#if fiftyFifty.maara>2}
 				<img
 				src="cardBack.png"
-<<<<<<< HEAD
-				class="mx-auto flex h-90 w-60  shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
-=======
 				class="absolute left-1/2 top-0 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700] z-30 transform -translate-x-1/2 transition duration-300 ease-in-out hover:scale-101 object-contain motion-safe:animate-[bounce_5s_infinite]"
->>>>>>> develop
 				alt="Kortti"
 				onclick={kortinNaytto}
 				in:fade
 				out:fly|global={{ x: 0, y: -1500 ,  duration: 1000, delay:200}}
 			/>
 				{/if}
-<<<<<<< HEAD
-
-          </div>
-=======
       </div>
       </div>
->>>>>>> develop
           <!--/BOUNCY KORTIT-->
 
 
