@@ -8,8 +8,8 @@
 	// import { text } from '@sveltejs/kit';
 	import {pakka} from '$lib/datanhaku.svelte'
 // import Nosto from "$lib/components/Nosto.svelte";
-import {nostetut} from "$lib/valitutkortit.svelte"
-import {fiftyFifty} from "$lib/tulosruutu.svelte"
+import {nostetut} from "$lib/valitutkortit.svelte" // Tällä hetkellä nostetut kortit sijaisee täällä
+import {fiftyFifty} from "$lib/tulosruutu.svelte" // Hallitsee ruudun vaihdon booleania sekä nostettujen korttien määrää
 
 // console.log(fiftyFifty.maara);
 
@@ -30,7 +30,7 @@ import {fiftyFifty} from "$lib/tulosruutu.svelte"
 	// let naytaTulos = $state(false); // Sivun vaihtaja alkusivun ja tulossivun välillä
 	// let maara = $state(0); //Montako korttia halutaan nostaa
 	function palaa() {
-		// Sivuissa takaisin meneva funktio, palaataa molemmat taulukot
+		// Sivuissa takaisin meneva funktio, palauttaa molemmat taulukot
 		joNostetut.clear();
 		// nostot=[]
 nostetut.tyhjenna()
@@ -83,51 +83,71 @@ nostetut.tyhjenna()
 		{#if !fiftyFifty.booleani}
 
 			<!-- Alkusivu -->
-			<div class="gap m-6 grid grid-cols-3 items-center">
+			<div class="flex items-center justify-center gap-6 p-4 flex-row sm:gap-10">
 
-        <div>
+        <div class="w-16 sm:w-20">
 				<Button onclick={() => fiftyFifty.maara--} text="/images/minus.png" disabled={fiftyFifty.maara <= 0} />
         </div>
 
           <!--BOUNCY KORTIT-->
-          <div>
+
+          <!--Blurrattu tausta kortti-->
+          <div class="relative w-40 sm:w-48 md:w-60 aspect-[2/3]">
+
+          
           <img
           src="cardBack.png"
-          class="mx-auto flex h-90 w-60 translate-y-1/2  blur-[2px] rounded-xl border-2 border-black outline-1 outline-[#FFD700]"
+          class="absolute left-1/2 top-0 h-full w-full blur-[2px] rounded-xl border-4 border-black outline-1 outline-[#FFD700] z-0 transform -translate-x-1/2 object-contain"
           alt="Kortti"
+					onclick={kortinNaytto}
        transition:fade />
+    
 
+
+
+       <!--Eka kortti-->
+       <div class="z-10">
 				{#if fiftyFifty.maara>0}
-
-			
 				<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="absolute left-1/2 top-0 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700] z-10 transform -translate-x-1/2 transition duration-300 ease-in-out hover:scale-101 object-contain motion-safe:animate-[bounce_5s_infinite]"
 				alt="Kortti"
 				onclick={kortinNaytto}
-		
+
+		in:fade
 			out:fly|global={{ x: 0, y: -1500 ,  duration: 1000}}/>
 				{/if}
-     
-				<!-- {#if maara>1}
+      </div>
+
+       <!--Toka kortti-->
+       <div class="z-10">
+				{#if fiftyFifty.maara>1}
 				<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="absolute left-1/2 top-0 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700] z-20 transform -translate-x-1/2 transition duration-300 ease-in-out hover:scale-101 object-contain motion-safe:animate-[bounce_5s_infinite]"
 				alt="Kortti"
 				onclick={kortinNaytto}
-			/>
-				{/if} -->
 
-				<!-- {#if maara>2}
+				in:fade
+				out:fly|global={{ x: 0, y: -1500 ,  duration: 1000, delay:100}}
+			/>
+				{/if}
+      </div>
+
+       <!--Kolmas kortti-->
+       <div class="z-10">
+				{#if fiftyFifty.maara>2}
 				<img
 				src="cardBack.png"
-				class="mx-auto flex h-90 w-60 -translate-y-1/2 shadow-md motion-safe:animate-[bounce_5s_infinite] transition duration-175 ease-in-out hover:scale-101 rounded-xl border-2 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="absolute left-1/2 top-0 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700] z-30 transform -translate-x-1/2 transition duration-300 ease-in-out hover:scale-101 object-contain motion-safe:animate-[bounce_5s_infinite]"
 				alt="Kortti"
 				onclick={kortinNaytto}
+				in:fade
+				out:fly|global={{ x: 0, y: -1500 ,  duration: 1000, delay:200}}
 			/>
-				{/if} -->
-
-          </div>
+				{/if}
+      </div>
+      </div>
           <!--/BOUNCY KORTIT-->
 
 
@@ -135,7 +155,7 @@ nostetut.tyhjenna()
 				<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
 					<!-- {maara} -->
 				<!-- </div> -->
-        <div class="flex justify-center">
+        <div class="w-16 sm:w-20">
 				<Button onclick={() => fiftyFifty.maara++} text="/images/plus.png" disabled={fiftyFifty.maara >= 3} />
         </div>
 
@@ -146,7 +166,7 @@ nostetut.tyhjenna()
     
 		{#if fiftyFifty.booleani }
 			{#if fiftyFifty.maara <= 0}
-				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white">
+				<div class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500">
 					Nosta kortti nössö
 				</div>
 			{/if}
@@ -154,7 +174,7 @@ nostetut.tyhjenna()
 			<!-- Kortin valittua -->
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostetut.nNostetut as kortti, i(kortti.name)}
-					<div in:fly|global={{ x: 0, y: -300 , delay: 1000+i*1000, duration: 2000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
+					<div in:fly|global={{ x: 0, y: -300 , delay:i*1000, duration: 1000}} out:fade class="flex flex-col items-center gap-6 pb-14" > 
 						<h1 class="font-['Rosarivo'] text-white text-2xl text-shadow-white text-shadow-sm">
 							{kortti.name}
 						</h1>
