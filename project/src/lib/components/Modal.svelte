@@ -5,10 +5,12 @@
         sulje: () => void
     }
     let {pakka, sulje}: Props = $props()
+    import {fade} from 'svelte/transition'
+    
 </script>
 
-<div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" id="Backdrop">
-    <div class="w-[360px] md:w-[700px] p-10 bg-radial from-[#472454] to-[#200f25] border-black outline-1 outline-[#FFD700] shadow-lg" id="Modal">
+<div transition:fade={{duration: 100}} class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" id="Backdrop">
+    <div transition:fade={{duration: 10}} class="w-[360px] md:w-[700px] p-10 bg-radial from-[#472454] to-[#200f25] border-black outline-1 outline-[#FFD700] shadow-lg" id="Modal">
         <div class="flex flex-col items-center mb-6">
             <h1 class="font-['rosarivo'] italic text-white text-xl sm:text-2xl text-shadow-white text-shadow-sm">{pakka.name}</h1>
         </div>
