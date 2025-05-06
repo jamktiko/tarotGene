@@ -1,14 +1,9 @@
 import type { Kortit } from '$lib/types/Kortit';
 
-
-
 class Valitut {
 
-  
 	public nostetut: Kortit[] = $state([]);
 
-
-  
 	get nNostetut() {
 		return this.nostetut;
 	}
