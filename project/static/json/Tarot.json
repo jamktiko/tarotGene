@@ -5,14 +5,15 @@
 		"description": "Tämä kortti kertoo uusista mahdollisuuksista ja alkavasta matkasta. Sinun tulisi luottaa vaistoihisi ja ottaa rohkeasti askelia tuntemattomaan. Älä kuitenkaan unohda varovaisuutta matkan varrella. Muista, että joskus viisain on se, joka uskaltaa tunnustaa tietämättömyytensä.",
 		"image": "/tarotdeck/thefool.jpeg",
 		"rakkaus": "Lataa tinder, juntti",
-		"koulu": ""
+		"koulu": "Opettaja ei ole edes aloittanut kurssisi arviointia."
 	},
 	{
 		"name": "Taikuri",
 		"ename": "The Magician",
 		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi. Olet voimakkaampi kuin uskotkaan.",
 		"image": "/tarotdeck/themagician.jpeg",
-		"rakkaus": "Paranna itseäsi fyysisesti ja henkisesti. Lataa sitten tinder."
+		"rakkaus": "Paranna itseäsi fyysisesti ja henkisesti. Lataa sitten tinder.",
+		"koulu": "Olet visionääri. Vastauksesi on oikein, vaikka muut sanoisivat toiste."
 	},
 	{
 		"name": "Ylipapitar",
@@ -75,7 +76,8 @@
 		"ename": "Wheel of Fortune",
 		"description": "Kohtalon pyörä kääntyy, tuoden muutosta ja uusia mahdollisuuksia. Hyväksy elämän ylä- ja alamäet. Onni suosii sitä, joka on valmis muutokseen.",
 		"image": "/tarotdeck/wheeloffortune.jpeg",
-		"rakkaus": "Rakkauden voimat ovat puolellasi. Tänään kannattaa panostaa eurojaskaan."
+		"rakkaus": "Rakkauden voimat ovat puolellasi. Tänään kannattaa panostaa eurojaskaan.",
+		"koulu": "Opettaja ilmoittaa olevansa sairas, joten sait vapaapäivän."
 	},
 	{
 		"name": "Oikeus",
@@ -159,14 +161,16 @@
 		"ename": "Ace of Cups",
 		"description": "Uusi tunne-elämän vaihe on alkamassa. Avaa sydämesi rakkaudelle ja mahdollisuuksille. Luova energiasi on voimakkaimmillaan. Anna tunteiden virrata vapaasti.",
 		"image": "/tarotdeck/aceofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä päivän päästä",
+		"koulu": ""
 	},
 	{
 		"name": "Maljojen Kaksi",
 		"ename": "Two of Cups",
 		"description": "Merkityksellinen kumppanuus tai yhteys kukoistaa. Anna sydämesi avautua ja luota jakamisen voimaan. Yhdessä olette enemmän kuin osienne summa.",
 		"image": "/tarotdeck/twoofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä kahden päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä kahden päivän päästä",
+		"koulu": ""
 	},
 	{
 		"name": "Maljojen Kolme",
@@ -257,42 +261,48 @@
 		"ename": "Ace of Pentacles",
 		"description": "Materiaalisen menestyksen siemen on kylvetty. Uudet mahdollisuudet tuovat vaurautta, mutta vain jos olet valmis tekemään töitä niiden eteen. Ole käytännöllinen ja määrätietoinen.",
 		"image": "/tarotdeck/aceofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta euron."
+		"rakkaus": "Parisi voittaa Ässä-arvasta euron.",
+		"koulu": "Löydät täyden kahvipassin."
 	},
 	{
 		"name": "Lanttien Kaksi",
 		"ename": "Two of Pentacles",
 		"description": "Tasapainottele velvollisuuksiasi taitavasti. Sopeudu muutoksiin ketterästi kuin tanssija. Joustavuus on nyt suurin voimavarasi.",
 		"image": "/tarotdeck/twoofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kaksi euroa."
+		"rakkaus": "Parisi voittaa Ässä-arvasta kaksi euroa.",
+		"koulu": "Löydät oman ainejärjestösi haalarimerkin."
 	},
 	{
 		"name": "Lanttien Kolme",
 		"ename": "Three of Pentacles",
 		"description": "Yhteistyö ja ammattitaito tuovat menestystä. Arvosta jokaisen panosta ja jaa osaamistasi. Yhdessä rakennatte jotain kestävää.",
 		"image": "/tarotdeck/threeofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kolme euroa."
+		"rakkaus": "Parisi voittaa Ässä-arvasta kolme euroa.",
+		"koulu": "Löydät tiimilipun beer bongiin."
 	},
 	{
 		"name": "Lanttien Neljä",
 		"ename": "Four of Pentacles",
 		"description": "Taloudellinen vakaus houkuttaa pitämään kiinni. Muista, että todellinen turva tulee tasapainosta. Löydä kultainen keskitie säästämisen ja antamisen välillä.",
 		"image": "/tarotdeck/fourofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta neljä euroa."
+		"rakkaus": "Parisi voittaa Ässä-arvasta neljä euroa.",
+		"koulu": "Löydät koulukirjan budjetoinnista."
 	},
 	{
 		"name": "Lanttien Viisi",
 		"ename": "Five of Pentacles",
 		"description": "Vaikeudet ja puute koettelevat uskoasi. Muista, että apu on lähellä, kun uskallat pyytää. Vaikeat ajat ovat väliaikaisia.",
 		"image": "/tarotdeck/fiveofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta viisi euroa."
+		"rakkaus": "Parisi voittaa Ässä-arvasta viisi euroa.",
+		"koulu": "Löydät opetutorin puhelinnumeron."
 	},
 	{
 		"name": "Lanttien Kuusi",
 		"ename": "Six of Pentacles",
 		"description": "Anteliaisuus ja oikeudenmukaisuus tuovat siunausta. Anna ja vastaanota tasapainoisesti. Jaettu varallisuus kasvaa ja kukoistaa.",
 		"image": "/tarotdeck/sixofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kuusi euroa."
+		"rakkaus": "Parisi voittaa Ässä-arvasta kuusi euroa.",
+		"koulu": ""
 	},
 	{
 		"name": "Lanttien Seitsemän",
