@@ -5,5 +5,5 @@ export interface Kortit {
 	image: string;
 	rakkaus?: string;
 	future?: string;
-	school?: string;
+	koulu?: string;
 }

@@ -36,7 +36,7 @@
 		// nostot=[]
 		nostetut.tyhjenna();
 		fiftyFifty.vaihda();
-		fiftyFifty.maara = 0;
+		fiftyFifty.maara = 1;
 		// $inspect(nostetut.nNostetut)
 		// console.log(nostetut.nNostetut);
 	}
@@ -105,7 +105,7 @@
 						{#if fiftyFifty.maara > 0}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -119,7 +119,7 @@
 						{#if fiftyFifty.maara > 1}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-20 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -133,7 +133,7 @@
 						{#if fiftyFifty.maara > 2}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-30 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -178,12 +178,14 @@
 						out:fade
 						class="flex flex-col items-center gap-6 pb-14"
 					>
-						<h1 class="font-['Rosarivo'] text-xl sm:text-2xl text-white text-shadow-sm text-shadow-white">
+						<h1
+							class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl"
+						>
 							{kortti.name}
 						</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class="cursor-pointer object-cover h-40 w-30 sm:h-90 sm:w-60 lg:w-70 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+							class="h-40 w-30 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 						/>
