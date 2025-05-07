@@ -72,6 +72,19 @@
 	}
 </script>
 
+<!--Intro meininki-->
+<div class="bg-black overflow-hidden">
+
+  <!-- <div class="fixed inset-0 bg-black flex items-center justify-center z-50"
+  in:fade|global={{duration: 3000 }}
+  out:fade|global={{duration: 4000 }}>
+    <h1 class="text-white text-5xl"
+    in:fade|global={{duration: 3000 }}
+    out:fade|global={{duration: 2000 }}>Deck of Destiny</h1>
+  </div> -->
+
+<!--/Intro meininki-->
+
 <div
 	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
@@ -81,6 +94,8 @@
 			<AiheValinta />
 			<!-- Alkusivu -->
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
+
+        <!--Plus nappi-->
 				<div class="w-16 sm:w-20">
 					<Button
 						onclick={() => fiftyFifty.maara--}
@@ -155,7 +170,8 @@
 						text="/images/plus.png"
 						disabled={fiftyFifty.maara >= 3}
 					/>
-				</div>
+        </div>
+        
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
@@ -196,4 +212,5 @@
 			<Button onclick={palaa} text="/images/x_ikoni.png" />
 		{/if}
 	</div>
+</div>
 </div>

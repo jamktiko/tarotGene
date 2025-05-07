@@ -9,14 +9,14 @@ export default {
         keyframes: {
           fadeInOut: {
             '0%, 100%': {opacity: '0'},
-            '20%, 80': {opacity: '1'},
+            '20%, 80%': {opacity: '1'},
           },
           fadeIn: {
             '0%': {opacity: '0'},
             '100%': {opacity: '1'},
           },
         },
-        Animation: {
+        animation: {
           fadeInOut: 'fadeInOut 3s ease-in-out forwards',
           fadeIn: 'fadeIn 2s ease-in-out forwards',
         },
