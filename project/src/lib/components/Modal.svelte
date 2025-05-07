@@ -25,10 +25,10 @@
 		</div>
 		<div class="grid grid-cols-1 sm:flex gap-10 sm:gap-6">
 			<img
-				class="h-40 w-30 md:h-90 md:w-60 lg:w-full lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="h-40 w-30 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				src={pakka.image}
 				alt="kortin kuva"
-        onclick={sulje}
+        onclick={sulje} 
 			/>
 			<div class="flex flex-col justify-between">
 				<p class="text:sm sm:text-md text-[#b3b3b3] md:text-xl font-serif md:p-4">{pakka.description}</p>

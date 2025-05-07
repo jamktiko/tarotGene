@@ -36,7 +36,7 @@
 		// nostot=[]
 		nostetut.tyhjenna();
 		fiftyFifty.vaihda();
-		fiftyFifty.maara = 0;
+		fiftyFifty.maara = 1;
 		// $inspect(nostetut.nNostetut)
 		// console.log(nostetut.nNostetut);
 	}
