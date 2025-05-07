@@ -11,6 +11,7 @@
 	import { nostetut } from '$lib/valitutkortit.svelte'; // Tällä hetkellä nostetut kortit sijaisee täällä
 	import { fiftyFifty } from '$lib/tulosruutu.svelte'; // Hallitsee ruudun vaihdon booleania sekä nostettujen korttien määrää
 	import AiheValinta from '$lib/components/AiheVal.svelte';
+	import { afterNavigate } from '$app/navigation';
 
 	// console.log(fiftyFifty.maara);
 
@@ -70,147 +71,158 @@
 		// console.log(nostetut.nNostetut);
 		// console.log(fiftyFifty.booleani);
 	}
+
+	function aloita() {
+		fiftyFifty.aloita();
+	}
 </script>
 
 <!--Intro meininki-->
-<div class="bg-black overflow-hidden">
+<div class="overflow-hidden bg-black">
+	{#if fiftyFifty.intro}
+		<div
+			class="fixed inset-0 z-50 flex items-center justify-center bg-black"
+			out:fade|global={{ duration: 4000 }}
+		>
+			<h1
+				class="text-5xl text-white"
+				in:fade|global={{ duration: 3000 }}
+				out:fade|global={{ duration: 2000 }}
+			>
+				Deck of Destiny
+			</h1>
+			<Button onclick={aloita} text="/images/minus.png" />
+		</div>
+	{/if}
 
-  <!-- <div class="fixed inset-0 bg-black flex items-center justify-center z-50"
-  in:fade|global={{duration: 3000 }}
-  out:fade|global={{duration: 4000 }}>
-    <h1 class="text-white text-5xl"
-    in:fade|global={{duration: 3000 }}
-    out:fade|global={{duration: 2000 }}>Deck of Destiny</h1>
-  </div> -->
+	<!--/Intro meininki-->
 
-<!--/Intro meininki-->
-
-<div
-	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
-	style="background: radial-gradient(circle at center, #472454, #200f25);"
->
-	<div class="gap grid p-6">
-		{#if !fiftyFifty.booleani}
-			<AiheValinta />
-			<!-- Alkusivu -->
-			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
-
-        <!--Plus nappi-->
-				<div class="w-16 sm:w-20">
-					<Button
-						onclick={() => fiftyFifty.maara--}
-						text="/images/minus.png"
-						disabled={fiftyFifty.maara <= 0}
-					/>
-				</div>
-
-				<!--BOUNCY KORTIT-->
-
-				<!--Blurrattu tausta kortti-->
-				<div class="relative aspect-[2/3] w-40 sm:w-48 md:w-60">
-					<img
-						src="cardBack.png"
-						class="absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-contain outline-1 outline-[#FFD700] blur-[2px]"
-						alt="Kortti"
-						onclick={kortinNaytto}
-						transition:fade
-					/>
-
-					<!--Eka kortti-->
-					<div class="z-10">
-						{#if fiftyFifty.maara > 0}
-							<img
-								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
-								alt="Kortti"
-								onclick={kortinNaytto}
-								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000 }}
-							/>
-						{/if}
+	<div
+		class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
+		style="background: radial-gradient(circle at center, #472454, #200f25);"
+	>
+		<div class="gap grid p-6">
+			{#if !fiftyFifty.booleani}
+				<AiheValinta />
+				<!-- Alkusivu -->
+				<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
+					<!--Plus nappi-->
+					<div class="w-16 sm:w-20">
+						<Button
+							onclick={() => fiftyFifty.maara--}
+							text="/images/minus.png"
+							disabled={fiftyFifty.maara <= 0}
+						/>
 					</div>
 
-					<!--Toka kortti-->
-					<div class="z-10">
-						{#if fiftyFifty.maara > 1}
-							<img
-								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-20 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
-								alt="Kortti"
-								onclick={kortinNaytto}
-								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 100 }}
-							/>
-						{/if}
+					<!--BOUNCY KORTIT-->
+
+					<!--Blurrattu tausta kortti-->
+					<div class="relative aspect-[2/3] w-40 sm:w-48 md:w-60">
+						<img
+							src="cardBack.png"
+							class="absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-contain outline-1 outline-[#FFD700] blur-[2px]"
+							alt="Kortti"
+							onclick={kortinNaytto}
+							transition:fade
+						/>
+
+						<!--Eka kortti-->
+						<div class="z-10">
+							{#if fiftyFifty.maara > 0}
+								<img
+									src="cardBack.png"
+									class="absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+									alt="Kortti"
+									onclick={kortinNaytto}
+									in:fade
+									out:fly|global={{ x: 0, y: -1500, duration: 1000 }}
+								/>
+							{/if}
+						</div>
+
+						<!--Toka kortti-->
+						<div class="z-10">
+							{#if fiftyFifty.maara > 1}
+								<img
+									src="cardBack.png"
+									class="absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+									alt="Kortti"
+									onclick={kortinNaytto}
+									in:fade
+									out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 100 }}
+								/>
+							{/if}
+						</div>
+
+						<!--Kolmas kortti-->
+						<div class="z-10">
+							{#if fiftyFifty.maara > 2}
+								<img
+									src="cardBack.png"
+									class="absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+									alt="Kortti"
+									onclick={kortinNaytto}
+									in:fade
+									out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 200 }}
+								/>
+							{/if}
+						</div>
+					</div>
+					<!--/BOUNCY KORTIT-->
+
+					<!--korttien lkm "index"-->
+					<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
+					<!-- {maara} -->
+					<!-- </div> -->
+					<div class="w-16 sm:w-20">
+						<Button
+							onclick={() => fiftyFifty.maara++}
+							text="/images/plus.png"
+							disabled={fiftyFifty.maara >= 3}
+						/>
 					</div>
 
-					<!--Kolmas kortti-->
-					<div class="z-10">
-						{#if fiftyFifty.maara > 2}
-							<img
-								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-30 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
-								alt="Kortti"
-								onclick={kortinNaytto}
-								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 200 }}
-							/>
-						{/if}
-					</div>
-				</div>
-				<!--/BOUNCY KORTIT-->
-
-				<!--korttien lkm "index"-->
-				<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
-				<!-- {maara} -->
-				<!-- </div> -->
-				<div class="w-16 sm:w-20">
-					<Button
-						onclick={() => fiftyFifty.maara++}
-						text="/images/plus.png"
-						disabled={fiftyFifty.maara >= 3}
-					/>
-        </div>
-        
-
-				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
-			</div>
-		{/if}
-
-		{#if fiftyFifty.booleani}
-			{#if fiftyFifty.maara <= 0}
-				<div
-					class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500"
-				>
-					Nosta kortti nössö
+					<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 				</div>
 			{/if}
 
-			<!-- Kortin valittua -->
-			<div class="flex flex-wrap justify-center gap-4">
-				{#each nostetut.nNostetut as kortti, i (kortti.name)}
+			{#if fiftyFifty.booleani}
+				{#if fiftyFifty.maara <= 0}
 					<div
-						in:fly|global={{ x: 0, y: -300, delay: 2000 + i * 1000, duration: 1000 }}
-						out:fade
-						class="flex flex-col items-center gap-6 pb-14"
+						class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500"
 					>
-						<h1 class="font-['Rosarivo'] text-xl sm:text-2xl text-white text-shadow-sm text-shadow-white">
-							{kortti.name}
-						</h1>
-						<img
-							onclick={() => naytaKortti(kortti)}
-							class="cursor-pointer object-cover h-40 w-30 sm:h-90 sm:w-60 lg:w-70 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
-							src={kortti.image}
-							alt="Kortin kuvateksti"
-						/>
+						Nosta kortti nössö
 					</div>
-					{#if valittuKortti === kortti}
-						<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
-					{/if}
-				{/each}
-			</div>
-			<Button onclick={palaa} text="/images/x_ikoni.png" />
-		{/if}
+				{/if}
+
+				<!-- Kortin valittua -->
+				<div class="flex flex-wrap justify-center gap-4">
+					{#each nostetut.nNostetut as kortti, i (kortti.name)}
+						<div
+							in:fly|global={{ x: 0, y: -300, delay: 2000 + i * 1000, duration: 1000 }}
+							out:fade
+							class="flex flex-col items-center gap-6 pb-14"
+						>
+							<h1
+								class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl"
+							>
+								{kortti.name}
+							</h1>
+							<img
+								onclick={() => naytaKortti(kortti)}
+								class="h-40 w-30 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
+								src={kortti.image}
+								alt="Kortin kuvateksti"
+							/>
+						</div>
+						{#if valittuKortti === kortti}
+							<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+						{/if}
+					{/each}
+				</div>
+				<Button onclick={palaa} text="/images/x_ikoni.png" />
+			{/if}
+		</div>
 	</div>
-</div>
 </div>
