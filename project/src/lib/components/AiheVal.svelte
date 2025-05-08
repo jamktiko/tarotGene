@@ -19,7 +19,7 @@
 </script>
 
 {#if intro.aihetimer}
-	<div class="grid" transition:fade={{ delay: 300 }}>
+	<div class="grid" transition:fade={{ delay: 8000, duration: 3000 }}>
 		<div class="animate-pulse">
 			<h1 class="text-shadow-valkoinen m-2 p-1 font-serif text-xl text-white sm:text-2xl">
 				Valitse aihe
