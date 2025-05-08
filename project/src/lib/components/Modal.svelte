@@ -1,6 +1,7 @@
 <script lang="ts">
 	// import {valittuAihe} from "$lib/components/AiheVal.svelte";
 	import { nostetut as aiheet } from '$lib/valitutkortit.svelte'; // Tällä hetkellä nostetut kortit sijaisee täällä
+    import {fly, fade} from 'svelte/transition'
 
 	import type { Kortit } from '$lib/types/Kortit';
 	interface Props {
@@ -11,15 +12,10 @@
 	let { pakka, sulje }: Props = $props();
 </script>
 
-<div class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" id="Backdrop">
-	<div
-		class="w-[360px] sm:w-[800px] h-[600px] p-10 bg-radial from-[#472454] to-[#200f25] border-black outline-1 outline-[#FFD700] shadow-lg"
-		id="Modal"
-	>
+<div transition:fade={{delay:0, duration:250}} class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" id="Backdrop">
+	<div transition:fly={{delay: 250, duration:250}} class="w-[360px] sm:w-[800px] h-[600px] p-10 bg-radial from-[#472454] to-[#200f25] border-black outline-1 outline-[#FFD700] shadow-lg" id="Modal">
 		<div class="mb-6 flex flex-col items-center">
-			<h1
-				class="font-['rosarivo'] italic text-white text-xl sm:text-2xl text-shadow-white text-shadow-sm"
-			>
+			<h1 class="font-['rosarivo'] italic text-white text-xl sm:text-2xl text-shadow-white text-shadow-sm">
 				{pakka.name}
 			</h1>
 		</div>
