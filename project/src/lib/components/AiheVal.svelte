@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { nostetut as aiheet } from '$lib/valitutkortit.svelte';
+	import { fade } from 'svelte/transition';
 
 	// interface Props{
 	// valittuAihe:number
@@ -16,7 +17,7 @@
 	// ]
 </script>
 
-<select bind:value={aiheet.valittuAihe}>
+<select bind:value={aiheet.valittuAihe} transition:fade>
 	<option value={0}>Vapaa</option>
 	<option value={1}>Rakkaus</option>
 	<option value={2}>Tulevaisuus</option>
