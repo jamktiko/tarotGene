@@ -77,6 +77,7 @@
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
 	<div class="h-10"></div>
+	<!--Tyhjä rivi, ettei korttien animaatiot mene headerin päälle-->
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
@@ -166,6 +167,7 @@
 			{#if fiftyFifty.maara <= 0}
 				<div
 					class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500"
+					in:fade|global={{ delay: 1500 }}
 				>
 					Nosta kortti nössö
 				</div>
