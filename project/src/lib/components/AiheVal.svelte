@@ -18,6 +18,7 @@
 </script>
 
 <div class="">
+  <h1>Valitse aihe</h1>
 <select
   bind:value={aiheet.valittuAihe}
   class="bg-[#472454] text-white border-2 border-yellow-500 rounded-md px-4 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-500 transition duration-150 ease-in-out"
