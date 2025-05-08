@@ -159,7 +159,9 @@
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
+      <div class="flex items-center">
 			<AiheValinta />
+    </div>
 		{/if}
 
 		{#if fiftyFifty.booleani}

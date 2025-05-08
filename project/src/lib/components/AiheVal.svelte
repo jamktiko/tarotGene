@@ -16,9 +16,15 @@
 	// ]
 </script>
 
-<select bind:value={aiheet.valittuAihe}>
-	<option value={0}>Vapaa</option>
-	<option value={1}>Rakkaus</option>
-	<option value={2}>Tulevaisuus</option>
-	<option value={3}>Koulu</option>
+<div class="">
+<select
+  bind:value={aiheet.valittuAihe}
+  class="bg-[#472454] text-white border-2 border-yellow-500 rounded-md px-4 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-500 transition duration-150 ease-in-out"
+>
+  <option value={0}>Vapaa</option>
+  <option value={1}>Rakkaus</option>
+  <option value={2}>Tulevaisuus</option>
+  <option value={3}>Koulu</option>
 </select>
+</div>
+
