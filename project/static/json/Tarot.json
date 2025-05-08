@@ -492,7 +492,7 @@
 		"ename": "Knight of Swords",
 		"description": "Päättäväisyys ja nopea toiminta vievät eteenpäin. Keskity tavoitteeseesi, mutta varo hätiköintiä. Rohkeus ja viisaus kulkevat käsi kädessä.",
 		"image": "/tarotdeck/knightofswords.jpeg",
-		"rakkaus": "Parisi hieroo vahingossa isäsi reittä illallispöydässä.",
+		"rakkaus": "Parisi hieroo */vahingossa/* isäsi reittä illallispöydässä.",
 		"koulu": "Opettaja peruuttaa oppitunnin kertomatta, joten menet koululle turhaan."
 	},
 	{
