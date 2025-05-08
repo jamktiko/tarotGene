@@ -3,468 +3,546 @@
 		"name": "Narri",
 		"ename": "The Fool",
 		"description": "Tämä kortti kertoo uusista mahdollisuuksista ja alkavasta matkasta. Sinun tulisi luottaa vaistoihisi ja ottaa rohkeasti askelia tuntemattomaan. Älä kuitenkaan unohda varovaisuutta matkan varrella. Muista, että joskus viisain on se, joka uskaltaa tunnustaa tietämättömyytensä.",
-		"image": "/tarotdeck/thefool.jpeg"
+		"image": "/tarotdeck/thefool.jpeg",
+		"rakkaus": "Rakkauselämäsi on uuden alun kynnyksellä. Heittäydy mahdollisuuksiin avoimin mielin ja luota intuitioosi. Älä pelkää ottaa riskejä, mutta pysy silti aitona itsellesi."
 	},
 	{
 		"name": "Taikuri",
-		"ename": "The Magician", 
+		"ename": "The Magician",
 		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi. Olet voimakkaampi kuin uskotkaan.",
-		"image": "/tarotdeck/themagician.jpeg"
+		"image": "/tarotdeck/themagician.jpeg",
+		"rakkaus": "Sinulla on kaikki tarvittava luodaksesi haluamasi rakkauden. Viehätysvoimasi on vahva ja pystyt ilmaisemaan tunteitasi taitavasti. Vedä puoleesi kumppani, joka arvostaa todellista itseäsi."
 	},
 	{
 		"name": "Ylipapitar",
 		"ename": "The High Priestess",
 		"description": "Kuuntele sisäistä ääntäsi ja luota intuitioosi. Pinnan alla on syvempiä totuuksia, jotka paljastuvat kun maltat odottaa ja tarkkailla. Älä kiirehdi päätöksissä, vaan anna viisauden nousta hiljaisuudesta.",
-		"image": "/tarotdeck/thehighpriestess.jpeg"
+		"image": "/tarotdeck/thehighpriestess.jpeg",
+		"rakkaus": "Luota vaistoihisi ihmissuhteissa. Rakkaudessa ei ole kyse vain järjestä vaan syvästä sielullisesta yhteydestä. Anna asioiden paljastua omalla ajallaan äläkä kiirehdi."
 	},
 	{
 		"name": "Keisarinna",
 		"ename": "The Empress",
 		"description": "Luovuutesi ja elämänvoimasi ovat huipussaan. Anna sisäisen viisautesi kukoistaa ja hoivaa unelmiasi hellästi. Nyt on aika nauttia elämän antimista ja jakaa runsautta muille.",
-		"image": "/tarotdeck/theempress.jpeg"
+		"image": "/tarotdeck/theempress.jpeg",
+		"rakkaus": "Rakkautesi kukoistaa kun annat sille tilaa kasvaa. Osoita hellyyttä ja huolenpitoa kumppanillesi. Aistillisuus ja lämpö tuovat suhteeseen uutta syvyyttä."
 	},
 	{
 		"name": "Keisari",
 		"ename": "The Emperor",
 		"description": "Järjestys ja rakenteet tuovat vakautta elämääsi. On aika ottaa ohjat käsiisi ja tehdä selkeitä päätöksiä. Johda viisaasti ja muista, että todellinen voima on myös kykyä joustaa.",
-		"image": "/tarotdeck/theemperor.jpeg"
+		"image": "/tarotdeck/theemperor.jpeg",
+		"rakkaus": "Sitoutuminen ja vakaus ovat rakkauselämäsi avaimet. Etsi kumppani, jonka kanssa voitte rakentaa vahvan perustan. Selkeät odotukset ja rajat vahvistavat suhdettanne."
 	},
 	{
 		"name": "Hierofantti",
 		"ename": "The Hierophant",
 		"description": "Perinteiset opit ja viisaus ohjaavat sinua. Etsi opastusta kokeneemmilta ja kunnioita vanhaa tietoa. Menestys löytyy tasapainosta perinteiden ja uudistumisen välillä.",
-		"image": "/tarotdeck/thehierophant.jpeg"
+		"image": "/tarotdeck/thehierophant.jpeg",
+		"rakkaus": "Perinteiset arvot voivat tuoda kaipaamaasi vakautta rakkauteen. Sitoutuminen ja yhteinen arvomaailma auttavat rakentamaan kestävän suhteen. Etsi syvempää merkitystä yhteydessänne."
 	},
 	{
 		"name": "Rakastavaiset",
 		"ename": "The Lovers",
 		"description": "Sydämesi tietää oikean suunnan. Tee valintoja, jotka ovat sopusoinnussa arvojesi kanssa. Rakkaus ja harmonia johdattavat sinut oikealle polulle.",
-		"image": "/tarotdeck/TheLovers.jpg"
+		"image": "/tarotdeck/TheLovers.jpg",
+		"rakkaus": "Aito ja syvä yhteys on kehittymässä tai vahvistumassa. Tämä suhde haastaa sinut valitsemaan sydämesi viisauden mukaan. Anna rakkauden ohjata, mutta tee päätöksesi tietoisesti."
 	},
 	{
 		"name": "Vaunut",
 		"ename": "The Chariot",
 		"description": "Määrätietoisuus ja tahdonvoima vievät sinut voittoon. Hallitse vastakkaisia voimia ja pysy kurssissa. Menestys odottaa sinua matkan päässä.",
-		"image": "/tarotdeck/thechariot.jpeg"
+		"image": "/tarotdeck/thechariot.jpeg",
+		"rakkaus": "Rakkaudessa tarvitaan nyt päättäväisyyttä ja selkeää suuntaa. Voita sisäiset epäilysi ja etene suhteessa määrätietoisesti. Tasapainota tunteet ja järki kulkiessasi eteenpäin."
 	},
 	{
 		"name": "Voima",
 		"ename": "Strength",
 		"description": "Todellinen voima on lempeydessä ja kärsivällisyydessä. Kesytä sisäiset haasteesi hellästi mutta päättäväisesti. Luota sisäiseen voimaasi.",
-		"image": "/tarotdeck/thestrength.jpeg"
+		"image": "/tarotdeck/thestrength.jpeg",
+		"rakkaus": "Lempeä kärsivällisyys on avain rakkauden onneen. Hillitse impulssejasi ja osoita rakkautta myös vaikeina hetkinä. Todellinen rakkaus vaatii sisäistä vahvuutta ja rohkeutta."
 	},
 	{
 		"name": "Erakko",
 		"ename": "The Hermit",
 		"description": "Viisaus löytyy hiljaisuudesta ja yksinäisyydestä. Käänny sisäänpäin löytääksesi vastaukset. Valo polullasi johdattaa muutkin oikeaan suuntaan.",
-		"image": "/tarotdeck/thehermit.jpeg"
+		"image": "/tarotdeck/thehermit.jpeg",
+		"rakkaus": "Etsi aikaa itsellesi ja pohdi, mitä todella haluat rakkaudelta. Itsesi tunteminen on askel kohti aitoa rakkautta. Älä pelkää olla hetki yksin löytääksesi todellisen yhteyden."
 	},
 	{
 		"name": "Onnenpyörä",
 		"ename": "Wheel of Fortune",
 		"description": "Kohtalon pyörä kääntyy, tuoden muutosta ja uusia mahdollisuuksia. Hyväksy elämän ylä- ja alamäet. Onni suosii sitä, joka on valmis muutokseen.",
-		"image": "/tarotdeck/wheeloffortune.jpeg"
+		"image": "/tarotdeck/wheeloffortune.jpeg",
+		"rakkaus": "Rakkauselämässäsi tapahtuu odottamattomia käänteitä. Hyväksy muutokset osana matkaa. Se mikä on tarkoitettu sinulle, löytää tiensä luoksesi oikeaan aikaan."
 	},
 	{
 		"name": "Oikeus",
 		"ename": "Justice",
 		"description": "Totuus ja tasapaino hallitsevat nyt. Tee päätöksiä rehellisesti ja harkiten. Oikeudenmukaisuus palkitsee ja jokainen saa ansionsa mukaan.",
-		"image": "/tarotdeck/justice.jpeg"
+		"image": "/tarotdeck/justice.jpeg",
+		"rakkaus": "Rehellisyys ja tasapaino ovat avaimet onnelliseen rakkauteen. Kohtele kumppaniasi oikeudenmukaisesti ja odota samaa itsellesi. Teot ja niiden seuraukset linkittyvät nyt vahvasti."
 	},
 	{
 		"name": "Hirtetty",
 		"ename": "The Hanged Man",
 		"description": "Uusi näkökulma avaa silmäsi. Joskus luopuminen on voittamista. Anna vanhojen ajatusten mennä ja näe maailma uusin silmin.",
-		"image": "/tarotdeck/thehangedman.jpeg"
+		"image": "/tarotdeck/thehangedman.jpeg",
+		"rakkaus": "Rakkaus vaatii nyt uutta näkökulmaa ja kenties jonkin uhraamista. Päästä irti vanhoista odotuksista. Paradoksaalisesti, antamalla periksi saatat löytää juuri sen, mitä etsit."
 	},
 	{
 		"name": "Kuolema",
 		"ename": "Death",
 		"description": "Suuri muutos on välttämätön uudelle alulle. Vanhan on kuoltava, jotta uusi voi syntyä. Älä pelkää muutosta, se johdattaa sinut parempaan.",
-		"image": "/tarotdeck/death.jpeg"
+		"image": "/tarotdeck/death.jpeg",
+		"rakkaus": "Rakkauselämäsi kokee merkittävän muutoksen. Päästä irti vanhoista kaavoista ja suhteista, jotka eivät enää palvele sinua. Uusi, syvempi rakkaus on mahdollinen vain muutoksen kautta."
 	},
 	{
 		"name": "Kohtuus",
 		"ename": "Temperance",
 		"description": "Tasapaino ja harmonia löytyvät kultaiselta keskitieltä. Yhdistä vastakohdat viisaasti. Maltillisuus ja kärsivällisyys ovat nyt avaimesi.",
-		"image": "/tarotdeck/temperance.jpeg"
+		"image": "/tarotdeck/temperance.jpeg",
+		"rakkaus": "Harmonia rakkaudessa syntyy, kun löydät tasapainon antamisen ja vastaanottamisen välillä. Ole kärsivällinen ja sulata erilaisuutenne toimivaksi kokonaisuudeksi."
 	},
 	{
 		"name": "Paholainen",
 		"ename": "The Devil",
 		"description": "Kohtaa varjosi ja tunnista kahlitsevat pelkosi. Materiaaliset kiusaukset ja riippuvuudet rajoittavat sinua. Vapaudu tietoisilla valinnoilla.",
-		"image": "/tarotdeck/thedevil.jpeg"
+		"image": "/tarotdeck/thedevil.jpeg",
+		"rakkaus": "Tutki tarkasti, mitkä kahleet pitävät sinua kiinni epäterveessä rakkaussuhteessa. Intohimo ei ole sama asia kuin riippuvuus. Vapautuaksesi sinun tulee ensin tunnistaa omat varjosi."
 	},
 	{
 		"name": "Torni",
 		"ename": "The Tower",
 		"description": "Äkillinen muutos ravistelee perustuksia. Vanhat rakenteet sortuvat tehdäkseen tilaa uudelle. Muutoksen myrskyn jälkeen näet kirkkaammin.",
-		"image": "/tarotdeck/thetower.jpeg"
+		"image": "/tarotdeck/thetower.jpeg",
+		"rakkaus": "Rakkauselämäsi kokee odottamattoman mullistuksen, joka paljastaa totuuden. Vaikka muutos tuntuu nyt tuskalliselta, se vapauttaa sinut suhteesta, joka oli rakennettu epävakaalle pohjalle."
 	},
 	{
 		"name": "Tähti",
 		"ename": "The Star",
 		"description": "Toivo ja inspiraatio valaisevat polkusi. Luota siihen, että universumi ohjaa sinua. Unelmasi ovat lähempänä kuin uskotkaan.",
-		"image": "/tarotdeck/thestar.jpeg"
+		"image": "/tarotdeck/thestar.jpeg",
+		"rakkaus": "Toivo ja usko rakkauteen palautuvat. Avaa sydämesi uudelleen ja luota, että ansaitsemasi rakkaus löytää luoksesi. Tämä aika tuo parantumista ja optimismia rakkauselämääsi."
 	},
 	{
 		"name": "Kuu",
 		"ename": "The Moon",
 		"description": "Intuitiosi paljastaa syvemmät totuudet. Älä pelkää kulkea läpi pimeyden. Alitajuntasi viisaus ohjaa sinua eteenpäin.",
-		"image": "/tarotdeck/themoon.jpeg"
+		"image": "/tarotdeck/themoon.jpeg",
+		"rakkaus": "Rakkaudessa pinnan alla on enemmän kuin näkyy päällepäin. Luota vaistoosi ja tutki tunteitasi syvemmin. Älä anna illuusioiden johtaa sinua harhaan - etsi todellista yhteyttä."
 	},
 	{
 		"name": "Aurinko",
 		"ename": "The Sun",
 		"description": "Ilo ja elinvoima täyttävät elämäsi. Anna sisäisen valosi loistaa kirkkaasti. Menestys ja onni seuraavat askeleitasi.",
-		"image": "/tarotdeck/thesun.jpeg"
+		"image": "/tarotdeck/thesun.jpeg",
+		"rakkaus": "Rakkautesi kukoistaa täydessä valossa ja ilossa. Nauti tästä kirkkaasta ajasta kumppanisi kanssa. Avoimuus ja rehellisyys luovat suhteeseen lämpöä ja onnea."
 	},
 	{
 		"name": "Tuomio",
 		"ename": "Judgement",
 		"description": "Uudestisyntymisen aika on käsillä. Vastaa kutsuun ja nouse uudistuneena. Mennyt antaa tilaa uudelle tarkoitukselle.",
-		"image": "/tarotdeck/judgement.jpeg"
+		"image": "/tarotdeck/judgement.jpeg",
+		"rakkaus": "Rakkauselämäsi on henkisen heräämisen äärellä. Vanhat haavat paranevat ja kyky rakastaa syvemmin herää. Kuule sydämesi kutsu ja anna anteeksi sekä itsellesi että muille."
 	},
 	{
 		"name": "Maailma",
 		"ename": "The World",
 		"description": "Täyttymys ja saavutus kruunaavat matkasi. Ympyrä sulkeutuu ja uusi alkaa. Juhli saavutuksiasi ja valmistaudu uuteen seikkailuun.",
-		"image": "/tarotdeck/theworld.jpeg"
+		"image": "/tarotdeck/theworld.jpeg",
+		"rakkaus": "Rakkauselämäsi saavuttaa täyttymyksen ja kokonaisuuden. Suhteesi on saavuttanut uuden tason, jossa molemmat osapuolet kasvavat yhdessä. Juhli tätä täydellistä vaihetta."
 	},
 	{
 		"name": "Maljojen Ässä",
 		"ename": "Ace of Cups",
 		"description": "Uusi tunne-elämän vaihe on alkamassa. Avaa sydämesi rakkaudelle ja mahdollisuuksille. Luova energiasi on voimakkaimmillaan. Anna tunteiden virrata vapaasti.",
-		"image": "/tarotdeck/aceofcups.jpeg"
+		"image": "/tarotdeck/aceofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä päivän päästä"
 	},
 	{
 		"name": "Maljojen Kaksi",
 		"ename": "Two of Cups",
 		"description": "Merkityksellinen kumppanuus tai yhteys kukoistaa. Anna sydämesi avautua ja luota jakamisen voimaan. Yhdessä olette enemmän kuin osienne summa.",
-		"image": "/tarotdeck/twoofcups.jpeg"
+		"image": "/tarotdeck/twoofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kahden päivän päästä"
 	},
 	{
 		"name": "Maljojen Kolme",
 		"ename": "Three of Cups",
 		"description": "Ilo ja yltäkylläisyys kutsuvat juhlimaan. Jaa onnesi ystävien kanssa. Yhteisöllisyys tuo elämääsi erityistä siunausta.",
-		"image": "/tarotdeck/threeofcups.jpeg"
+		"image": "/tarotdeck/threeofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kolmen päivän päästä"
 	},
 	{
 		"name": "Maljojen Neljä",
 		"ename": "Four of Cups",
 		"description": "Tyytymättömyys varjostaa mieltäsi. Näe pintaa syvemmälle ja tunnista elämän tarjoamat lahjat. Uudet mahdollisuudet odottavat, kun avaat silmäsi.",
-		"image": "/tarotdeck/fourofcups.jpeg"
+		"image": "/tarotdeck/fourofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä neljän päivän päästä"
 	},
 	{
 		"name": "Maljojen Viisi",
 		"ename": "Five of Cups",
 		"description": "Menetyksen tunteet valtaavat mielesi. Muista, että kaikki ei ole menetetty. Käänny kohti jäljellä olevaa valoa ja anna surun opettaa.",
-		"image": "/tarotdeck/fiveofcups.jpeg"
+		"image": "/tarotdeck/fiveofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä viiden päivän päästä"
 	},
 	{
 		"name": "Maljojen Kuusi",
 		"ename": "Six of Cups",
 		"description": "Menneiden muistot tuovat iloa ja lohtua. Anna lapsuuden viattomuuden ja puhtauden koskettaa sydäntäsi. Jaa rakkautta ja ystävällisyyttä pyyteettömästi.",
-		"image": "/tarotdeck/sixofcups.jpeg"
+		"image": "/tarotdeck/sixofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kuuden päivän päästä"
 	},
 	{
 		"name": "Maljojen Seitsemän",
 		"ename": "Seven of Cups",
 		"description": "Unelmat ja fantasiat täyttävät mielesi. Valitse viisaasti monista mahdollisuuksista. Varo harhaisten toiveiden luomia illuusioita.",
-		"image": "/tarotdeck/sevenofcups.jpeg"
+		"image": "/tarotdeck/sevenofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä seitsemän päivän päästä"
 	},
 	{
 		"name": "Maljojen Kahdeksan",
 		"ename": "Eight of Cups",
 		"description": "On aika jättää taakse se, mikä ei enää palvele sinua. Kulje kohti syvempää merkitystä ja tarkoitusta. Henkinen kasvu vaatii rohkeutta muutokseen.",
-		"image": "/tarotdeck/eightofcups.jpeg"
+		"image": "/tarotdeck/eightofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kahdeksan päivän päästä"
 	},
 	{
 		"name": "Maljojen Yhdeksän",
 		"ename": "Nine of Cups",
 		"description": "Toiveet täyttyvät ja tyytyväisyys valtaa mielesi. Nauti saavutuksistasi ja ole kiitollinen siunauksista. Emotionaalinen täyttymys on käsillä.",
-		"image": "/tarotdeck/nineofcups.jpeg"
+		"image": "/tarotdeck/nineofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä yhdeksän päivän päästä"
 	},
 	{
 		"name": "Maljojen Kymmenen",
 		"ename": "Ten of Cups",
 		"description": "Täydellinen harmonia ja onni ympäröivät sinua. Rakkaus kukoistaa ja perhesuhteet vahvistuvat. Jaa sydämesi iloa ja kiitollisuutta.",
-		"image": "/tarotdeck/tenofcups.jpeg"
+		"image": "/tarotdeck/tenofcups.jpeg",
+		"rakkaus": "Parisi tuo sinulle viiniä kymmenen päivän päästä"
 	},
 	{
 		"name": "Maljojen Page",
 		"ename": "Page of Cups",
 		"description": "Uudet luovat ideat ja tunteet heräävät. Ole avoin sydämeltäsi kuin lapsi. Viesti rakkaudesta tai uudesta alusta on tulossa.",
-		"image": "/tarotdeck/pageofcups.jpeg"
+		"image": "/tarotdeck/pageofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä, joten käyt hakemassa ne itse"
 	},
 	{
 		"name": "Maljojen Ritari",
 		"ename": "Knight of Cups",
 		"description": "Romanttinen seikkailija sisälläsi herää. Seuraa sydämesi kutsua ja unelmiasi. Tunteiden viesti kantaa sinut uusiin mahdollisuuksiin.",
-		"image": "/tarotdeck/knightofcups.jpeg"
+		"image": "/tarotdeck/knightofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä, joten aloitat viinitarhan takapihallesi"
 	},
 	{
 		"name": "Maljojen Kuningatar",
 		"ename": "Queen of Cups",
 		"description": "Intuitiosi ja emotionaalinen viisautesi ovat vahvimmillaan. Hoivaa ja ymmärrä myötätunnolla. Sisäinen äänesi ohjaa sinua oikein.",
-		"image": "/tarotdeck/queenofcups.jpeg"
+		"image": "/tarotdeck/queenofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä, mutta annat hänelle armoa."
 	},
 	{
 		"name": "Maljojen Kuningas",
 		"ename": "King of Cups",
 		"description": "Hallitse tunteitasi viisaudella ja tasapainolla. Ole lempeä johtaja ja ymmärtävä neuvonantaja. Emotionaalinen kypsyys tuo menestystä.",
-		"image": "/tarotdeck/kingofcups.jpeg"
+		"image": "/tarotdeck/kingofcups.jpeg",
+		"rakkaus": "Parisi ei tuo sinulle viiniä. Jätät hänet, koska olet vahva, itsenäinen henkilö."
 	},
 	{
 		"name": "Lanttien Ässä",
 		"ename": "Ace of Pentacles",
 		"description": "Materiaalisen menestyksen siemen on kylvetty. Uudet mahdollisuudet tuovat vaurautta, mutta vain jos olet valmis tekemään töitä niiden eteen. Ole käytännöllinen ja määrätietoinen.",
-		"image": "/tarotdeck/aceofpentacles.jpeg"
+		"image": "/tarotdeck/aceofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta euron."
 	},
 	{
 		"name": "Lanttien Kaksi",
 		"ename": "Two of Pentacles",
 		"description": "Tasapainottele velvollisuuksiasi taitavasti. Sopeudu muutoksiin ketterästi kuin tanssija. Joustavuus on nyt suurin voimavarasi.",
-		"image": "/tarotdeck/twoofpentacles.jpeg"
+		"image": "/tarotdeck/twoofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kaksi euroa."
 	},
 	{
 		"name": "Lanttien Kolme",
 		"ename": "Three of Pentacles",
 		"description": "Yhteistyö ja ammattitaito tuovat menestystä. Arvosta jokaisen panosta ja jaa osaamistasi. Yhdessä rakennatte jotain kestävää.",
-		"image": "/tarotdeck/threeofpentacles.jpeg"
+		"image": "/tarotdeck/threeofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kolme euroa."
 	},
 	{
 		"name": "Lanttien Neljä",
 		"ename": "Four of Pentacles",
 		"description": "Taloudellinen vakaus houkuttaa pitämään kiinni. Muista, että todellinen turva tulee tasapainosta. Löydä kultainen keskitie säästämisen ja antamisen välillä.",
-		"image": "/tarotdeck/fourofpentacles.jpeg"
+		"image": "/tarotdeck/fourofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta neljä euroa."
 	},
 	{
 		"name": "Lanttien Viisi",
 		"ename": "Five of Pentacles",
 		"description": "Vaikeudet ja puute koettelevat uskoasi. Muista, että apu on lähellä, kun uskallat pyytää. Vaikeat ajat ovat väliaikaisia.",
-		"image": "/tarotdeck/fiveofpentacles.jpeg"
+		"image": "/tarotdeck/fiveofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta viisi euroa."
 	},
 	{
 		"name": "Lanttien Kuusi",
 		"ename": "Six of Pentacles",
 		"description": "Anteliaisuus ja oikeudenmukaisuus tuovat siunausta. Anna ja vastaanota tasapainoisesti. Jaettu varallisuus kasvaa ja kukoistaa.",
-		"image": "/tarotdeck/sixofpentacles.jpeg"
+		"image": "/tarotdeck/sixofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kuusi euroa."
 	},
 	{
 		"name": "Lanttien Seitsemän",
 		"ename": "Seven of Pentacles",
 		"description": "Kärsivällinen työ alkaa kantaa hedelmää. Arvioi saavutuksiasi ja suunnittele tulevaa. Pitkäjänteisyys palkitaan aikanaan.",
-		"image": "/tarotdeck/sevenofpentacles.jpeg"
+		"image": "/tarotdeck/sevenofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta seitsemän euroa."
 	},
 	{
 		"name": "Lanttien Kahdeksan",
 		"ename": "Eight of Pentacles",
 		"description": "Omistautuminen työllesi tuo mestaruuden. Hio taitojasi ja kehity jatkuvasti. Yksityiskohtiin keskittyminen vie sinut huipulle.",
-		"image": "/tarotdeck/eightofpentacles.jpeg"
+		"image": "/tarotdeck/eightofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kahdeksan euroa."
 	},
 	{
 		"name": "Lanttien Yhdeksän",
 		"ename": "Nine of Pentacles",
 		"description": "Itsenäisyys ja itsekuri tuovat menestystä. Nauti työsi hedelmistä ja saavutuksistasi. Sisäinen ja ulkoinen rikkaus ovat tasapainossa.",
-		"image": "/tarotdeck/nineofpentacles.jpeg"
+		"image": "/tarotdeck/nineofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta yhdeksän euroa."
 	},
 	{
 		"name": "Lanttien Kymmenen",
 		"ename": "Ten of Pentacles",
 		"description": "Pysyvä menestys ja perintö odottavat. Perheen ja tradition voima tukee sinua. Rakenna vaurautta, joka kestää sukupolvelta toiselle.",
-		"image": "/tarotdeck/tenofpentacles.jpeg"
+		"image": "/tarotdeck/tenofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa Ässä-arvasta kymmenen euroa."
 	},
 	{
 		"name": "Lanttien Page",
 		"ename": "Page of Pentacles",
 		"description": "Uusi mahdollisuus oppimiseen ja kasvuun avautuu. Ole ahkera ja käytännöllinen pyrkimyksissäsi. Maallinen menestys alkaa pienistä askeleista.",
-		"image": "/tarotdeck/pageofpentacles.jpeg"
+		"image": "/tarotdeck/pageofpentacles.jpeg",
+		"rakkaus": "Parisi ostaa sata riviä eurojaskaa, eikä voita mitään."
 	},
 	{
 		"name": "Lanttien Ritari",
 		"ename": "Knight of Pentacles",
 		"description": "Luotettavuus ja sitoutuminen ovat voimavarojasi. Etene määrätietoisesti kohti tavoitteitasi. Kärsivällisyys ja perusteellisuus palkitaan.",
-		"image": "/tarotdeck/knightofpentacles.jpeg"
+		"image": "/tarotdeck/knightofpentacles.jpeg",
+		"rakkaus": "Parisi ostaa tuhat riviä eurojaskaa, ja voittaa 5,39€"
 	},
 	{
 		"name": "Lanttien Kuningatar",
 		"ename": "Queen of Pentacles",
 		"description": "Maanläheinen viisaus ohjaa toimiasi. Luo turvallisuutta ja vaurautta ympärillesi. Käytännöllinen huolenpito tuo menestystä.",
-		"image": "/tarotdeck/queenofpentacles.jpeg"
+		"image": "/tarotdeck/queenofpentacles.jpeg",
+		"rakkaus": "Et anna parisi pelata eurojaskaa. Sijoitat ne sen sijaan lomamatkalle leville"
 	},
 	{
 		"name": "Lanttien Kuningas",
 		"ename": "King of Pentacles",
 		"description": "Materiaalinen menestys ja vakaus ovat hallinnassasi. Johda esimerkillä ja viisailla päätöksillä. Vastuullinen vauraus luo kestävää hyvinvointia.",
-		"image": "/tarotdeck/kingofpentacles.jpeg"
+		"image": "/tarotdeck/kingofpentacles.jpeg",
+		"rakkaus": "Parisi voittaa eurojaskassa päävoiton. Sijoitatte rahat saunalauttoihin"
 	},
 	{
 		"name": "Miekkojen Ässä",
 		"ename": "Ace of Swords",
 		"description": "Totuus ja selkeys valtaavat mielesi. On aika leikata läpi hämmennyksen ja nähdä asiat sellaisina kuin ne todella ovat. Älyllinen voima ja päättäväisyys ovat puolellasi.",
-		"image": "/tarotdeck/aceofswords.jpeg"
+		"image": "/tarotdeck/aceofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa verhojen väristä."
 	},
 	{
 		"name": "Miekkojen Kaksi",
 		"ename": "Two of Swords",
 		"description": "Vaikea päätös vaatii harkintaa. Punnitse vaihtoehtoja rauhassa ja tasapainoisesti. Totuus löytyy, kun lasket alas suojauksesi.",
-		"image": "/tarotdeck/twoofswords.jpeg"
+		"image": "/tarotdeck/twoofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa mekon väristä."
 	},
 	{
 		"name": "Miekkojen Kolme",
 		"ename": "Three of Swords",
 		"description": "Sydänsuru ja pettymys opettavat tärkeitä läksyjä. Anna tuskan puhdistaa ja vahvistaa sinua. Parantuminen alkaa totuuden hyväksymisestä.",
-		"image": "/tarotdeck/threeofswords.jpeg"
+		"image": "/tarotdeck/threeofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa tiskivuorosta."
 	},
 	{
 		"name": "Miekkojen Neljä",
 		"ename": "Four of Swords",
 		"description": "Lepo ja palautuminen ovat nyt tarpeen. Anna mielesi rauhoittua ja kerää voimiasi. Hiljaisuudessa löydät uuden suunnan.",
-		"image": "/tarotdeck/fourofswords.jpeg"
+		"image": "/tarotdeck/fourofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa nukkuma-ajasta."
 	},
 	{
 		"name": "Miekkojen Viisi",
 		"ename": "Five of Swords",
 		"description": "Konfliktit ja erimielisyydet haastavat sinua. Mieti, mitkä taistelut ovat taistelun arvoisia. Joskus viisaus on perääntyä kunniakkaasti.",
-		"image": "/tarotdeck/fiveofswords.jpeg"
+		"image": "/tarotdeck/fiveofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa vessapaperirullan suunnasta."
 	},
 	{
 		"name": "Miekkojen Kuusi",
 		"ename": "Six of Swords",
 		"description": "Matka parempaan on alkanut. Jätä vaikeudet taaksesi ja suuntaa kohti tyynempää tulevaisuutta. Muutos tuo rauhan mieleesi.",
-		"image": "/tarotdeck/sixofswords.jpeg"
+		"image": "/tarotdeck/sixofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa sohvan paikasta."
 	},
 	{
 		"name": "Miekkojen Seitsemän",
 		"ename": "Seven of Swords",
 		"description": "Harkitse toimiasi ja motiivejasi tarkkaan. Ole rehellinen itsellesi ja muille. Oikotiet voivat johtaa harhaan.",
-		"image": "/tarotdeck/sevenofswords.jpeg"
+		"image": "/tarotdeck/sevenofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa sijainnista kartalla."
 	},
 	{
 		"name": "Miekkojen Kahdeksan",
 		"ename": "Eight of Swords",
 		"description": "Vapaudu itse asettamistasi rajoitteista. Näe tilanteesi uusin silmin. Ratkaisu on lähempänä kuin uskotkaan.",
-		"image": "/tarotdeck/eightofswords.jpeg"
+		"image": "/tarotdeck/eightofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa työkalulaukun sijainnista."
 	},
 	{
 		"name": "Miekkojen Yhdeksän",
 		"ename": "Nine of Swords",
 		"description": "Huolet ja pelot varjostavat ajatuksiasi. Kohtaa ahdistuksesi valossa, ne menettävät voimansa. Aamunkoitto seuraa aina pimeintä hetkeä.",
-		"image": "/tarotdeck/nineofswords.jpeg"
+		"image": "/tarotdeck/nineofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa lampun voimakkuudesta."
 	},
 	{
 		"name": "Miekkojen Kymmenen",
 		"ename": "Ten of Swords",
 		"description": "Vanha tilanne on tullut päätökseensä. Hyväksy loppu, sillä se avaa tien uuteen alkuun. Vaikein hetki on jo takana.",
-		"image": "/tarotdeck/tenofswords.jpeg"
+		"image": "/tarotdeck/tenofswords.jpeg",
+		"rakkaus": "Väittelette parisi kanssa sängyn sijainnista."
 	},
 	{
 		"name": "Miekkojen Page",
 		"ename": "Page of Swords",
 		"description": "Terävä mieli ja uteliaisuus ovat vahvuutesi. Etsi totuutta ja tietoa innokkaasti. Valpas havainnointi paljastaa tärkeitä oivalluksia.",
-		"image": "/tarotdeck/pageofswords.jpeg"
+		"image": "/tarotdeck/pageofswords.jpeg",
+		"rakkaus": "Kysyt pariltasi saako uusi paita näyttämään sinut lihavalta. Hänen mielestä et näytä normaalia lihavammalta."
 	},
 	{
 		"name": "Miekkojen Ritari",
 		"ename": "Knight of Swords",
 		"description": "Päättäväisyys ja nopea toiminta vievät eteenpäin. Keskity tavoitteeseesi, mutta varo hätiköintiä. Rohkeus ja viisaus kulkevat käsi kädessä.",
-		"image": "/tarotdeck/knightofswords.jpeg"
+		"image": "/tarotdeck/knightofswords.jpeg",
+		"rakkaus": "Parisi hieroo vahingossa isäsi reittä illallispöydässä."
 	},
 	{
 		"name": "Miekkojen Kuningatar",
 		"ename": "Queen of Swords",
 		"description": "Terävä äly ja selkeä kommunikaatio ovat valttikorttejasi. Näe totuus ilman tunteiden verhoa. Rehellisyys itseä ja muita kohtaan on voimasi.",
-		"image": "/tarotdeck/queenofswords.jpeg"
+		"image": "/tarotdeck/queenofswords.jpeg",
+		"rakkaus": "Teille ei synny riitaa, koska kommunikoitte selvästi teidän tunteenne."
 	},
 	{
 		"name": "Miekkojen Kuningas",
 		"ename": "King of Swords",
 		"description": "Oikeudenmukaisuus ja viisaus ohjaavat päätöksiäsi. Johda älykkäästi ja puolueettomasti. Totuus ja selkeys ovat tärkeimmät työkalusi.",
-		"image": "/tarotdeck/kingofswords.jpeg"
+		"image": "/tarotdeck/kingofswords.jpeg",
+		"rakkaus": "Riita kasvaa liian suureksi, joten haet lohtua Kekkosen pahvihahmolta."
 	},
 	{
 		"name": "Sauvojen Ässä",
 		"ename": "Ace of Wands",
 		"description": "Uusi innostuksen kipinä on syttynyt. Luova energiasi on huipussaan ja uudet mahdollisuudet odottavat. Tartu toimeen rohkeasti ja anna intohimosi johdattaa.",
-		"image": "/tarotdeck/aceofwands.jpeg"
+		"image": "/tarotdeck/aceofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa keikalle."
 	},
 	{
 		"name": "Sauvojen Kaksi",
 		"ename": "Two of Wands",
 		"description": "Tulevaisuutesi on avoin mahdollisuuksille. Suunnittele viisaasti ja katso kauas. Rohkeat päätökset avaavat uusia polkuja.",
-		"image": "/tarotdeck/twoofwands.jpeg"
+		"image": "/tarotdeck/twoofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa vuorille."
 	},
 	{
 		"name": "Sauvojen Kolme",
 		"ename": "Three of Wands",
 		"description": "Visiosi alkaa toteutua. Laajenna näköalojasi ja etsi uusia mahdollisuuksia. Luota siihen, että ponnistelusi kantavat hedelmää.",
-		"image": "/tarotdeck/threeofwands.jpeg"
+		"image": "/tarotdeck/threeofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa poimimaan omenia."
 	},
 	{
 		"name": "Sauvojen Neljä",
 		"ename": "Four of Wands",
 		"description": "Saavutustesi aika on koittanut. Juhli onnistumisia ja jaa ilosi muiden kanssa. Vakaa perusta kantaa tuleviin haasteisiin.",
-		"image": "/tarotdeck/fourofwands.jpeg"
+		"image": "/tarotdeck/fourofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa klubille."
 	},
 	{
 		"name": "Sauvojen Viisi",
 		"ename": "Five of Wands",
 		"description": "Kilpailu ja haasteet koettelevat sinua. Käytä energiasi rakentavasti ja opi vastustajiltasi. Konflikti voi johtaa kasvuun.",
-		"image": "/tarotdeck/fiveofwands.jpeg"
+		"image": "/tarotdeck/fiveofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa pelihallille."
 	},
 	{
 		"name": "Sauvojen Kuusi",
 		"ename": "Six of Wands",
 		"description": "Voitto ja tunnustus ovat ulottuvillasi. Nauti menestyksestä mutta säilytä nöyryys. Saavutuksesi inspiroivat muitakin.",
-		"image": "/tarotdeck/sixofwands.jpeg"
+		"image": "/tarotdeck/sixofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa karaokeen."
 	},
 	{
 		"name": "Sauvojen Seitsemän",
 		"ename": "Seven of Wands",
 		"description": "Puolusta asemaasi ja vakaumuksiasi. Seiso ylpeänä haasteiden edessä. Sinnikkyys ja rohkeus johtavat voittoon.",
-		"image": "/tarotdeck/sevenofwands.jpeg"
+		"image": "/tarotdeck/sevenofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa salille."
 	},
 	{
 		"name": "Sauvojen Kahdeksan",
 		"ename": "Eight of Wands",
 		"description": "Nopeat muutokset ja edistys ovat käsillä. Tartu tilaisuuksiin niiden ilmaantuessa. Energia virtaa vapaasti kohti päämäärääsi.",
-		"image": "/tarotdeck/eightofwands.jpeg"
+		"image": "/tarotdeck/eightofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa soutureissulle."
 	},
 	{
 		"name": "Sauvojen Yhdeksän",
 		"ename": "Nine of Wands",
 		"description": "Sisäinen voimasi on koeteltu ja vahva. Pysy valppaana mutta luota kestävyyteesi. Viimeinen ponnistus vie sinut maaliin.",
-		"image": "/tarotdeck/nineofwands.jpeg"
+		"image": "/tarotdeck/nineofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa lenkille."
 	},
 	{
 		"name": "Sauvojen Kymmenen",
 		"ename": "Ten of Wands",
 		"description": "Vastuu ja taakka tuntuvat raskailta. Opettele delegoimaan ja keventämään kuormaasi. Määränpää on jo näkyvissä.",
-		"image": "/tarotdeck/tenofwands.jpeg"
+		"image": "/tarotdeck/tenofwands.jpeg",
+		"rakkaus": "Lähdette parinne kanssa torille."
 	},
 	{
 		"name": "Sauvojen Page",
 		"ename": "Page of Wands",
 		"description": "Uusi seikkailu kutsuu sinua. Anna innostuksen ja luovuuden johdattaa. Spontaanius ja ilo ovat parhaat oppaasi.",
-		"image": "/tarotdeck/pageofwands.jpeg"
+		"image": "/tarotdeck/pageofwands.jpeg",
+		"rakkaus": "Parisi yllättää sinut romanttisella matkalla tallinnaan."
 	},
 	{
 		"name": "Sauvojen Ritari",
 		"ename": "Knight of Wands",
 		"description": "Energinen toiminta ja intohimo vievät eteenpäin. Seuraa seikkailunhaluasi mutta harkitse seurauksia. Karismasi tempaa muut mukaasi.",
-		"image": "/tarotdeck/knightofwands.jpeg"
+		"image": "/tarotdeck/knightofwands.jpeg",
+		"rakkaus": "Parisi vie sinut Tandemhypylle."
 	},
 	{
 		"name": "Sauvojen Kuningatar",
 		"ename": "Queen of Wands",
 		"description": "Säteile itsevarmuutta ja luovaa voimaa. Inspiroi muita esimerkillä ja lämmöllä. Intohimosi ja elinvoimasi ovat tarttuvia.",
-		"image": "/tarotdeck/queenofwands.jpeg"
+		"image": "/tarotdeck/queenofwands.jpeg",
+		"rakkaus": "Menette parinne kanssa piknikille."
 	},
 	{
 		"name": "Sauvojen Kuningas",
 		"ename": "King of Wands",
 		"description": "Luova visionääri ja rohkea johtaja sisälläsi herää. Inspiroi muita esimerkillä ja johda intohimolla. Karismasi ja voimasi ovat huipussaan.",
-		"image": "/tarotdeck/kingofwands.jpeg"
+		"image": "/tarotdeck/kingofwands.jpeg",
+		"rakkaus": "Viet parisi perhomessuille."
 	}
 ]

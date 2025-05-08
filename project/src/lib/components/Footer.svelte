@@ -1,5 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
+
+	
 </script>
 
 <footer class="grid grid-cols-2 place-items-center bg-black p-4">
