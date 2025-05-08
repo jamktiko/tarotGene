@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { nostetut as aiheet } from '$lib/valitutkortit.svelte';
+	import { fade } from 'svelte/transition';
 
 	// interface Props{
 	// valittuAihe:number

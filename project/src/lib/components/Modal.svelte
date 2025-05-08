@@ -19,7 +19,7 @@
 >
 	<div
 		transition:fly={{ delay: 250, duration: 250 }}
-		class="h-[600px] w-[360px] border-black bg-radial from-[#472454] to-[#200f25] p-10 shadow-lg outline-1 outline-[#FFD700] sm:w-[800px]"
+		class="h-[600px] w-[360px] sm:w-[600px] md:w-[800px] border-black bg-radial from-[#472454] to-[#200f25] p-10 shadow-lg outline-1 outline-[#FFD700]"
 		id="Modal"
 	>
 		<div class="mb-6 flex flex-col items-center">
@@ -31,7 +31,7 @@
 		</div>
 		<div class="grid grid-cols-1 gap-10 sm:flex sm:gap-6">
 			<img
-				class="cursor-pointer h-40 w-30 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="cursor-pointer h-40 w-30 sm:h-60 sm:w-40 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				src={pakka.image}
 				alt="kortin kuva"
         onclick={sulje} 
@@ -46,7 +46,7 @@
 				{#if aiheet.valittuAihe === 3}
 					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.koulu}</p>
 				{/if}
-				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 sm:mr-[250px]">
+				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 md:ml-[60px] sm:mr-[250px]">
 					<button
 						class="w-30 cursor-pointer rounded bg-[#000000] px-4 py-2 text-[#FFD700] ring-2 ring-[#FFD700] hover:bg-[#222222]"
 						onclick={sulje}

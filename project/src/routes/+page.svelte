@@ -77,11 +77,12 @@
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
 	<div class="h-10"></div>
+	<!--Tyhjä rivi, ettei korttien animaatiot mene headerin päälle-->
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
-				<div class="w-16 sm:w-20">
+				<div class="w-16 sm:w-20" transition:fade>
 					<Button
 						onclick={() => fiftyFifty.maara--}
 						text="/images/minus.png"
@@ -105,7 +106,7 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 0}
 							<img
-								src="cardBack.png"
+								src="cardBack1.png"
 								class="absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
@@ -119,7 +120,7 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 1}
 							<img
-								src="cardBack.png"
+								src="cardBack2.png"
 								class="absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
@@ -133,7 +134,7 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 2}
 							<img
-								src="cardBack.png"
+								src="cardBack3.png"
 								class="absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
@@ -149,7 +150,7 @@
 				<!-- <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full p-5 text-white"> -->
 				<!-- {maara} -->
 				<!-- </div> -->
-				<div class="w-16 sm:w-20">
+				<div class="w-16 sm:w-20" transition:fade>
 					<Button
 						onclick={() => fiftyFifty.maara++}
 						text="/images/plus.png"
@@ -168,6 +169,7 @@
 			{#if fiftyFifty.maara <= 0}
 				<div
 					class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500"
+					in:fade|global={{ delay: 1500 }}
 				>
 					Nosta kortti nössö
 				</div>
@@ -198,6 +200,7 @@
 					{/if}
 				{/each}
 			</div>
+
 			<Button onclick={palaa} text="/images/x_ikoni.png" />
 		{/if}
 	</div>
