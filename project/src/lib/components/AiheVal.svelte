@@ -17,19 +17,21 @@
 	// ]
 </script>
 
-<div class="grid">
-<div class="animate-pulse">
-  <h1 class="text-shadow-valkoinen m-2 p-1 text-white text-xl sm:text-2xl font-serif">Valitse aihe</h1>
-</div>
-<select
-  bind:value={aiheet.valittuAihe}
-  class="bg-[#472454] text-white border-2 border-yellow-500 rounded-md px-4 py-2 shadow-md focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:border-yellow-500 transition duration-150 ease-in-out"
->
-  <option value={0}>Ei valittu</option>
-  <option value={1}>Rakkaus</option>
-  <option value={2}>Tulevaisuus</option>
-  <option value={3}>Koulu</option>
-</select>
-</div>
-
-
+{#if aiheet.aihetimer}
+	<div class="grid">
+		<div class="animate-pulse">
+			<h1 class="text-shadow-valkoinen m-2 p-1 font-serif text-xl text-white sm:text-2xl">
+				Valitse aihe
+			</h1>
+		</div>
+		<select
+			bind:value={aiheet.valittuAihe}
+			class="rounded-md border-2 border-yellow-500 bg-[#472454] px-4 py-2 text-white shadow-md transition duration-150 ease-in-out focus:border-yellow-500 focus:ring-2 focus:ring-yellow-400 focus:outline-none"
+		>
+			<option value={0}>Ei valittu</option>
+			<option value={1}>Rakkaus</option>
+			<option value={2}>Tulevaisuus</option>
+			<option value={3}>Koulu</option>
+		</select>
+	</div>
+{/if}

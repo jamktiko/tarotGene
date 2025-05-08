@@ -3,6 +3,7 @@ import type { Kortit } from '$lib/types/Kortit';
 class Valitut {
 	public nostetut: Kortit[] = $state([]); //Nostettujen korttien taulukko
 	public valittuAihe: number = $state(0); //Hallitsee valittua aihetta
+	public aihetimer: boolean = $state(false);
 	get nNostetut() {
 		return this.nostetut;
 	} //Käytetty bugikorjauksessa
@@ -14,6 +15,8 @@ class Valitut {
 	tyonna(kortti: Kortit) {
 		this.nostetut.push(kortti);
 	} //työntää nostetun kortin nostetut pakkaan
+
+	
 }
 
 const nostetut = new Valitut();
