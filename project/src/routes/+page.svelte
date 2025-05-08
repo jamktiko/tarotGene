@@ -77,21 +77,25 @@
 </script>
 
 <!--Intro meininki-->
-<div class="overflow-hidden bg-black">
+<!-- <div class="overflow-hidden bg-black"> -->
 	{#if fiftyFifty.intro}
+  <div>
 		<div
-			class="fixed inset-0 z-50 flex items-center justify-center bg-black"
-			out:fade|global={{ duration: 4000 }}
+			class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
+			out:fade|global={{delay: 2000, duration: 5000 }}
 		>
 			<h1
-				class="text-5xl text-white"
+				class="text-4xl sm:text-5xl text-white"
 				in:fade|global={{ duration: 3000 }}
-				out:fade|global={{ duration: 2000 }}
+				out:fade|global={{duration: 2000 }}
 			>
 				Deck of Destiny
 			</h1>
+      <div out:fade|global={{duration: 2000 }}>
 			<Button onclick={aloita} text="/images/minus.png" />
+    </div>
 		</div>
+  </div>
 	{/if}
 
 	<!--/Intro meininki-->
@@ -224,4 +228,4 @@
 			{/if}
 		</div>
 	</div>
-</div>
+<!-- </div> -->
