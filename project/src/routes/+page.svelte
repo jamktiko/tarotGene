@@ -107,7 +107,6 @@
 	>
 		<div class="gap grid p-6">
 			{#if !fiftyFifty.booleani}
-				<AiheValinta />
 				<!-- Alkusivu -->
 				<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
 					<!--Plus nappi-->
