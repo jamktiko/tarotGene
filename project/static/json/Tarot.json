@@ -549,41 +549,46 @@
 		"description": "Sisäinen voimasi on koeteltu ja vahva. Pysy valppaana mutta luota kestävyyteesi. Viimeinen ponnistus vie sinut maaliin.",
 		"image": "/tarotdeck/nineofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa lenkille.",
-		"koulu": "KHJ järjestää illalle ."
+		"koulu": "KHJ järjestää illalle jalkapalloa."
 	},
 	{
 		"name": "Sauvojen Kymmenen",
 		"ename": "Ten of Wands",
 		"description": "Vastuu ja taakka tuntuvat raskailta. Opettele delegoimaan ja keventämään kuormaasi. Määränpää on jo näkyvissä.",
 		"image": "/tarotdeck/tenofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa torille."
+		"rakkaus": "Lähdette parinne kanssa torille.",
+		"koulu": "KHJ järjestää illalle kirpputorin."
 	},
 	{
 		"name": "Sauvojen Page",
 		"ename": "Page of Wands",
 		"description": "Uusi seikkailu kutsuu sinua. Anna innostuksen ja luovuuden johdattaa. Spontaanius ja ilo ovat parhaat oppaasi.",
 		"image": "/tarotdeck/pageofwands.jpeg",
-		"rakkaus": "Parisi yllättää sinut romanttisella matkalla tallinnaan."
+		"rakkaus": "Parisi yllättää sinut romanttisella matkalla tallinnaan.",
+		"koulu": "KHJ järjestää retken huvipuistoon."
 	},
 	{
 		"name": "Sauvojen Ritari",
 		"ename": "Knight of Wands",
 		"description": "Energinen toiminta ja intohimo vievät eteenpäin. Seuraa seikkailunhaluasi mutta harkitse seurauksia. Karismasi tempaa muut mukaasi.",
 		"image": "/tarotdeck/knightofwands.jpeg",
-		"rakkaus": "Parisi vie sinut Tandemhypylle."
+		"rakkaus": "Parisi vie sinut Tandemhypylle.",
+		"koulu": "KHJ järjestää laivaretken tallinnaan."
 	},
 	{
 		"name": "Sauvojen Kuningatar",
 		"ename": "Queen of Wands",
 		"description": "Säteile itsevarmuutta ja luovaa voimaa. Inspiroi muita esimerkillä ja lämmöllä. Intohimosi ja elinvoimasi ovat tarttuvia.",
 		"image": "/tarotdeck/queenofwands.jpeg",
-		"rakkaus": "Menette parinne kanssa piknikille."
+		"rakkaus": "Menette parinne kanssa piknikille.",
+		"koulu": "KHJ järjestää retken terapeutille."
 	},
 	{
 		"name": "Sauvojen Kuningas",
 		"ename": "King of Wands",
 		"description": "Luova visionääri ja rohkea johtaja sisälläsi herää. Inspiroi muita esimerkillä ja johda intohimolla. Karismasi ja voimasi ovat huipussaan.",
 		"image": "/tarotdeck/kingofwands.jpeg",
-		"rakkaus": "Viet parisi perhomessuille."
+		"rakkaus": "Viet parisi perhomessuille.",
+		"koulu": "Järjestät approkierroksen."
 	}
 ]
