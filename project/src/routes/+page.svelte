@@ -95,7 +95,7 @@
 				<div class="relative aspect-[2/3] w-40 sm:w-48 md:w-60">
 					<img
 						src="cardBack.png"
-						class="absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-contain outline-1 outline-[#FFD700] blur-[2px]"
+						class=" absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-contain outline-1 outline-[#FFD700] blur-[2px]"
 						alt="Kortti"
 						onclick={kortinNaytto}
 						transition:fade
@@ -106,7 +106,7 @@
 						{#if fiftyFifty.maara > 0}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -120,7 +120,7 @@
 						{#if fiftyFifty.maara > 1}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-20 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -134,7 +134,7 @@
 						{#if fiftyFifty.maara > 2}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-30 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
