@@ -41,14 +41,14 @@
 					{pakka.description}
 				</p>
 				{#if aiheet.valittuAihe === 1}
-					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.rakkaus}</p>
+					<p class="text:20rem sm:text-md font-sans pt-4 text-[#8e8e8e] md:text-lg">{pakka.rakkaus}</p>
 				{/if}
 				{#if aiheet.valittuAihe === 3}
-					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.koulu}</p>
+					<p class="text:20rem sm:text-md font-sans pt-4 text-[#8e8e8e] md:text-lg">{pakka.koulu}</p>
 				{/if}
 				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 md:ml-[60px] sm:mr-[250px]">
 					<button
-						class="w-30 cursor-pointer rounded bg-[#000000] px-4 py-2 text-[#FFD700] ring-2 ring-[#FFD700] hover:bg-[#222222]"
+						class="w-30 cursor-pointer rounded bg-[#000000] px-4 py-2 text-[#E5B80B] ring-2 ring-[#E5B80B] hover:bg-[#222222]"
 						onclick={sulje}
 					>
 						sulje
