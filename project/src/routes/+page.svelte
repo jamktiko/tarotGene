@@ -160,6 +160,7 @@
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
+
 			<AiheValinta />
 		{/if}
 
