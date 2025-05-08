@@ -162,7 +162,7 @@
 		"description": "Uusi tunne-elämän vaihe on alkamassa. Avaa sydämesi rakkaudelle ja mahdollisuuksille. Luova energiasi on voimakkaimmillaan. Anna tunteiden virrata vapaasti.",
 		"image": "/tarotdeck/aceofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä päivän päästä",
-		"koulu": ""
+		"koulu": "Tämän päivän koululounas on tortillaa."
 	},
 	{
 		"name": "Maljojen Kaksi",
@@ -170,98 +170,110 @@
 		"description": "Merkityksellinen kumppanuus tai yhteys kukoistaa. Anna sydämesi avautua ja luota jakamisen voimaan. Yhdessä olette enemmän kuin osienne summa.",
 		"image": "/tarotdeck/twoofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä kahden päivän päästä",
-		"koulu": ""
+		"koulu": "Tämän päivän koululounas on kanan koipea."
 	},
 	{
 		"name": "Maljojen Kolme",
 		"ename": "Three of Cups",
 		"description": "Ilo ja yltäkylläisyys kutsuvat juhlimaan. Jaa onnesi ystävien kanssa. Yhteisöllisyys tuo elämääsi erityistä siunausta.",
 		"image": "/tarotdeck/threeofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä kolmen päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä kolmen päivän päästä",
+		"koulu": "Tämän päivän koululounas on makkaraperunoita."
 	},
 	{
 		"name": "Maljojen Neljä",
 		"ename": "Four of Cups",
 		"description": "Tyytymättömyys varjostaa mieltäsi. Näe pintaa syvemmälle ja tunnista elämän tarjoamat lahjat. Uudet mahdollisuudet odottavat, kun avaat silmäsi.",
 		"image": "/tarotdeck/fourofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä neljän päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä neljän päivän päästä",
+		"koulu": "Tämän päivän koululounas on kaalilaatikkoa"
 	},
 	{
 		"name": "Maljojen Viisi",
 		"ename": "Five of Cups",
 		"description": "Menetyksen tunteet valtaavat mielesi. Muista, että kaikki ei ole menetetty. Käänny kohti jäljellä olevaa valoa ja anna surun opettaa.",
 		"image": "/tarotdeck/fiveofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä viiden päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä viiden päivän päästä",
+		"koulu": "Tänään oli koululounaalla pitsaa, mutta kaikki ehdittiin syömään jo."
 	},
 	{
 		"name": "Maljojen Kuusi",
 		"ename": "Six of Cups",
 		"description": "Menneiden muistot tuovat iloa ja lohtua. Anna lapsuuden viattomuuden ja puhtauden koskettaa sydäntäsi. Jaa rakkautta ja ystävällisyyttä pyyteettömästi.",
 		"image": "/tarotdeck/sixofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä kuuden päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä kuuden päivän päästä",
+		"koulu": "Tämän päivän koululounas on makaroonilaatikkoa."
 	},
 	{
 		"name": "Maljojen Seitsemän",
 		"ename": "Seven of Cups",
 		"description": "Unelmat ja fantasiat täyttävät mielesi. Valitse viisaasti monista mahdollisuuksista. Varo harhaisten toiveiden luomia illuusioita.",
 		"image": "/tarotdeck/sevenofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä seitsemän päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä seitsemän päivän päästä",
+		"koulu": "Tämän päivän koululounas on härän sisäfilettä."
 	},
 	{
 		"name": "Maljojen Kahdeksan",
 		"ename": "Eight of Cups",
 		"description": "On aika jättää taakse se, mikä ei enää palvele sinua. Kulje kohti syvempää merkitystä ja tarkoitusta. Henkinen kasvu vaatii rohkeutta muutokseen.",
 		"image": "/tarotdeck/eightofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä kahdeksan päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä kahdeksan päivän päästä.",
+		"koulu": "Tämän päivän koululounas on puuroa."
 	},
 	{
 		"name": "Maljojen Yhdeksän",
 		"ename": "Nine of Cups",
 		"description": "Toiveet täyttyvät ja tyytyväisyys valtaa mielesi. Nauti saavutuksistasi ja ole kiitollinen siunauksista. Emotionaalinen täyttymys on käsillä.",
 		"image": "/tarotdeck/nineofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä yhdeksän päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä yhdeksän päivän päästä",
+		"koulu": "Tämän päivän koululounas on makkaraa."
 	},
 	{
 		"name": "Maljojen Kymmenen",
 		"ename": "Ten of Cups",
 		"description": "Täydellinen harmonia ja onni ympäröivät sinua. Rakkaus kukoistaa ja perhesuhteet vahvistuvat. Jaa sydämesi iloa ja kiitollisuutta.",
 		"image": "/tarotdeck/tenofcups.jpeg",
-		"rakkaus": "Parisi tuo sinulle viiniä kymmenen päivän päästä"
+		"rakkaus": "Parisi tuo sinulle viiniä kymmenen päivän päästä",
+		"koulu": "Tämän päivän koululounas on pitsaa"
 	},
 	{
 		"name": "Maljojen Page",
 		"ename": "Page of Cups",
 		"description": "Uudet luovat ideat ja tunteet heräävät. Ole avoin sydämeltäsi kuin lapsi. Viesti rakkaudesta tai uudesta alusta on tulossa.",
 		"image": "/tarotdeck/pageofcups.jpeg",
-		"rakkaus": "Parisi ei tuo sinulle viiniä, joten käyt hakemassa ne itse"
+		"rakkaus": "Parisi ei tuo sinulle viiniä, joten käyt hakemassa ne itse",
+		"koulu": "Et mene koululounaalle tänään. Sen sijaan haet kaupasta täytepatongin ja energiajuomaa."
 	},
 	{
 		"name": "Maljojen Ritari",
 		"ename": "Knight of Cups",
 		"description": "Romanttinen seikkailija sisälläsi herää. Seuraa sydämesi kutsua ja unelmiasi. Tunteiden viesti kantaa sinut uusiin mahdollisuuksiin.",
 		"image": "/tarotdeck/knightofcups.jpeg",
-		"rakkaus": "Parisi ei tuo sinulle viiniä, joten aloitat viinitarhan takapihallesi"
+		"rakkaus": "Parisi ei tuo sinulle viiniä, joten aloitat viinitarhan takapihallesi",
+		"koulu": "Et mene koululounaalle tänään. Sen sijaan menet kaljalle."
 	},
 	{
 		"name": "Maljojen Kuningatar",
 		"ename": "Queen of Cups",
 		"description": "Intuitiosi ja emotionaalinen viisautesi ovat vahvimmillaan. Hoivaa ja ymmärrä myötätunnolla. Sisäinen äänesi ohjaa sinua oikein.",
 		"image": "/tarotdeck/queenofcups.jpeg",
-		"rakkaus": "Parisi ei tuo sinulle viiniä, mutta annat hänelle armoa."
+		"rakkaus": "Parisi ei tuo sinulle viiniä, mutta annat hänelle armoa.",
+		"koulu": "Et mene koululounaalle tänään. Sen sijaan meditoit lounaan ajan."
 	},
 	{
 		"name": "Maljojen Kuningas",
 		"ename": "King of Cups",
 		"description": "Hallitse tunteitasi viisaudella ja tasapainolla. Ole lempeä johtaja ja ymmärtävä neuvonantaja. Emotionaalinen kypsyys tuo menestystä.",
 		"image": "/tarotdeck/kingofcups.jpeg",
-		"rakkaus": "Parisi ei tuo sinulle viiniä. Jätät hänet, koska olet vahva, itsenäinen henkilö."
+		"rakkaus": "Parisi ei tuo sinulle viiniä. Jätät hänet, koska olet vahva, itsenäinen henkilö.",
+		"koulu": "Et mene koululounaalle tänään. Sen sijaan menet istunnolle."
 	},
 	{
 		"name": "Lanttien Ässä",
 		"ename": "Ace of Pentacles",
 		"description": "Materiaalisen menestyksen siemen on kylvetty. Uudet mahdollisuudet tuovat vaurautta, mutta vain jos olet valmis tekemään töitä niiden eteen. Ole käytännöllinen ja määrätietoinen.",
 		"image": "/tarotdeck/aceofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta euron.",
+		"rakkaus": "Parisi voittaa arvasta euron.",
 		"koulu": "Löydät täyden kahvipassin."
 	},
 	{
@@ -269,7 +281,7 @@
 		"ename": "Two of Pentacles",
 		"description": "Tasapainottele velvollisuuksiasi taitavasti. Sopeudu muutoksiin ketterästi kuin tanssija. Joustavuus on nyt suurin voimavarasi.",
 		"image": "/tarotdeck/twoofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kaksi euroa.",
+		"rakkaus": "Parisi voittaa arvasta kaksi euroa.",
 		"koulu": "Löydät oman ainejärjestösi haalarimerkin."
 	},
 	{
@@ -277,7 +289,7 @@
 		"ename": "Three of Pentacles",
 		"description": "Yhteistyö ja ammattitaito tuovat menestystä. Arvosta jokaisen panosta ja jaa osaamistasi. Yhdessä rakennatte jotain kestävää.",
 		"image": "/tarotdeck/threeofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kolme euroa.",
+		"rakkaus": "Parisi voittaa arvasta kolme euroa.",
 		"koulu": "Löydät tiimilipun beer bongiin."
 	},
 	{
@@ -285,7 +297,7 @@
 		"ename": "Four of Pentacles",
 		"description": "Taloudellinen vakaus houkuttaa pitämään kiinni. Muista, että todellinen turva tulee tasapainosta. Löydä kultainen keskitie säästämisen ja antamisen välillä.",
 		"image": "/tarotdeck/fourofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta neljä euroa.",
+		"rakkaus": "Parisi voittaa arvasta neljä euroa.",
 		"koulu": "Löydät koulukirjan budjetoinnista."
 	},
 	{
@@ -293,7 +305,7 @@
 		"ename": "Five of Pentacles",
 		"description": "Vaikeudet ja puute koettelevat uskoasi. Muista, että apu on lähellä, kun uskallat pyytää. Vaikeat ajat ovat väliaikaisia.",
 		"image": "/tarotdeck/fiveofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta viisi euroa.",
+		"rakkaus": "Parisi voittaa arvasta viisi euroa.",
 		"koulu": "Löydät opetutorin puhelinnumeron."
 	},
 	{
@@ -301,71 +313,80 @@
 		"ename": "Six of Pentacles",
 		"description": "Anteliaisuus ja oikeudenmukaisuus tuovat siunausta. Anna ja vastaanota tasapainoisesti. Jaettu varallisuus kasvaa ja kukoistaa.",
 		"image": "/tarotdeck/sixofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kuusi euroa.",
-		"koulu": ""
+		"rakkaus": "Parisi voittaa arvasta kuusi euroa.",
+		"koulu": "Löydät takavarikoidun sixpackin."
 	},
 	{
 		"name": "Lanttien Seitsemän",
 		"ename": "Seven of Pentacles",
 		"description": "Kärsivällinen työ alkaa kantaa hedelmää. Arvioi saavutuksiasi ja suunnittele tulevaa. Pitkäjänteisyys palkitaan aikanaan.",
 		"image": "/tarotdeck/sevenofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta seitsemän euroa."
+		"rakkaus": "Parisi voittaa arvasta seitsemän euroa.",
+		"koulu": "Löydät Tutorin valmiin opintosuunnitelman."
 	},
 	{
 		"name": "Lanttien Kahdeksan",
 		"ename": "Eight of Pentacles",
 		"description": "Omistautuminen työllesi tuo mestaruuden. Hio taitojasi ja kehity jatkuvasti. Yksityiskohtiin keskittyminen vie sinut huipulle.",
 		"image": "/tarotdeck/eightofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kahdeksan euroa."
+		"rakkaus": "Parisi voittaa arvasta kahdeksan euroa.",
+		"koulu": "Löydät kadonneen motivaatiosi."
 	},
 	{
 		"name": "Lanttien Yhdeksän",
 		"ename": "Nine of Pentacles",
 		"description": "Itsenäisyys ja itsekuri tuovat menestystä. Nauti työsi hedelmistä ja saavutuksistasi. Sisäinen ja ulkoinen rikkaus ovat tasapainossa.",
 		"image": "/tarotdeck/nineofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta yhdeksän euroa."
+		"rakkaus": "Parisi voittaa arvasta yhdeksän euroa.",
+		"koulu": "Löydät käsipainon."
 	},
 	{
 		"name": "Lanttien Kymmenen",
 		"ename": "Ten of Pentacles",
 		"description": "Pysyvä menestys ja perintö odottavat. Perheen ja tradition voima tukee sinua. Rakenna vaurautta, joka kestää sukupolvelta toiselle.",
 		"image": "/tarotdeck/tenofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa Ässä-arvasta kymmenen euroa."
+		"rakkaus": "Parisi voittaa arvasta kymmenen euroa.",
+		"koulu": "Löydät viimevuoden sitsien haalarimerkin."
 	},
 	{
 		"name": "Lanttien Page",
 		"ename": "Page of Pentacles",
 		"description": "Uusi mahdollisuus oppimiseen ja kasvuun avautuu. Ole ahkera ja käytännöllinen pyrkimyksissäsi. Maallinen menestys alkaa pienistä askeleista.",
 		"image": "/tarotdeck/pageofpentacles.jpeg",
-		"rakkaus": "Parisi ostaa sata riviä eurojaskaa, eikä voita mitään."
+		"rakkaus": "Parisi ostaa sata riviä lottoa, eikä voita mitään.",
+		"koulu": "Löydät laserpyssyltä näyttävän kepin."
 	},
 	{
 		"name": "Lanttien Ritari",
 		"ename": "Knight of Pentacles",
 		"description": "Luotettavuus ja sitoutuminen ovat voimavarojasi. Etene määrätietoisesti kohti tavoitteitasi. Kärsivällisyys ja perusteellisuus palkitaan.",
 		"image": "/tarotdeck/knightofpentacles.jpeg",
-		"rakkaus": "Parisi ostaa tuhat riviä eurojaskaa, ja voittaa 5,39€"
+		"rakkaus": "Parisi ostaa tuhat riviä lottoa, ja voittaa 5,39€",
+		"koulu": "Löydät syyttäviä kuvia henkilökunnan salaisesta uhkapelipiiristä."
 	},
 	{
 		"name": "Lanttien Kuningatar",
 		"ename": "Queen of Pentacles",
 		"description": "Maanläheinen viisaus ohjaa toimiasi. Luo turvallisuutta ja vaurautta ympärillesi. Käytännöllinen huolenpito tuo menestystä.",
 		"image": "/tarotdeck/queenofpentacles.jpeg",
-		"rakkaus": "Et anna parisi pelata eurojaskaa. Sijoitat ne sen sijaan lomamatkalle leville"
+		"rakkaus": "Et anna parisi pelata lottoa. Sijoitat ne sen sijaan lomamatkalle leville",
+		"koulu": "Löydät dramaattisen romaanin kahden ohjelmointikielen kielletystä rakkaudesta."
 	},
 	{
 		"name": "Lanttien Kuningas",
 		"ename": "King of Pentacles",
 		"description": "Materiaalinen menestys ja vakaus ovat hallinnassasi. Johda esimerkillä ja viisailla päätöksillä. Vastuullinen vauraus luo kestävää hyvinvointia.",
 		"image": "/tarotdeck/kingofpentacles.jpeg",
-		"rakkaus": "Parisi voittaa eurojaskassa päävoiton. Sijoitatte rahat saunalauttoihin"
+		"rakkaus": "Parisi voittaa lotosta päävoiton. Sijoitatte rahat saunalauttoihin.",
+		"koulu": "Löydät tunnuskoodit rehtorin tietokoneeseen."
 	},
 	{
 		"name": "Miekkojen Ässä",
 		"ename": "Ace of Swords",
 		"description": "Totuus ja selkeys valtaavat mielesi. On aika leikata läpi hämmennyksen ja nähdä asiat sellaisina kuin ne todella ovat. Älyllinen voima ja päättäväisyys ovat puolellasi.",
 		"image": "/tarotdeck/aceofswords.jpeg",
-		"rakkaus": "Väittelette parisi kanssa verhojen väristä."
+		"rakkaus": "Väittelette parisi kanssa verhojen väristä.",
+		"koulu": ""
 	},
 	{
 		"name": "Miekkojen Kaksi",
@@ -463,63 +484,72 @@
 		"ename": "Ace of Wands",
 		"description": "Uusi innostuksen kipinä on syttynyt. Luova energiasi on huipussaan ja uudet mahdollisuudet odottavat. Tartu toimeen rohkeasti ja anna intohimosi johdattaa.",
 		"image": "/tarotdeck/aceofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa keikalle."
+		"rakkaus": "Lähdette parinne kanssa keikalle.",
+		"koulu": "KHJ järjestää illalle karaokekilpailun."
 	},
 	{
 		"name": "Sauvojen Kaksi",
 		"ename": "Two of Wands",
 		"description": "Tulevaisuutesi on avoin mahdollisuuksille. Suunnittele viisaasti ja katso kauas. Rohkeat päätökset avaavat uusia polkuja.",
 		"image": "/tarotdeck/twoofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa vuorille."
+		"rakkaus": "Lähdette parinne kanssa vuorille.",
+		"koulu": "KHJ järjestää illalle esteradan."
 	},
 	{
 		"name": "Sauvojen Kolme",
 		"ename": "Three of Wands",
 		"description": "Visiosi alkaa toteutua. Laajenna näköalojasi ja etsi uusia mahdollisuuksia. Luota siihen, että ponnistelusi kantavat hedelmää.",
 		"image": "/tarotdeck/threeofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa poimimaan omenia."
+		"rakkaus": "Lähdette parinne kanssa poimimaan omenia.",
+		"koulu": "KHJ järjestää illalle piknikin."
 	},
 	{
 		"name": "Sauvojen Neljä",
 		"ename": "Four of Wands",
 		"description": "Saavutustesi aika on koittanut. Juhli onnistumisia ja jaa ilosi muiden kanssa. Vakaa perusta kantaa tuleviin haasteisiin.",
 		"image": "/tarotdeck/fourofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa klubille."
+		"rakkaus": "Lähdette parinne kanssa klubille.",
+		"koulu": "KHJ järjestää illalle tanssikilpailun."
 	},
 	{
 		"name": "Sauvojen Viisi",
 		"ename": "Five of Wands",
 		"description": "Kilpailu ja haasteet koettelevat sinua. Käytä energiasi rakentavasti ja opi vastustajiltasi. Konflikti voi johtaa kasvuun.",
 		"image": "/tarotdeck/fiveofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa pelihallille."
+		"rakkaus": "Lähdette parinne kanssa pelihallille.",
+		"koulu": "KHJ järjestää illalle beer bongin."
 	},
 	{
 		"name": "Sauvojen Kuusi",
 		"ename": "Six of Wands",
 		"description": "Voitto ja tunnustus ovat ulottuvillasi. Nauti menestyksestä mutta säilytä nöyryys. Saavutuksesi inspiroivat muitakin.",
 		"image": "/tarotdeck/sixofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa karaokeen."
+		"rakkaus": "Lähdette parinne kanssa karaokeen.",
+		"koulu": "KHJ järjestää illalle sitsit."
 	},
 	{
 		"name": "Sauvojen Seitsemän",
 		"ename": "Seven of Wands",
 		"description": "Puolusta asemaasi ja vakaumuksiasi. Seiso ylpeänä haasteiden edessä. Sinnikkyys ja rohkeus johtavat voittoon.",
 		"image": "/tarotdeck/sevenofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa salille."
+		"rakkaus": "Lähdette parinne kanssa salille.",
+		"koulu": "KHJ järjestää illalle poikkitieteelliset kaljamölkkykisat."
 	},
 	{
 		"name": "Sauvojen Kahdeksan",
 		"ename": "Eight of Wands",
 		"description": "Nopeat muutokset ja edistys ovat käsillä. Tartu tilaisuuksiin niiden ilmaantuessa. Energia virtaa vapaasti kohti päämäärääsi.",
 		"image": "/tarotdeck/eightofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa soutureissulle."
+		"rakkaus": "Lähdette parinne kanssa soutureissulle.",
+		"koulu": "KHJ järjestää illalliset."
 	},
 	{
 		"name": "Sauvojen Yhdeksän",
 		"ename": "Nine of Wands",
 		"description": "Sisäinen voimasi on koeteltu ja vahva. Pysy valppaana mutta luota kestävyyteesi. Viimeinen ponnistus vie sinut maaliin.",
 		"image": "/tarotdeck/nineofwands.jpeg",
-		"rakkaus": "Lähdette parinne kanssa lenkille."
+		"rakkaus": "Lähdette parinne kanssa lenkille.",
+		"koulu": "KHJ järjestää illalle ."
 	},
 	{
 		"name": "Sauvojen Kymmenen",
