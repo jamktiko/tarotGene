@@ -1,5 +1,6 @@
 import type {Kortit} from '$lib/types/Kortit'
 
+// tehdään luokka Tarot jossa on metodit korttien hakemiselle muuttujaan ja korttien palautukselle
 class Tarot{
     private pakka: Kortit[] = $state([])
 
@@ -17,5 +18,6 @@ class Tarot{
     }
 }
 
+// tehdään uusi instanssi Tarot luokasta ja exportataan se jotta voimme suoraan kutsua pakasta kortit tai hakea kortit pakkaan
 const pakka = new Tarot
 export {pakka}
