@@ -76,6 +76,7 @@
 	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
+	<div class="h-10"></div>
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
