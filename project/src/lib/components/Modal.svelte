@@ -1,5 +1,6 @@
 <script lang="ts">
     import type {Kortit} from '$lib/types/Kortit'
+
     interface Props {
         pakka: Kortit;
         sulje: () => void
