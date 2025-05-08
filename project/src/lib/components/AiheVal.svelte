@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { nostetut as aiheet } from '$lib/valitutkortit.svelte'; // Tällä hetkellä nostetut kortit sijaisee täällä
+	import { nostetut as aiheet } from '$lib/valitutkortit.svelte';
 
 	// interface Props{
 	// valittuAihe:number
