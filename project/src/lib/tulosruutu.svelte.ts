@@ -1,6 +1,6 @@
 class Ruutu {
 	public booleani: boolean = $state(false);
-	public maara: number = $state(0);
+	public maara: number = $state(1);
 
 	public intro: boolean = $state(true);
 
