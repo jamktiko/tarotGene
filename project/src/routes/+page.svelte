@@ -76,9 +76,9 @@
 	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
+	<div class="h-10"></div>
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
-			<AiheValinta />
 			<!-- Alkusivu -->
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
 				<div class="w-16 sm:w-20">
@@ -106,7 +106,7 @@
 						{#if fiftyFifty.maara > 0}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -120,7 +120,7 @@
 						{#if fiftyFifty.maara > 1}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-20 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -134,7 +134,7 @@
 						{#if fiftyFifty.maara > 2}
 							<img
 								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-30 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -159,6 +159,7 @@
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
+			<AiheValinta />
 		{/if}
 
 		{#if fiftyFifty.booleani}
@@ -178,12 +179,14 @@
 						out:fade
 						class="flex flex-col items-center gap-6 pb-14"
 					>
-						<h1 class="font-['Rosarivo'] text-xl sm:text-2xl text-white text-shadow-sm text-shadow-white">
+						<h1
+							class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl"
+						>
 							{kortti.name}
 						</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class="cursor-pointer object-cover h-40 w-30 sm:h-90 sm:w-60 lg:w-70 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+							class="h-40 w-30 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 						/>

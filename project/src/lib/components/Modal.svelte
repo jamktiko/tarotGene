@@ -1,7 +1,7 @@
 <script lang="ts">
 	// import {valittuAihe} from "$lib/components/AiheVal.svelte";
 	import { nostetut as aiheet } from '$lib/valitutkortit.svelte'; // Tällä hetkellä nostetut kortit sijaisee täällä
-    import {fly, fade} from 'svelte/transition'
+	import { fly, fade } from 'svelte/transition';
 
 	import type { Kortit } from '$lib/types/Kortit';
 	interface Props {
@@ -12,14 +12,24 @@
 	let { pakka, sulje }: Props = $props();
 </script>
 
-<div transition:fade={{delay:0, duration:250}} class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50" id="Backdrop">
-	<div transition:fly={{delay: 250, duration:250}} class="w-[360px] sm:w-[800px] h-[600px] p-10 bg-radial from-[#472454] to-[#200f25] border-black outline-1 outline-[#FFD700] shadow-lg" id="Modal">
+<div
+	transition:fade={{ delay: 0, duration: 250 }}
+	class="bg-opacity-50 fixed inset-0 flex items-center justify-center bg-black"
+	id="Backdrop"
+>
+	<div
+		transition:fly={{ delay: 250, duration: 250 }}
+		class="h-[600px] w-[360px] border-black bg-radial from-[#472454] to-[#200f25] p-10 shadow-lg outline-1 outline-[#FFD700] sm:w-[800px]"
+		id="Modal"
+	>
 		<div class="mb-6 flex flex-col items-center">
-			<h1 class="font-['rosarivo'] italic text-white text-xl sm:text-2xl text-shadow-white text-shadow-sm">
+			<h1
+				class="font-['rosarivo'] text-xl text-white italic text-shadow-sm text-shadow-white sm:text-2xl"
+			>
 				{pakka.name}
 			</h1>
 		</div>
-		<div class="grid grid-cols-1 sm:flex gap-10 sm:gap-6">
+		<div class="grid grid-cols-1 gap-10 sm:flex sm:gap-6">
 			<img
 				class="cursor-pointer h-40 w-30 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				src={pakka.image}
@@ -27,13 +37,18 @@
         onclick={sulje} 
 			/>
 			<div class="flex flex-col justify-between">
-				<p class="text:sm sm:text-md text-[#b3b3b3] md:text-xl font-serif md:p-4">{pakka.description}</p>
+				<p class="text:sm sm:text-md font-serif text-[#b3b3b3] md:p-4 md:text-xl">
+					{pakka.description}
+				</p>
 				{#if aiheet.valittuAihe === 1}
-					<p class="text:20rem sm:text-md text-white md:text-lg pt-4">{pakka.rakkaus}</p>
+					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.rakkaus}</p>
 				{/if}
-				<div class="flex sm:mt-0 sm:mr-[250px] mt-[60px] flex-col items-center mb-6">
+				{#if aiheet.valittuAihe === 3}
+					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.koulu}</p>
+				{/if}
+				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 sm:mr-[250px]">
 					<button
-						class="cursor-pointer w-30 px-4  py-2 text-[#FFD700] bg-[#000000] hover:bg-[#222222] rounded ring-2 ring-[#FFD700]"
+						class="w-30 cursor-pointer rounded bg-[#000000] px-4 py-2 text-[#FFD700] ring-2 ring-[#FFD700] hover:bg-[#222222]"
 						onclick={sulje}
 					>
 						sulje
