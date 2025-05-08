@@ -160,7 +160,9 @@
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
-      <div class="flex items-center">
+
+      <!--AIHEVALINTA-->
+      <div class="flex justify-center m-1">
 			<AiheValinta />
     </div>
 		{/if}
