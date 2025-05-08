@@ -11,7 +11,6 @@
 	import { nostetut } from '$lib/valitutkortit.svelte'; // Tällä hetkellä nostetut kortit sijaisee täällä
 	import { fiftyFifty } from '$lib/tulosruutu.svelte'; // Hallitsee ruudun vaihdon booleania sekä nostettujen korttien määrää
 	import AiheValinta from '$lib/components/AiheVal.svelte';
-	import { afterNavigate } from '$app/navigation';
 
 	// console.log(fiftyFifty.maara);
 
