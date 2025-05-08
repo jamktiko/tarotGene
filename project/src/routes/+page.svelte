@@ -200,8 +200,9 @@
 					{/if}
 				{/each}
 			</div>
-
-			<Button onclick={palaa} text="/images/x_ikoni.png" />
+      <div class="animate-[spin_3s]">
+			  <Button onclick={palaa} text="/images/x_ikoni.png" />
+      </div>
 		{/if}
 	</div>
 </div>
