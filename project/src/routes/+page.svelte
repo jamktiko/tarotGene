@@ -123,7 +123,7 @@
 				<div class="relative aspect-[2/3] w-40 sm:w-48 md:w-60">
 					<img
 						src="cardBack.png"
-						class=" absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-contain outline-1 outline-[#FFD700] blur-[2px]"
+						class=" absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] blur-[2px]"
 						alt="Kortti"
 						onclick={kortinNaytto}
 						transition:fade
@@ -133,12 +133,12 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 0}
 							<img
-								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101"
+								src="cardBack1.png"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-cover animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 h-full w-full"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000 }}
+								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay:100 }}
 							/>
 						{/if}
 					</div>
@@ -147,12 +147,12 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 1}
 							<img
-								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101"
+								src="cardBack2.png"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-cover animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 h-full w-full"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 100 }}
+								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 200 }}
 							/>
 						{/if}
 					</div>
@@ -161,12 +161,12 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 2}
 							<img
-								src="cardBack.png"
-								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-contain animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101"
+								src="cardBack3.png"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-cover animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 h-full w-full"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 200 }}
+								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 300 }}
 							/>
 						{/if}
 					</div>
@@ -206,7 +206,7 @@
 			<div class="flex flex-wrap justify-center gap-4">
 				{#each nostetut.nNostetut as kortti, i (kortti.name)}
 					<div
-						in:fly|global={{ x: 0, y: -300, delay: 2000 + i * 1000, duration: 1000 }}
+						in:fly|global={{ x: 0, y: -300, delay: 1000 + i * 1000, duration: 1000 }}
 						out:fade
 						class="flex flex-col items-center gap-6 pb-14 ">
 						<h1 class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl">{kortti.name}</h1>
