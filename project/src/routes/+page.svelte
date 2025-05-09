@@ -85,13 +85,13 @@
 			out:fade|global={{ delay: 2000, duration: 5000 }}
 		>
 			<h1
-				class="text-4xl text-white sm:text-5xl text-shadow-valkoinen"
+				class="text-shadow-valkoinen text-4xl text-white sm:text-5xl"
 				in:fade|global={{ duration: 3000 }}
 				out:fade|global={{ duration: 2000 }}
 			>
 				Deck of Destiny
 			</h1>
-			<div class="w-16 sm:h-20 animate-pulse" out:fade|global={{ duration: 2000 }}>
+			<div class="w-16 animate-pulse sm:h-20" out:fade|global={{ duration: 2000 }}>
 				<Button onclick={aloita} text="/images/Start.png" />
 			</div>
 		</div>
@@ -133,7 +133,7 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 0}
 							<img
-								src="cardBack.png"
+								src="cardBack1.png"
 								class="absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
@@ -147,7 +147,7 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 1}
 							<img
-								src="cardBack.png"
+								src="cardBack2.png"
 								class="absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
@@ -161,7 +161,7 @@
 					<div class="z-10">
 						{#if fiftyFifty.maara > 2}
 							<img
-								src="cardBack.png"
+								src="cardBack3.png"
 								class="absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
