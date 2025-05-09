@@ -5,6 +5,7 @@
 		"description": "Tämä kortti kertoo uusista mahdollisuuksista ja alkavasta matkasta. Sinun tulisi luottaa vaistoihisi ja ottaa rohkeasti askelia tuntemattomaan. Älä kuitenkaan unohda varovaisuutta matkan varrella. Muista, että joskus viisain on se, joka uskaltaa tunnustaa tietämättömyytensä.",
 		"image": "/tarotdeck/thefool.jpeg",
 		"rakkaus": "Lataa tinder, juntti",
+		"tulevaisuus": "Mahdollisuuksia on liikaa antaakseni tarkaa ennustetta tulevaisuudesta.",
 		"koulu": "Opettaja ei ole edes aloittanut kurssisi arviointia."
 	},
 	{
@@ -13,6 +14,7 @@
 		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi. Olet voimakkaampi kuin uskotkaan.",
 		"image": "/tarotdeck/themagician.jpeg",
 		"rakkaus": "Paranna itseäsi fyysisesti ja henkisesti. Lataa sitten tinder.",
+		"tulevaisuus": "Harrastuksesi tekee sinut rikkaaksi.",
 		"koulu": "Olet visionääri. Vastauksesi on oikein, vaikka muut sanoisivat toiste."
 	},
 	{
@@ -21,6 +23,7 @@
 		"description": "Kuuntele sisäistä ääntäsi ja luota intuitioosi. Pinnan alla on syvempiä totuuksia, jotka paljastuvat kun maltat odottaa ja tarkkailla. Älä kiirehdi päätöksissä, vaan anna viisauden nousta hiljaisuudesta.",
 		"image": "/tarotdeck/thehighpriestess.jpeg",
 		"rakkaus": "Olette aika intiimissä suhteessa.",
+		"tulevaisuus": "Metsästä löytyy vastaus seuraavaan stressiisi.",
 		"koulu": "Mieti tarkkaan, jaksatko mennä kouluun tänään."
 	},
 	{
@@ -29,6 +32,7 @@
 		"description": "Luovuutesi ja elämänvoimasi ovat huipussaan. Anna sisäisen viisautesi kukoistaa ja hoivaa unelmiasi hellästi. Nyt on aika nauttia elämän antimista ja jakaa runsautta muille.",
 		"image": "/tarotdeck/theempress.jpeg",
 		"rakkaus": "Olet unelma äijä/typy/pari.",
+		"tulevaisuus": "Äitilläsi on huomenna synttärit.",
 		"koulu": "Tulet koulun aikana raskaaksi."
 	},
 	{
@@ -37,6 +41,7 @@
 		"description": "Järjestys ja rakenteet tuovat vakautta elämääsi. On aika ottaa ohjat käsiisi ja tehdä selkeitä päätöksiä. Johda viisaasti ja muista, että todellinen voima on myös kykyä joustaa.",
 		"image": "/tarotdeck/theemperor.jpeg",
 		"rakkaus": "Parillasi on samoja piirteitä, kuin vanhemmillasi.",
+		"tulevaisuus": "Isälläsi on huomenna synttärit.",
 		"koulu": "Pääset KHJ puheenjohtajaksi."
 	},
 	{
@@ -456,7 +461,7 @@
 		"description": "Konfliktit ja erimielisyydet haastavat sinua. Mieti, mitkä taistelut ovat taistelun arvoisia. Joskus viisaus on perääntyä kunniakkaasti.",
 		"image": "/tarotdeck/fiveofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa vessapaperirullan suunnasta.",
-		"tulevaisuus": ".",
+		"tulevaisuus": "Autotallisi maaliteline kaatuu autosi päälle, ellet korjaa sitä.",
 		"koulu": "Et mene kouluun ripulin takia."
 	},
 	{
@@ -465,6 +470,7 @@
 		"description": "Matka parempaan on alkanut. Jätä vaikeudet taaksesi ja suuntaa kohti tyynempää tulevaisuutta. Muutos tuo rauhan mieleesi.",
 		"image": "/tarotdeck/sixofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa sohvan paikasta.",
+		"tulevaisuus": "Kannattaa vaihtaa sohvan paikkaa auringosta pois.",
 		"koulu": "Sairautesi loppuu tänään, mene kouluun."
 	},
 	{
@@ -473,6 +479,7 @@
 		"description": "Harkitse toimiasi ja motiivejasi tarkkaan. Ole rehellinen itsellesi ja muille. Oikotiet voivat johtaa harhaan.",
 		"image": "/tarotdeck/sevenofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa sijainnista kartalla.",
+		"tulevaisuus": "Muista lisätä pohjamaali ennen pintamaalia.",
 		"koulu": "Jäit kiinni tekoälyn käyttämisestä tentin aikana."
 	},
 	{
@@ -480,7 +487,8 @@
 		"ename": "Eight of Swords",
 		"description": "Vapaudu itse asettamistasi rajoitteista. Näe tilanteesi uusin silmin. Ratkaisu on lähempänä kuin uskotkaan.",
 		"image": "/tarotdeck/eightofswords.jpeg",
-		"rakkaus": "Väittelette parisi kanssa työkalulaukun sijainnista.",
+		"rakkaus": "Väittelette parisi kanssa kaukosäätimen sijainnista.",
+		"tulevaisuus": "Kaukosäätimesi löytyy sohvantyynyjen välistä.",
 		"koulu": "Kysy Tutorilta apua koulutehtäviin."
 	},
 	{
@@ -489,6 +497,7 @@
 		"description": "Huolet ja pelot varjostavat ajatuksiasi. Kohtaa ahdistuksesi valossa, ne menettävät voimansa. Aamunkoitto seuraa aina pimeintä hetkeä.",
 		"image": "/tarotdeck/nineofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa lampun voimakkuudesta.",
+		"tulevaisuus": "Käy hankkimassa sulakkeita. Huomenna tapahtuu sähkökatko.",
 		"koulu": "Mene kouluterapeutille."
 	},
 	{
@@ -497,6 +506,7 @@
 		"description": "Vanha tilanne on tullut päätökseensä. Hyväksy loppu, sillä se avaa tien uuteen alkuun. Vaikein hetki on jo takana.",
 		"image": "/tarotdeck/tenofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa sängyn sijainnista.",
+		"tulevaisuus": "Autosi takarenkaat räjähtää vartin päästä. Varaa jo aika mekaanikolle.",
 		"koulu": "Saat tentin suoritettua."
 	},
 	{
@@ -505,6 +515,7 @@
 		"description": "Terävä mieli ja uteliaisuus ovat vahvuutesi. Etsi totuutta ja tietoa innokkaasti. Valpas havainnointi paljastaa tärkeitä oivalluksia.",
 		"image": "/tarotdeck/pageofswords.jpeg",
 		"rakkaus": "Kysyt pariltasi saako uusi paita näyttämään sinut lihavalta. Hänen mielestä et näytä normaalia lihavammalta.",
+		"tulevaisuus": "Älä mene keskustaan tänään tai roadmani vie lompakkosi.",
 		"koulu": "Kutsut opettajaa vahingossa Isäksi/Äidiksi."
 	},
 	{
@@ -513,6 +524,7 @@
 		"description": "Päättäväisyys ja nopea toiminta vievät eteenpäin. Keskity tavoitteeseesi, mutta varo hätiköintiä. Rohkeus ja viisaus kulkevat käsi kädessä.",
 		"image": "/tarotdeck/knightofswords.jpeg",
 		"rakkaus": "Parisi hieroo vahingossa isäsi reittä illallispöydässä.",
+		"tulevaisuus": "Jätit uunin päälle. Palaa nopeasti kotiin tai se palaa poroksi.",
 		"koulu": "Opettaja peruuttaa oppitunnin kertomatta, joten menet koululle turhaan."
 	},
 	{
@@ -521,6 +533,7 @@
 		"description": "Terävä äly ja selkeä kommunikaatio ovat valttikorttejasi. Näe totuus ilman tunteiden verhoa. Rehellisyys itseä ja muita kohtaan on voimasi.",
 		"image": "/tarotdeck/queenofswords.jpeg",
 		"rakkaus": "Teille ei synny riitaa, koska kommunikoitte selvästi teidän tunteenne.",
+		"tulevaisuus": "Varaa aika terapeutille, tai et kestä ensi viikon stressiä.",
 		"koulu": "Toimit Tutorina opiskelukavereillesi."
 	},
 	{
@@ -529,6 +542,7 @@
 		"description": "Oikeudenmukaisuus ja viisaus ohjaavat päätöksiäsi. Johda älykkäästi ja puolueettomasti. Totuus ja selkeys ovat tärkeimmät työkalusi.",
 		"image": "/tarotdeck/kingofswords.jpeg",
 		"rakkaus": "Riita kasvaa liian suureksi, joten haet lohtua Kekkosen pahvihahmolta.",
+		"tulevaisuus": "Voitele näkkileivän oikea puoli tai astut veitsen päälle.",
 		"koulu": "Sait niin hyvän tuloksen tentistä, että rehtori palkkaa sinut uudeksi opettajaksi."
 	},
 	{
