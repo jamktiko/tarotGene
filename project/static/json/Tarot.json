@@ -420,6 +420,7 @@
 		"description": "Totuus ja selkeys valtaavat mielesi. On aika leikata läpi hämmennyksen ja nähdä asiat sellaisina kuin ne todella ovat. Älyllinen voima ja päättäväisyys ovat puolellasi.",
 		"image": "/tarotdeck/aceofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa verhojen väristä.",
+		"tulevaisuus": "Nurmikkosi kasvaa ensiviikolla liian pitkäksi, ellet leikkaa sitä.",
 		"koulu": "Suoritat koulutehtävät helposti."
 	},
 	{
@@ -428,6 +429,7 @@
 		"description": "Vaikea päätös vaatii harkintaa. Punnitse vaihtoehtoja rauhassa ja tasapainoisesti. Totuus löytyy, kun lasket alas suojauksesi.",
 		"image": "/tarotdeck/twoofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa mekon väristä.",
+		"tulevaisuus": "Poliisi tulee sakottamaan sinua, ellet vaihda talvirenkaita pois.",
 		"koulu": "Saat tehtyä koulussa koulutehtävät."
 	},
 	{
@@ -436,6 +438,7 @@
 		"description": "Sydänsuru ja pettymys opettavat tärkeitä läksyjä. Anna tuskan puhdistaa ja vahvistaa sinua. Parantuminen alkaa totuuden hyväksymisestä.",
 		"image": "/tarotdeck/threeofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa tiskivuorosta.",
+		"tulevaisuus": "Käy heittämässä roskat roskiin, tai joudut sairaaksi kaikista pöpöistä.",
 		"koulu": "Joudut menemään uusintatenttiin."
 	},
 	{
@@ -444,6 +447,7 @@
 		"description": "Lepo ja palautuminen ovat nyt tarpeen. Anna mielesi rauhoittua ja kerää voimiasi. Hiljaisuudessa löydät uuden suunnan.",
 		"image": "/tarotdeck/fourofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa nukkuma-ajasta.",
+		"tulevaisuus": "Pidä lepopäivä tai saat katua.",
 		"koulu": "Et mene kouluun krapulan takia."
 	},
 	{
@@ -452,6 +456,7 @@
 		"description": "Konfliktit ja erimielisyydet haastavat sinua. Mieti, mitkä taistelut ovat taistelun arvoisia. Joskus viisaus on perääntyä kunniakkaasti.",
 		"image": "/tarotdeck/fiveofswords.jpeg",
 		"rakkaus": "Väittelette parisi kanssa vessapaperirullan suunnasta.",
+		"tulevaisuus": ".",
 		"koulu": "Et mene kouluun ripulin takia."
 	},
 	{
