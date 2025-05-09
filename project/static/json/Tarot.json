@@ -10,7 +10,7 @@
 	{
 		"name": "Taikuri",
 		"ename": "The Magician",
-		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi. Olet voimakkaampi kuin uskotkaan.",
+		"description": "Sinulla on kaikki tarvitsemasi voimavarat käytössäsi. Nyt on aika käyttää taitojasi ja luovuuttasi tavoitteidesi saavuttamiseen. Luota kykyysi muuttaa ajatukset todeksi.",
 		"image": "/tarotdeck/themagician.jpeg",
 		"rakkaus": "Paranna itseäsi fyysisesti ja henkisesti. Lataa sitten tinder.",
 		"koulu": "Olet visionääri. Vastauksesi on oikein, vaikka muut sanoisivat toiste."
@@ -492,7 +492,7 @@
 		"ename": "Knight of Swords",
 		"description": "Päättäväisyys ja nopea toiminta vievät eteenpäin. Keskity tavoitteeseesi, mutta varo hätiköintiä. Rohkeus ja viisaus kulkevat käsi kädessä.",
 		"image": "/tarotdeck/knightofswords.jpeg",
-		"rakkaus": "Parisi hieroo vahingossa isäsi reittä illallispöydässä.",
+		"rakkaus": "Parisi hieroo */vahingossa/* isäsi reittä illallispöydässä.",
 		"koulu": "Opettaja peruuttaa oppitunnin kertomatta, joten menet koululle turhaan."
 	},
 	{

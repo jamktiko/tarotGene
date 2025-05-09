@@ -70,17 +70,45 @@
 		// console.log(nostetut.nNostetut);
 		// console.log(fiftyFifty.booleani);
 	}
+
+	function aloita() {
+		fiftyFifty.aloita();
+	}
 </script>
+
+<!--Intro meininki-->
+<!-- <div class="overflow-hidden bg-black"> -->
+{#if fiftyFifty.intro}
+	<div>
+		<div
+			class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
+			out:fade|global={{ delay: 2000, duration: 5000 }}
+		>
+			<h1
+				class="text-shadow-valkoinen text-4xl text-white sm:text-5xl"
+				in:fade|global={{ duration: 3000 }}
+				out:fade|global={{ duration: 2000 }}
+			>
+				Deck of Destiny
+			</h1>
+			<div class="w-16 animate-pulse sm:h-20" out:fade|global={{ duration: 2000 }}>
+				<Button onclick={aloita} text="/images/Start.png" />
+			</div>
+		</div>
+	</div>
+{/if}
+
+<!--/Intro meininki-->
 
 <div
 	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
 	style="background: radial-gradient(circle at center, #472454, #200f25);"
 >
-	<div class="h-10"></div>
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
+				<!--Plus nappi-->
 				<div class="w-16 sm:w-20">
 					<Button
 						onclick={() => fiftyFifty.maara--}
@@ -159,7 +187,10 @@
 
 				<!-- <Button onclick={kortinNaytto} text="Nosta kohtalosi" /> -->
 			</div>
-			<AiheValinta />
+			<!--AIHEVALINTA-->
+			<div class="m-1 flex justify-center">
+				<AiheValinta />
+			</div>
 		{/if}
 
 		{#if fiftyFifty.booleani}
@@ -195,3 +226,4 @@
 		{/if}
 	</div>
 </div>
+<!-- </div> -->
