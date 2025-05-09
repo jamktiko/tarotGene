@@ -208,7 +208,7 @@
 		"description": "Tyytymättömyys varjostaa mieltäsi. Näe pintaa syvemmälle ja tunnista elämän tarjoamat lahjat. Uudet mahdollisuudet odottavat, kun avaat silmäsi.",
 		"image": "/tarotdeck/fourofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä neljän päivän päästä",
-    "tulevaisuus": "",
+    "tulevaisuus": "Kokeilet uutta reseptiä, joka yllättää makuhermosi ja tuo iloa ruoanlaittoon.",
 		"koulu": "Tämän päivän koululounas on kaalilaatikkoa"
 	},
 	{
@@ -217,6 +217,7 @@
 		"description": "Menetyksen tunteet valtaavat mielesi. Muista, että kaikki ei ole menetetty. Käänny kohti jäljellä olevaa valoa ja anna surun opettaa.",
 		"image": "/tarotdeck/fiveofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä viiden päivän päästä",
+    "tulevaisuus": "Kokeilet kasvisruokavaliota, joka tuo iloa ja energiaa.",
 		"koulu": "Tänään oli koululounaalla pitsaa, mutta kaikki ehdittiin syömään jo."
 	},
 	{
@@ -225,6 +226,7 @@
 		"description": "Menneiden muistot tuovat iloa ja lohtua. Anna lapsuuden viattomuuden ja puhtauden koskettaa sydäntäsi. Jaa rakkautta ja ystävällisyyttä pyyteettömästi.",
 		"image": "/tarotdeck/sixofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä kuuden päivän päästä",
+    "tulevaisuus": "Tulet maistamaan lapsuuden ajan ruokaa ja rupeat itkemään",
 		"koulu": "Tämän päivän koululounas on makaroonilaatikkoa."
 	},
 	{
@@ -233,6 +235,7 @@
 		"description": "Unelmat ja fantasiat täyttävät mielesi. Valitse viisaasti monista mahdollisuuksista. Varo harhaisten toiveiden luomia illuusioita.",
 		"image": "/tarotdeck/sevenofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä seitsemän päivän päästä",
+    "tulevaisuus": "Valitse terveellinen ruoka, saat sixpackin; huono vie paksuuntumiseen.",
 		"koulu": "Tämän päivän koululounas on härän sisäfilettä."
 	},
 	{
@@ -241,6 +244,7 @@
 		"description": "On aika jättää taakse se, mikä ei enää palvele sinua. Kulje kohti syvempää merkitystä ja tarkoitusta. Henkinen kasvu vaatii rohkeutta muutokseen.",
 		"image": "/tarotdeck/eightofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä kahdeksan päivän päästä.",
+    "tulevaisuus": "Jätät huonot ruokailutottumukset taakse, kasvat terveempään elämään.",
 		"koulu": "Tämän päivän koululounas on puuroa."
 	},
 	{
@@ -249,6 +253,7 @@
 		"description": "Toiveet täyttyvät ja tyytyväisyys valtaa mielesi. Nauti saavutuksistasi ja ole kiitollinen siunauksista. Emotionaalinen täyttymys on käsillä.",
 		"image": "/tarotdeck/nineofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä yhdeksän päivän päästä",
+    "tulevaisuus": "Nautit terveellistä ruokaa ja saat supervoimia",
 		"koulu": "Tämän päivän koululounas on makkaraa."
 	},
 	{
@@ -257,7 +262,8 @@
 		"description": "Täydellinen harmonia ja onni ympäröivät sinua. Rakkaus kukoistaa ja perhesuhteet vahvistuvat. Jaa sydämesi iloa ja kiitollisuutta.",
 		"image": "/tarotdeck/tenofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä kymmenen päivän päästä",
-		"koulu": "Tämän päivän koululounas on pitsaa"
+    "tulevaisuus": "Perhe maistaa ruokaasi, saat sukukalleuden palkkioksi taidoistais.",
+		"koulu": "Tämän päivän koululounas on pitsaa."
 	},
 	{
 		"name": "Maljojen Page",
@@ -265,6 +271,7 @@
 		"description": "Uudet luovat ideat ja tunteet heräävät. Ole avoin sydämeltäsi kuin lapsi. Viesti rakkaudesta tai uudesta alusta on tulossa.",
 		"image": "/tarotdeck/pageofcups.jpeg",
 		"rakkaus": "Parisi ei tuo sinulle viiniä, joten käyt hakemassa ne itse",
+    "tulevaisuus": "Tulet löytämään tosi rakkauden jotenkin ruuan myötä.",
 		"koulu": "Et mene koululounaalle tänään. Sen sijaan haet kaupasta täytepatongin ja energiajuomaa."
 	},
 	{
@@ -273,6 +280,7 @@
 		"description": "Romanttinen seikkailija sisälläsi herää. Seuraa sydämesi kutsua ja unelmiasi. Tunteiden viesti kantaa sinut uusiin mahdollisuuksiin.",
 		"image": "/tarotdeck/knightofcups.jpeg",
 		"rakkaus": "Parisi ei tuo sinulle viiniä, joten aloitat viinitarhan takapihallesi",
+    "tulevaisuus": "Seuraava henkilö, joka maistaa ruokaasi, on sielunkumppanisi.",
 		"koulu": "Et mene koululounaalle tänään. Sen sijaan menet kaljalle."
 	},
 	{
@@ -281,6 +289,7 @@
 		"description": "Intuitiosi ja emotionaalinen viisautesi ovat vahvimmillaan. Hoivaa ja ymmärrä myötätunnolla. Sisäinen äänesi ohjaa sinua oikein.",
 		"image": "/tarotdeck/queenofcups.jpeg",
 		"rakkaus": "Parisi ei tuo sinulle viiniä, mutta annat hänelle armoa.",
+    "tulevaisuus": "Tulet luomaan intuitiolla jotain, joka koskettaa sydämiä syvästi.",
 		"koulu": "Et mene koululounaalle tänään. Sen sijaan meditoit lounaan ajan."
 	},
 	{
@@ -289,6 +298,7 @@
 		"description": "Hallitse tunteitasi viisaudella ja tasapainolla. Ole lempeä johtaja ja ymmärtävä neuvonantaja. Emotionaalinen kypsyys tuo menestystä.",
 		"image": "/tarotdeck/kingofcups.jpeg",
 		"rakkaus": "Parisi ei tuo sinulle viiniä. Jätät hänet, koska olet vahva, itsenäinen henkilö.",
+    "tulevaisuus": "Tulet syömään hetken mielijohteesta liikaa, ja vatsasi kostaa sen raskaasti.",
 		"koulu": "Et mene koululounaalle tänään. Sen sijaan menet istunnolle."
 	},
 	{
