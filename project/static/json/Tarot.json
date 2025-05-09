@@ -294,6 +294,7 @@
 		"description": "Materiaalisen menestyksen siemen on kylvetty. Uudet mahdollisuudet tuovat vaurautta, mutta vain jos olet valmis tekemään töitä niiden eteen. Ole käytännöllinen ja määrätietoinen.",
 		"image": "/tarotdeck/aceofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta euron.",
+		"tulevaisuus": "Saat ylennyksen vuoden päästä.",
 		"koulu": "Löydät täyden kahvipassin."
 	},
 	{
@@ -302,6 +303,7 @@
 		"description": "Tasapainottele velvollisuuksiasi taitavasti. Sopeudu muutoksiin ketterästi kuin tanssija. Joustavuus on nyt suurin voimavarasi.",
 		"image": "/tarotdeck/twoofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta kaksi euroa.",
+		"tulevaisuus": "Saat ylennyksen kahden vuoden päästä.",
 		"koulu": "Löydät oman ainejärjestösi haalarimerkin."
 	},
 	{
@@ -310,6 +312,7 @@
 		"description": "Yhteistyö ja ammattitaito tuovat menestystä. Arvosta jokaisen panosta ja jaa osaamistasi. Yhdessä rakennatte jotain kestävää.",
 		"image": "/tarotdeck/threeofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta kolme euroa.",
+		"tulevaisuus": "Saat ylennyksen kolmen vuoden päästä.",
 		"koulu": "Löydät tiimilipun beer bongiin."
 	},
 	{
@@ -318,6 +321,7 @@
 		"description": "Taloudellinen vakaus houkuttaa pitämään kiinni. Muista, että todellinen turva tulee tasapainosta. Löydä kultainen keskitie säästämisen ja antamisen välillä.",
 		"image": "/tarotdeck/fourofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta neljä euroa.",
+		"tulevaisuus": "Saat ylennyksen neljän vuoden päästä.",
 		"koulu": "Löydät koulukirjan budjetoinnista."
 	},
 	{
@@ -326,6 +330,7 @@
 		"description": "Vaikeudet ja puute koettelevat uskoasi. Muista, että apu on lähellä, kun uskallat pyytää. Vaikeat ajat ovat väliaikaisia.",
 		"image": "/tarotdeck/fiveofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta viisi euroa.",
+		"tulevaisuus": "Saat ylennyksen viiden vuoden päästä.",
 		"koulu": "Löydät opetutorin puhelinnumeron."
 	},
 	{
@@ -334,6 +339,7 @@
 		"description": "Anteliaisuus ja oikeudenmukaisuus tuovat siunausta. Anna ja vastaanota tasapainoisesti. Jaettu varallisuus kasvaa ja kukoistaa.",
 		"image": "/tarotdeck/sixofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta kuusi euroa.",
+		"tulevaisuus": "Saat ylennyksen kuuden vuoden päästä.",
 		"koulu": "Löydät takavarikoidun sixpackin."
 	},
 	{
@@ -342,6 +348,7 @@
 		"description": "Kärsivällinen työ alkaa kantaa hedelmää. Arvioi saavutuksiasi ja suunnittele tulevaa. Pitkäjänteisyys palkitaan aikanaan.",
 		"image": "/tarotdeck/sevenofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta seitsemän euroa.",
+		"tulevaisuus": "Saat ylennyksen seitsemän vuoden päästä.",
 		"koulu": "Löydät Tutorin valmiin opintosuunnitelman."
 	},
 	{
@@ -350,6 +357,7 @@
 		"description": "Omistautuminen työllesi tuo mestaruuden. Hio taitojasi ja kehity jatkuvasti. Yksityiskohtiin keskittyminen vie sinut huipulle.",
 		"image": "/tarotdeck/eightofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta kahdeksan euroa.",
+		"tulevaisuus": "Saat ylennyksen kahdeksan vuoden päästä.",
 		"koulu": "Löydät kadonneen motivaatiosi."
 	},
 	{
@@ -358,6 +366,7 @@
 		"description": "Itsenäisyys ja itsekuri tuovat menestystä. Nauti työsi hedelmistä ja saavutuksistasi. Sisäinen ja ulkoinen rikkaus ovat tasapainossa.",
 		"image": "/tarotdeck/nineofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta yhdeksän euroa.",
+		"tulevaisuus": "Saat ylennyksen yhdeksän vuoden päästä.",
 		"koulu": "Löydät käsipainon."
 	},
 	{
@@ -366,6 +375,7 @@
 		"description": "Pysyvä menestys ja perintö odottavat. Perheen ja tradition voima tukee sinua. Rakenna vaurautta, joka kestää sukupolvelta toiselle.",
 		"image": "/tarotdeck/tenofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa arvasta kymmenen euroa.",
+		"tulevaisuus": "Saat ylennyksen kymmenen vuoden päästä.",
 		"koulu": "Löydät viimevuoden sitsien haalarimerkin."
 	},
 	{
@@ -374,6 +384,7 @@
 		"description": "Uusi mahdollisuus oppimiseen ja kasvuun avautuu. Ole ahkera ja käytännöllinen pyrkimyksissäsi. Maallinen menestys alkaa pienistä askeleista.",
 		"image": "/tarotdeck/pageofpentacles.jpeg",
 		"rakkaus": "Parisi ostaa sata riviä lottoa, eikä voita mitään.",
+		"tulevaisuus": "Saat ylennyksen nepotismin takia. Hankit uusilla rahoilla pomppulinnan.",
 		"koulu": "Löydät laserpyssyltä näyttävän kepin."
 	},
 	{
@@ -382,6 +393,7 @@
 		"description": "Luotettavuus ja sitoutuminen ovat voimavarojasi. Etene määrätietoisesti kohti tavoitteitasi. Kärsivällisyys ja perusteellisuus palkitaan.",
 		"image": "/tarotdeck/knightofpentacles.jpeg",
 		"rakkaus": "Parisi ostaa tuhat riviä lottoa, ja voittaa 5,39€",
+		"tulevaisuus": "Kiristät pomoasi antamaan ylennyksen. Hankit uusilla rahoilla avaruusraketin.",
 		"koulu": "Löydät syyttäviä kuvia henkilökunnan salaisesta uhkapelipiiristä."
 	},
 	{
@@ -390,6 +402,7 @@
 		"description": "Maanläheinen viisaus ohjaa toimiasi. Luo turvallisuutta ja vaurautta ympärillesi. Käytännöllinen huolenpito tuo menestystä.",
 		"image": "/tarotdeck/queenofpentacles.jpeg",
 		"rakkaus": "Et anna parisi pelata lottoa. Sijoitat ne sen sijaan lomamatkalle leville",
+		"tulevaisuus": "Tunneälykkyytesi inspiroi pomoasi. Hän lähtee tutkimusmatkalle ja jättää roolinsa sinulle.",
 		"koulu": "Löydät dramaattisen romaanin kahden ohjelmointikielen kielletystä rakkaudesta."
 	},
 	{
@@ -398,6 +411,7 @@
 		"description": "Materiaalinen menestys ja vakaus ovat hallinnassasi. Johda esimerkillä ja viisailla päätöksillä. Vastuullinen vauraus luo kestävää hyvinvointia.",
 		"image": "/tarotdeck/kingofpentacles.jpeg",
 		"rakkaus": "Parisi voittaa lotosta päävoiton. Sijoitatte rahat saunalauttoihin.",
+		"tulevaisuus": "Osakkeenomistajat huomaavat sinun aloitteenottokykysi ja tarjoaa CEO:n roolia.",
 		"koulu": "Löydät tunnuskoodit rehtorin tietokoneeseen."
 	},
 	{
@@ -518,6 +532,7 @@
 		"description": "Uusi innostuksen kipinä on syttynyt. Luova energiasi on huipussaan ja uudet mahdollisuudet odottavat. Tartu toimeen rohkeasti ja anna intohimosi johdattaa.",
 		"image": "/tarotdeck/aceofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa keikalle.",
+		"tulevaisuus": "Tulet työskentelemään Rocktähtenä.",
 		"koulu": "KHJ järjestää illalle karaokekilpailun."
 	},
 	{
@@ -526,6 +541,7 @@
 		"description": "Tulevaisuutesi on avoin mahdollisuuksille. Suunnittele viisaasti ja katso kauas. Rohkeat päätökset avaavat uusia polkuja.",
 		"image": "/tarotdeck/twoofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa vuorille.",
+		"tulevaisuus": "Tulet työskentelemään kartturina.",
 		"koulu": "KHJ järjestää illalle esteradan."
 	},
 	{
@@ -534,6 +550,7 @@
 		"description": "Visiosi alkaa toteutua. Laajenna näköalojasi ja etsi uusia mahdollisuuksia. Luota siihen, että ponnistelusi kantavat hedelmää.",
 		"image": "/tarotdeck/threeofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa poimimaan omenia.",
+		"tulevaisuus": "Tulet työskentelemään puutarhurina.",
 		"koulu": "KHJ järjestää illalle piknikin."
 	},
 	{
@@ -542,6 +559,7 @@
 		"description": "Saavutustesi aika on koittanut. Juhli onnistumisia ja jaa ilosi muiden kanssa. Vakaa perusta kantaa tuleviin haasteisiin.",
 		"image": "/tarotdeck/fourofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa klubille.",
+		"tulevaisuus": "Tulet työskentelemään koomikkona.",
 		"koulu": "KHJ järjestää illalle tanssikilpailun."
 	},
 	{
@@ -550,6 +568,7 @@
 		"description": "Kilpailu ja haasteet koettelevat sinua. Käytä energiasi rakentavasti ja opi vastustajiltasi. Konflikti voi johtaa kasvuun.",
 		"image": "/tarotdeck/fiveofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa pelihallille.",
+		"tulevaisuus": "Tulet työskentelemään nyrkkeilijänä.",
 		"koulu": "KHJ järjestää illalle beer bongin."
 	},
 	{
@@ -558,6 +577,7 @@
 		"description": "Voitto ja tunnustus ovat ulottuvillasi. Nauti menestyksestä mutta säilytä nöyryys. Saavutuksesi inspiroivat muitakin.",
 		"image": "/tarotdeck/sixofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa karaokeen.",
+		"tulevaisuus": "Tulet työskentelemään sisällöntuottajana.",
 		"koulu": "KHJ järjestää illalle sitsit."
 	},
 	{
@@ -566,6 +586,7 @@
 		"description": "Puolusta asemaasi ja vakaumuksiasi. Seiso ylpeänä haasteiden edessä. Sinnikkyys ja rohkeus johtavat voittoon.",
 		"image": "/tarotdeck/sevenofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa salille.",
+		"tulevaisuus": "Tulet työskentelemään rauhanturvaajana.",
 		"koulu": "KHJ järjestää illalle poikkitieteelliset kaljamölkkykisat."
 	},
 	{
@@ -574,6 +595,7 @@
 		"description": "Nopeat muutokset ja edistys ovat käsillä. Tartu tilaisuuksiin niiden ilmaantuessa. Energia virtaa vapaasti kohti päämäärääsi.",
 		"image": "/tarotdeck/eightofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa soutureissulle.",
+		"tulevaisuus": "Tulet työskentelemään laivurina.",
 		"koulu": "KHJ järjestää illalliset."
 	},
 	{
@@ -582,6 +604,7 @@
 		"description": "Sisäinen voimasi on koeteltu ja vahva. Pysy valppaana mutta luota kestävyyteesi. Viimeinen ponnistus vie sinut maaliin.",
 		"image": "/tarotdeck/nineofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa lenkille.",
+		"tulevaisuus": "Tulet työskentelemään urheilijana.",
 		"koulu": "KHJ järjestää illalle jalkapalloa."
 	},
 	{
@@ -590,6 +613,7 @@
 		"description": "Vastuu ja taakka tuntuvat raskailta. Opettele delegoimaan ja keventämään kuormaasi. Määränpää on jo näkyvissä.",
 		"image": "/tarotdeck/tenofwands.jpeg",
 		"rakkaus": "Lähdette parinne kanssa torille.",
+		"tulevaisuus": "Tulet työskentelemään rekkakuskina.",
 		"koulu": "KHJ järjestää illalle kirpputorin."
 	},
 	{
@@ -598,6 +622,7 @@
 		"description": "Uusi seikkailu kutsuu sinua. Anna innostuksen ja luovuuden johdattaa. Spontaanius ja ilo ovat parhaat oppaasi.",
 		"image": "/tarotdeck/pageofwands.jpeg",
 		"rakkaus": "Parisi yllättää sinut romanttisella matkalla tallinnaan.",
+		"tulevaisuus": "Tulet työskentelemään lastenkirjojen piirtäjänä.",
 		"koulu": "KHJ järjestää retken huvipuistoon."
 	},
 	{
@@ -606,6 +631,7 @@
 		"description": "Energinen toiminta ja intohimo vievät eteenpäin. Seuraa seikkailunhaluasi mutta harkitse seurauksia. Karismasi tempaa muut mukaasi.",
 		"image": "/tarotdeck/knightofwands.jpeg",
 		"rakkaus": "Parisi vie sinut Tandemhypylle.",
+		"tulevaisuus": "Tulet työskentelemään B-elokuva tähden stunttina.",
 		"koulu": "KHJ järjestää laivaretken tallinnaan."
 	},
 	{
@@ -614,6 +640,7 @@
 		"description": "Säteile itsevarmuutta ja luovaa voimaa. Inspiroi muita esimerkillä ja lämmöllä. Intohimosi ja elinvoimasi ovat tarttuvia.",
 		"image": "/tarotdeck/queenofwands.jpeg",
 		"rakkaus": "Menette parinne kanssa piknikille.",
+		"tulevaisuus": "Tulet työskentelemään varhaiskasvattajana.",
 		"koulu": "KHJ järjestää retken terapeutille."
 	},
 	{
@@ -622,6 +649,7 @@
 		"description": "Luova visionääri ja rohkea johtaja sisälläsi herää. Inspiroi muita esimerkillä ja johda intohimolla. Karismasi ja voimasi ovat huipussaan.",
 		"image": "/tarotdeck/kingofwands.jpeg",
 		"rakkaus": "Viet parisi perhomessuille.",
+		"tulevaisuus": "Susta tulee hallitsija.",
 		"koulu": "Järjestät approkierroksen."
 	}
 ]
