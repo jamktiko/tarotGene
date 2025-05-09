@@ -85,14 +85,14 @@
 			out:fade|global={{ delay: 2000, duration: 5000 }}
 		>
 			<h1
-				class="text-4xl text-white sm:text-5xl"
+				class="text-4xl text-white sm:text-5xl text-shadow-valkoinen"
 				in:fade|global={{ duration: 3000 }}
 				out:fade|global={{ duration: 2000 }}
 			>
 				Deck of Destiny
 			</h1>
-			<div out:fade|global={{ duration: 2000 }}>
-				<Button onclick={aloita} text="/images/minus.png" />
+			<div class="w-16 sm:h-20 animate-pulse" out:fade|global={{ duration: 2000 }}>
+				<Button onclick={aloita} text="/images/Start.png" />
 			</div>
 		</div>
 	</div>
