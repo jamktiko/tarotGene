@@ -123,7 +123,7 @@
 				<div class="relative aspect-[2/3] w-40 sm:w-48 md:w-60">
 					<img
 						src="cardBack.png"
-						class="absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-contain outline-1 outline-[#FFD700] blur-[2px]"
+						class="absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black outline-1 outline-[#FFD700] blur-[2px]"
 						alt="Kortti"
 						onclick={kortinNaytto}
 						transition:fade
@@ -134,7 +134,7 @@
 						{#if fiftyFifty.maara > 0}
 							<img
 								src="cardBack1.png"
-								class="absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="size-60 sm:size-70 md:size-90 object-fill absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -148,7 +148,7 @@
 						{#if fiftyFifty.maara > 1}
 							<img
 								src="cardBack2.png"
-								class="absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="size-60 sm:size-70 md:size-90 object-fill absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -162,7 +162,7 @@
 						{#if fiftyFifty.maara > 2}
 							<img
 								src="cardBack3.png"
-								class="absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black object-contain shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="size-60 sm:size-70 md:size-90 object-fill absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
@@ -217,7 +217,7 @@
 						</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class="h-40 w-30 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
+							class="h-54 w-39 sm:h-90 sm:w-60 lg:h-100 lg:w-70 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700]"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 						/>
