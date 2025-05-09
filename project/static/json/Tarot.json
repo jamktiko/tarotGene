@@ -181,7 +181,7 @@
 		"description": "Uusi tunne-elämän vaihe on alkamassa. Avaa sydämesi rakkaudelle ja mahdollisuuksille. Luova energiasi on voimakkaimmillaan. Anna tunteiden virrata vapaasti.",
 		"image": "/tarotdeck/aceofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä päivän päästä",
-		"tulevaisuus": "",
+		"tulevaisuus": "Teet ensimmäistä kertaa uutta ruokaa ja onnistut täydellisesti.",
 		"koulu": "Tämän päivän koululounas on tortillaa."
 	},
 	{
@@ -190,6 +190,7 @@
 		"description": "Merkityksellinen kumppanuus tai yhteys kukoistaa. Anna sydämesi avautua ja luota jakamisen voimaan. Yhdessä olette enemmän kuin osienne summa.",
 		"image": "/tarotdeck/twoofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä kahden päivän päästä",
+    "tulevaisuus": "Kaupassa viehättävä esittelijä tarjoaa sinulle palan herkullista makkaraa.",
 		"koulu": "Tämän päivän koululounas on kanan koipea."
 	},
 	{
@@ -198,6 +199,7 @@
 		"description": "Ilo ja yltäkylläisyys kutsuvat juhlimaan. Jaa onnesi ystävien kanssa. Yhteisöllisyys tuo elämääsi erityistä siunausta.",
 		"image": "/tarotdeck/threeofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä kolmen päivän päästä",
+    "tulevaisuus": "Ystäväsi järjestävät sinulle yllätyksenä nyyttäri-juhlat.",
 		"koulu": "Tämän päivän koululounas on makkaraperunoita."
 	},
 	{
@@ -206,6 +208,7 @@
 		"description": "Tyytymättömyys varjostaa mieltäsi. Näe pintaa syvemmälle ja tunnista elämän tarjoamat lahjat. Uudet mahdollisuudet odottavat, kun avaat silmäsi.",
 		"image": "/tarotdeck/fourofcups.jpeg",
 		"rakkaus": "Parisi tuo sinulle viiniä neljän päivän päästä",
+    "tulevaisuus": "",
 		"koulu": "Tämän päivän koululounas on kaalilaatikkoa"
 	},
 	{
