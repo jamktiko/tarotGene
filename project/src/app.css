@@ -16,12 +16,13 @@
 @layer base {
   html, body {
     font-family: 'Rosarivo', sans-serif;
-    background-color: black;
+    background: radial-gradient(circle at center, #472454, #200f25);
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     overscroll-behavior: none;
+    background-attachment: fixed;
   }
 }
-
 @font-face {
   font-family: 'Rosarivo';
   src: url('/font/Rosarivo/Rosarivo-Regular.ttf') format('truetype');

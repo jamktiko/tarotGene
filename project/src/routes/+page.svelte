@@ -82,7 +82,7 @@
 	<div>
 		<div
 			class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
-			out:fade|global={{ delay: 2000, duration: 5000 }}
+			out:fade|global={{ delay: 2000, duration: 3000 }}
 		>
 			<h1
 				class="text-shadow-valkoinen text-4xl text-white sm:text-5xl"
@@ -91,7 +91,7 @@
 			>
 				Deck of Destiny
 			</h1>
-			<div class="w-16 animate-pulse sm:h-20" out:fade|global={{ duration: 2000 }}>
+			<div class="w-16 animate-pulse sm:h-20 pt-10" out:fade|global={{ duration: 1000 }}>
 				<Button onclick={aloita} text="/images/Start.png" />
 			</div>
 		</div>
@@ -101,12 +101,25 @@
 <!--/Intro meininki-->
 
 <div
-	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
-	style="background: radial-gradient(circle at center, #472454, #200f25);"
->
+	class="mx-auto space-y-4">
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
+
+			<!-- Tässä sivun yläosan elementit eli nostettavien korttien numero ja info ruutu -->
+			<div class="grid">
+				<!-- infoikkuna -->
+				<div class=" grid font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
+					<p class="p-1 justify-self-center">Vinkki: Nosta kortit klikkaamalla pakkaa</p>
+				</div>
+				<!-- /infoikkuna -->
+				 <!-- korttien määrä -->
+				<div class="justify-self-center pb-15 font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white">Nostettavien korttien määrä: {fiftyFifty.maara}</div>
+				<!-- /korttien määrä -->
+
+			</div>
+			<!-- /yläosan elementit -->
+
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
 				<!--Plus nappi-->
 				<div class="w-16 sm:w-20">
@@ -116,7 +129,6 @@
 						disabled={fiftyFifty.maara <= 0}
 					/>
 				</div>
-
 				<!--BOUNCY KORTIT-->
 
 				<!--Blurrattu tausta kortti-->
@@ -195,6 +207,7 @@
 
 		{#if fiftyFifty.booleani}
 			{#if fiftyFifty.maara <= 0}
+			
 				<div
 					class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500"
 				>
@@ -203,10 +216,14 @@
 			{/if}
 
 			<!-- Kortin valittua -->
+			<div in:fade={{delay:2000}} class="max-w-60 justify-self-center mb-5 font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
+				<p class="p-1 justify-self-center">Vinkki: Näytä ennustus painamalla korttia!</p>
+			</div>
 			<div class="flex flex-wrap justify-center gap-4">
+				
 				{#each nostetut.nNostetut as kortti, i (kortti.name)}
 					<div
-						in:fly|global={{ x: 0, y: -300, delay: 1000 + i * 1000, duration: 1000 }}
+						in:fly|global={{ x: 0, y: -300, delay: 2000 + i * 1000, duration: 1000 }}
 						out:fade
 						class="flex flex-col items-center gap-6 pb-14 ">
 						<h1 class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl">{kortti.name}</h1>

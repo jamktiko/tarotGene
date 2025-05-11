@@ -5,10 +5,10 @@
 	let { children } = $props();
 	
 </script>
-<div class="overflow-x-hidden overscroll-none">
+<div class=" min-h-screen overflow-x-hidden overscroll-none flex flex-col">
 	<Header></Header>
-
-	{@render children()}
-
+	<main class="flex-1">
+		{@render children()}
+	</main>
 	<Footer></Footer>
 </div>
