@@ -2,7 +2,7 @@ import type { Kortit } from '$lib/types/Kortit';
 
 class Valitut {
 	public nostetut: Kortit[] = $state([]);
-	public valittuAihe: number = $state(0);
+	public valittuAihe: string = $state('description');
 	get nNostetut() {
 		return this.nostetut;
 	}

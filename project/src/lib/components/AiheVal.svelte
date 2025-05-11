@@ -14,11 +14,12 @@
 	//   {nimi:"tulevaisuus"},
 	//   {nimi:"koulu"}
 	// ]
+	$inspect(aiheet.valittuAihe)
 </script>
 
 <select bind:value={aiheet.valittuAihe}>
-	<option value={0}>Vapaa</option>
-	<option value={1}>Rakkaus</option>
-	<option value={2}>Tulevaisuus</option>
-	<option value={3}>Koulu</option>
+	<option value={'description'}>Vapaa</option>
+	<option value={'rakkaus'}>Rakkaus</option>
+	<option value={'tulevaisuus'}>Tulevaisuus</option>
+	<option value={'koulu'}>Koulu</option>
 </select>

@@ -7,9 +7,9 @@
 	interface Props {
 		pakka: Kortit;
 		sulje: () => void;
+        aihe? : string;
 	}
-
-	let { pakka, sulje }: Props = $props();
+	let { pakka, sulje, aihe= 'description' }: Props = $props();
 </script>
 
 <div
@@ -38,14 +38,8 @@
 			/>
 			<div class="flex flex-col justify-between">
 				<p class="text:sm sm:text-md font-serif text-[#b3b3b3] md:p-4 md:text-xl">
-					{pakka.description}
+					{pakka[aihe as keyof typeof pakka]}
 				</p>
-				{#if aiheet.valittuAihe === 1}
-					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.rakkaus}</p>
-				{/if}
-				{#if aiheet.valittuAihe === 3}
-					<p class="text:20rem sm:text-md pt-4 text-white md:text-lg">{pakka.koulu}</p>
-				{/if}
 				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 sm:mr-[250px]">
 					<button
 						class="w-30 cursor-pointer rounded bg-[#000000] px-4 py-2 text-[#FFD700] ring-2 ring-[#FFD700] hover:bg-[#222222]"
