@@ -11,7 +11,7 @@
 </script>
 
 <div transition:fade={{ delay: 0, duration: 250 }} class="bg-opacity-50 fixed inset-0 flex items-center justify-center bg-black" id="Backdrop" onclick={sulje}>
-	<div transition:fly={{ delay: 250, duration: 250 }} class="h-[600px] w-[360px] sm:w-[600px] md:w-[800px] border-black bg-radial from-[#472454] to-[#200f25] p-10 shadow-lg outline-1 outline-[#FFD700]" id="Modal" onclick={sulje}>
+	<div transition:fly={{ delay: 250, duration: 250 }} class="h-[600px] w-[360px] sm:h-[400px] md:h-[600px] sm:w-[600px] md:w-[800px] border-black bg-radial from-[#472454] to-[#200f25] p-10 shadow-lg outline-1 outline-[#FFD700]" id="Modal" onclick={sulje}>
 		<div class="mb-6 flex flex-col items-center">
 			<h1 class="font-['rosarivo'] text-xl text-white italic text-shadow-sm text-shadow-white sm:text-2xl">
 				{pakka.name}
