@@ -91,7 +91,7 @@
 			>
 				Deck of Destiny
 			</h1>
-			<div class="w-16 animate-pulse sm:h-20" out:fade|global={{ duration: 2000 }}>
+			<div class="w-16 animate-pulse sm:h-20 pt-10" out:fade|global={{ duration: 1000 }}>
 				<Button onclick={aloita} text="/images/Start.png" />
 			</div>
 		</div>
@@ -101,12 +101,26 @@
 <!--/Intro meininki-->
 
 <div
-	class="mx-auto min-h-screen min-w-screen space-y-4 bg-violet-950 shadow"
-	style="background: radial-gradient(circle at center, #472454, #200f25);"
->
+	class="mx-auto space-y-4">
 	<div class="gap grid p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
+
+			<!-- Tässä sivun yläosan elementit eli nostettavien korttien numero ja info ruutu -->
+			<div class="grid">
+				<!-- infoikkuna -->
+				
+				<div  class=" grid font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
+					<p class="p-1 justify-self-center">Vinkki: Nosta kortit klikkaamalla pakkaa</p>
+				</div>
+				<!-- /infoikkuna -->
+				 <!-- korttien määrä -->
+				<div class="justify-self-center pb-15 font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white">Nostettavien korttien määrä: {fiftyFifty.maara}</div>
+				<!-- /korttien määrä -->
+
+			</div>
+			<!-- /yläosan elementit -->
+
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
 				<!--Plus nappi-->
 				<div class="w-16 sm:w-20">
@@ -116,14 +130,13 @@
 						disabled={fiftyFifty.maara <= 0}
 					/>
 				</div>
-
 				<!--BOUNCY KORTIT-->
 
 				<!--Blurrattu tausta kortti-->
 				<div class="relative aspect-[2/3] w-40 sm:w-48 md:w-60">
 					<img
 						src="cardBack.png"
-						class="absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black outline-1 outline-[#FFD700] blur-[2px]"
+						class=" absolute top-0 left-1/2 z-0 h-full w-full -translate-x-1/2 transform rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] blur-[2px]"
 						alt="Kortti"
 						onclick={kortinNaytto}
 						transition:fade
@@ -134,11 +147,11 @@
 						{#if fiftyFifty.maara > 0}
 							<img
 								src="cardBack1.png"
-								class="size-60 sm:size-70 md:size-90 object-fill absolute top-0 left-1/2 z-10 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-cover animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 h-full w-full"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000 }}
+								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay:100 }}
 							/>
 						{/if}
 					</div>
@@ -148,11 +161,11 @@
 						{#if fiftyFifty.maara > 1}
 							<img
 								src="cardBack2.png"
-								class="size-60 sm:size-70 md:size-90 object-fill absolute top-0 left-1/2 z-20 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-cover animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 h-full w-full"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 100 }}
+								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 200 }}
 							/>
 						{/if}
 					</div>
@@ -162,11 +175,11 @@
 						{#if fiftyFifty.maara > 2}
 							<img
 								src="cardBack3.png"
-								class="size-60 sm:size-70 md:size-90 object-fill absolute top-0 left-1/2 z-30 -translate-x-1/2 transform cursor-pointer rounded-xl border-4 border-black shadow-lg outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 hover:shadow-[#FFD700] motion-safe:animate-[bounce_5s_infinite]"
+								class="cursor-pointer absolute top-0 left-1/2 z-10 -translate-x-1/2 transform rounded-xl border-4 border-black object-cover animate-bounce-glow outline-1 outline-[#FFD700] transition duration-300 ease-in-out hover:scale-101 h-full w-full"
 								alt="Kortti"
 								onclick={kortinNaytto}
 								in:fade
-								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 200 }}
+								out:fly|global={{ x: 0, y: -1500, duration: 1000, delay: 300 }}
 							/>
 						{/if}
 					</div>
@@ -195,6 +208,7 @@
 
 		{#if fiftyFifty.booleani}
 			{#if fiftyFifty.maara <= 0}
+			
 				<div
 					class="text-shadow-valkoinen grid place-items-center pt-20 pb-60 text-xl text-white delay-1500"
 				>
@@ -203,27 +217,26 @@
 			{/if}
 
 			<!-- Kortin valittua -->
+			<div in:fade={{delay:2000}} class="max-w-60 justify-self-center mb-5 font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
+				<p class="p-1 justify-self-center">Vinkki: Näytä ennustus painamalla korttia!</p>
+			</div>
 			<div class="flex flex-wrap justify-center gap-4">
+				
 				{#each nostetut.nNostetut as kortti, i (kortti.name)}
 					<div
 						in:fly|global={{ x: 0, y: -300, delay: 2000 + i * 1000, duration: 1000 }}
 						out:fade
-						class="flex flex-col items-center gap-6 pb-14"
-					>
-						<h1
-							class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl"
-						>
-							{kortti.name}
-						</h1>
+						class="flex flex-col items-center gap-6 pb-14 ">
+						<h1 class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl">{kortti.name}</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class="h-54 w-39 sm:h-90 sm:w-60 lg:h-100 lg:w-70 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700]"
+							class="w-4xs h-6xs cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 						/>
 					</div>
 					{#if valittuKortti === kortti}
-						<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+						<Modal aihe={nostetut.valittuAihe} pakka={kortti} sulje={() => naytaKortti(kortti)} />
 					{/if}
 				{/each}
 			</div>

@@ -553,8 +553,8 @@
 		"ename": "Knight of Swords",
 		"description": "Päättäväisyys ja nopea toiminta vievät eteenpäin. Keskity tavoitteeseesi, mutta varo hätiköintiä. Rohkeus ja viisaus kulkevat käsi kädessä.",
 		"image": "/tarotdeck/knightofswords.jpeg",
-		"rakkaus": "Parisi hieroo */vahingossa/* isäsi reittä illallispöydässä.",
-    "tulevaisuus": "Jätit uunin päälle. Palaa nopeasti kotiin tai se palaa poroksi.",
+		"rakkaus": "Parisi hieroo vahingossa isäsi reittä illallispöydässä.",
+		"tulevaisuus": "Jätit uunin päälle. Palaa nopeasti kotiin tai se palaa poroksi.",
 		"koulu": "Opettaja peruuttaa oppitunnin kertomatta, joten menet koululle turhaan."
 	},
 	{
