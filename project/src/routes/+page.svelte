@@ -85,7 +85,7 @@
 
 				 <!-- korttien määrä -->
 				<div class="justify-self-center pb-15 font-['Rosarivo'] text-lg sm:text-xl text-white text-shadow-sm text-shadow-white">Nostettavien korttien määrä:
-          			<div class=" text-3xl sm:text-4xl">
+          			<div class="justify-self-center text-3xl sm:text-4xl">
            				{fiftyFifty.maara}
 					</div>
           		</div>
