@@ -82,7 +82,7 @@
 	<div>
 		<div
 			class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
-			out:fade|global={{ delay: 2000, duration: 5000 }}
+			out:fade|global={{ delay: 2000, duration: 2000 }}
 		>
 			<h1
 				class="text-shadow-valkoinen text-4xl text-white sm:text-5xl"
