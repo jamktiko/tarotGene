@@ -110,12 +110,15 @@
 			<div class="grid">
 				<!-- infoikkuna -->
 				
-				<div  class=" grid font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
-					<p class="p-1 justify-self-center">Vinkki: Nosta kortit klikkaamalla pakkaa</p>
+				<div  class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 animate-pulse sm:animate-none">
+					<p class="p-1 justify-self-center">Vinkki: <br> Nosta kortit klikkaamalla pakkaa</p>
 				</div>
 				<!-- /infoikkuna -->
 				 <!-- korttien määrä -->
-				<div class="justify-self-center pb-15 font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white">Nostettavien korttien määrä: {fiftyFifty.maara}</div>
+				<div class="justify-self-center pb-15 font-['Rosarivo'] text-lg sm:text-xl text-white text-shadow-sm text-shadow-white">Nostettavien korttien määrä:
+          <div class="justify-self-center text-3xl sm:text-4xl">
+           {fiftyFifty.maara}</div>
+          </div>
 				<!-- /korttien määrä -->
 
 			</div>
