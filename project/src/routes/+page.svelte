@@ -78,7 +78,7 @@
 			<!-- Tässä sivun yläosan elementit eli nostettavien korttien numero ja info ruutu -->
 			<div class="grid">
 				<!-- infoikkuna -->
-				<div  class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 animate-pulse sm:animate-none">
+				<div  class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 sm:mb-1 animate-pulse sm:animate-none">
 					<p class="p-1 justify-self-center">Vinkki: <br> Nosta kortit klikkaamalla pakkaa</p>
 				</div>
 				<!-- /infoikkuna -->
@@ -190,10 +190,10 @@
 						in:fly|global={{ x: 0, y: -300, delay: 2000 + i * 1000, duration: 1000 }}
 						out:fade
 						class="flex flex-col items-center gap-6 pb-14 ">
-						<h1 class="font-['Rosarivo'] text-xl text-white text-shadow-sm text-shadow-white sm:text-2xl">{kortti.name}</h1>
+						<h1 class="font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white sm:text-2xl">{kortti.name}</h1>
 						<img
 							onclick={() => naytaKortti(kortti)}
-							class="w-4xs h-6xs cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
+							class="w-30 h-45 cursor-pointer rounded-xl border-4 border-black object-cover shadow-lg outline-1 outline-[#FFD700] transition duration-175 ease-in-out hover:scale-101 hover:shadow-[#FFD700] sm:h-90 sm:w-60 lg:h-100 lg:w-70"
 							src={kortti.image}
 							alt="Kortin kuvateksti"
 						/>
