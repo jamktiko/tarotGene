@@ -1,6 +1,4 @@
 <script lang="ts">
-	// import {valittuAihe} from "$lib/components/AiheVal.svelte";
-	import { nostetut as aiheet } from '$lib/valitutkortit.svelte'; // Tällä hetkellä nostetut kortit sijaisee täällä
 	import { fly, fade } from 'svelte/transition';
 
 	import type { Kortit } from '$lib/types/Kortit';

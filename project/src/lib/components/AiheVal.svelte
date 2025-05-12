@@ -3,20 +3,6 @@
 	import { nostetut as aiheet } from '$lib/valitutkortit.svelte';
 	import { fiftyFifty as intro } from '$lib/tulosruutu.svelte';
 	import { fade } from 'svelte/transition';
-
-	// interface Props{
-	// valittuAihe:number
-	// }
-
-	// let {valittuAihe}:Props = $props()
-
-	// let aihe=[
-
-	// {nimi:"Vapaa"},
-	// {nimi:"rakkaus"},
-	//   {nimi:"tulevaisuus"},
-	//   {nimi:"koulu"}
-	// ]
 </script>
 
 {#if intro.aihetimer}
