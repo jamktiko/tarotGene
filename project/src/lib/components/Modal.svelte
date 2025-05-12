@@ -36,7 +36,7 @@
 		</div>
 		<div class="grid grid-cols-1 gap-10 sm:flex sm:gap-6">
 			<img
-				class="cursor-pointer h-40 w-30 sm:h-60 sm:w-40 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
+				class="cursor-pointer justify-self-center h-45 w-35 sm:h-60 sm:w-40 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]"
 				src={pakka.image}
 				alt="kortin kuva"
         onclick={sulje} 
@@ -51,7 +51,10 @@
 				{#if aiheet.valittuAihe === 3}
 					<p class="text:20rem sm:text-md font-sans pt-4 text-[#8e8e8e] md:text-lg">{pakka.koulu}</p>
 				{/if}
-				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 md:ml-[60px] sm:mr-[250px]">
+
+			</div>
+		</div>
+    				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0">
 					<button
 						class="w-30 cursor-pointer rounded bg-[#000000] px-4 py-2 text-[#E5B80B] ring-2 ring-[#E5B80B] hover:bg-[#222222]"
 						onclick={sulje}
@@ -59,7 +62,5 @@
 						sulje
 					</button>
 				</div>
-			</div>
-		</div>
 	</div>
 </div>
