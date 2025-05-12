@@ -84,11 +84,12 @@
 				<!-- /infoikkuna -->
 
 				 <!-- korttien määrä -->
-				<div class="justify-self-center pb-15 font-['Rosarivo'] text-lg sm:text-xl text-white text-shadow-sm text-shadow-white">Nostettavien korttien määrä:
-          			<div class="justify-self-center text-3xl sm:text-4xl">
-           				{fiftyFifty.maara}
+				<div class="grid justify-items-center pb-15 font-['Rosarivo'] text-lg sm:text-xl text-white text-shadow-sm text-shadow-white">
+					<div>Nostettavien korttien määrä:</div>
+					<div class="text-3xl sm:text-4xl">
+						{fiftyFifty.maara}
 					</div>
-          		</div>
+				</div>
 				<!-- /korttien määrä -->
 			</div>
 			<!-- /yläosan elementit -->

@@ -31,7 +31,14 @@
             <h1 class="line-clamp-3 text-center pt-8 font-['rosarivo'] italic text-white text-lg sm:text-xl md:text-xl lg:text-2xl text-shadow-white text-shadow-sm">{kortti.ename}</h1>
           </div>
             <button onclick={() => naytaKortti(kortti)}>
-              <img class='pb-1 cursor-pointer size-full transition  duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" /></button>
+              <img class='pb-1 cursor-pointer transition
+                w-32 sm:w-40 md:w-48 lg:w-56
+                aspect-[2/3] object-fill
+                duration-175 ease-in-out hover:scale-101 
+                rounded-xl border-4 border-black 
+                outline-1 outline-[#FFD700] 
+                shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" />
+			</button>
 			<!-- katsotaan valittuKortti muuttujan arvo ja määritetään onko modaali ikkuna auki vai ei -->
             {#if valittuKortti === kortti}
                 <Modal pakka={kortti} sulje={() =>naytaKortti(kortti)}/>
