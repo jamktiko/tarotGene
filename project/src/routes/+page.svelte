@@ -78,7 +78,7 @@
 			<!-- Tässä sivun yläosan elementit eli nostettavien korttien numero ja info ruutu -->
 			<div class="grid">
 				<!-- infoikkuna -->
-				<div  class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 animate-pulse sm:animate-none">
+				<div  class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 sm:mb-1 animate-pulse sm:animate-none">
 					<p class="p-1 justify-self-center">Vinkki: <br> Nosta kortit klikkaamalla pakkaa</p>
 				</div>
 				<!-- /infoikkuna -->
