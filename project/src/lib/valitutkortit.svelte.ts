@@ -1,8 +1,8 @@
 import type { Kortit } from '$lib/types/Kortit';
 
 class Valitut {
-	public nostetut: Kortit[] = $state([]); //Nostettujen korttien taulukko
-	public valittuAihe: number = $state(0); //Hallitsee valittua aihetta
+	public nostetut: Kortit[] = $state([]);
+	public valittuAihe: string = $state('description');
 	get nNostetut() {
 		return this.nostetut;
 	} //Käytetty bugikorjauksessa

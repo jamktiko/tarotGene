@@ -235,7 +235,7 @@
 						/>
 					</div>
 					{#if valittuKortti === kortti}
-						<Modal pakka={kortti} sulje={() => naytaKortti(kortti)} />
+						<Modal aihe={nostetut.valittuAihe} pakka={kortti} sulje={() => naytaKortti(kortti)} />
 					{/if}
 				{/each}
 			</div>
