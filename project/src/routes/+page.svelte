@@ -82,7 +82,7 @@
 	<div>
 		<div
 			class="fixed inset-0 z-50 flex flex-col items-center justify-center bg-black"
-			out:fade|global={{ delay: 2000, duration: 3000 }}
+			out:fade|global={{ delay: 2000, duration: 2000 }}
 		>
 			<h1
 				class="text-shadow-valkoinen text-4xl text-white sm:text-5xl"
@@ -109,7 +109,8 @@
 			<!-- Tässä sivun yläosan elementit eli nostettavien korttien numero ja info ruutu -->
 			<div class="grid">
 				<!-- infoikkuna -->
-				<div class=" grid font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
+				
+				<div  class=" grid font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
 					<p class="p-1 justify-self-center">Vinkki: Nosta kortit klikkaamalla pakkaa</p>
 				</div>
 				<!-- /infoikkuna -->
