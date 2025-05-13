@@ -78,8 +78,8 @@
 			<!-- Tässä sivun yläosan elementit eli nostettavien korttien numero ja info ruutu -->
 			<div class="grid">
 				<!-- infoikkuna -->
-				<div  class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 sm:mb-1 animate-pulse sm:animate-none">
-					<p class="p-1 justify-self-center">Vinkki: <br> Nosta kortit klikkaamalla pakkaa</p>
+				<div in:fade={{delay:10000}} class="justify-self-center sm:justify-self-start grid font-['Rosarivo'] text-sm sm:text-lg text-gray-400 text-shadow-sm  rounded-xl border-4 border-black outline-1 outline-[#FFD700] mb-4 sm:mb-1 animate-pulse sm:animate-none">
+					<p class="p-1 justify-self-center">🅘 Nosta kortit klikkaamalla pakkaa</p>
 				</div>
 				<!-- /infoikkuna -->
 
@@ -179,8 +179,8 @@
 			{/if}
 
 			<!-- Kortin valittua -->
-			<div in:fade={{delay:2000}} class="max-w-60 justify-self-center mb-5 font-['Rosarivo'] text-lg text-white text-shadow-sm text-shadow-white rounded-xl border-4 border-black object-cover outline-1 outline-[#FFD700] w-sm">
-				<p class="p-1 justify-self-center">Vinkki: Näytä ennustus painamalla korttia!</p>
+			<div in:fade={{delay:10000}} class=" justify-self-center mb-5 font-['Rosarivo'] text-lg text-gray-400 text-shadow-sm text-shadow-black rounded-xl border-black object-cover outline-[#FFD700]">
+				<p class="p-1 animate-pulse justify-self-center">(Paina korttia)</p>
 			</div>
 
 			<div class="flex flex-wrap justify-center gap-4">
