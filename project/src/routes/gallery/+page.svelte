@@ -37,7 +37,7 @@
                 duration-175 ease-in-out hover:scale-101 
                 rounded-xl border-4 border-black 
                 outline-1 outline-[#FFD700] 
-                shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt="Kortin kuvateksti" />
+                shadow-lg hover:shadow-[#FFD700]' src={kortti.image} alt={kortti.name} />
 			</button>
 			<!-- katsotaan valittuKortti muuttujan arvo ja määritetään onko modaali ikkuna auki vai ei -->
             {#if valittuKortti === kortti}
