@@ -28,7 +28,7 @@
 		<!-- tehdään jokaiselle kortille oma divi johon sijoitetaan kortin nimi, kuva ja button onclick tapahtumaa varten -->
         <div class="flex flex-col items-center w-4xs h-6xs" in:fly|global={{ delay: 1000 + (i * 100), duration: 100, x: 300, y: 0 }}>
           <div class="min-h-[6rem] flex flex-col justify-between">
-            <h1 class="line-clamp-3 text-center pt-8 font-['rosarivo'] italic text-white text-lg sm:text-xl md:text-xl lg:text-2xl text-shadow-white text-shadow-sm">{kortti.ename}</h1>
+            <h1 class="line-clamp-2 sm:line-clamp-3 text-center pt-8 font-['rosarivo'] italic text-white text-md sm:text-xl md:text-xl lg:text-2xl text-shadow-white text-shadow-sm">{kortti.ename}</h1>
           </div>
             <button onclick={() => naytaKortti(kortti)}>
               <img class='pb-1 cursor-pointer transition

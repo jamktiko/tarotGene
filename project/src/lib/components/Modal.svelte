@@ -18,9 +18,9 @@
 			</h1>
 		</div>
 		<div class="grid grid-cols-1 gap-10 sm:flex sm:gap-6">
-			<img class="cursor-pointer justify-self-center h-50 w-35 sm:h-60 sm:w-40 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]" src={pakka.image} alt="kortin kuva" onclick={sulje} />
+			<img class="max-w-100 min-w-40 max-h-100 min-h-60 cursor-pointer justify-self-center h-50 w-35 sm:h-60 sm:w-40 md:h-90 md:w-60 lg:w-11/12 lg:h-100 transition duration-175 ease-in-out hover:scale-101 rounded-xl border-4 border-black outline-1 outline-[#FFD700] shadow-lg hover:shadow-[#FFD700]" src={pakka.image} alt={pakka.name} onclick={sulje} />
 			<div class="flex flex-col justify-between">
-				<p class="text:sm sm:text-md font-serif text-[#b3b3b3] md:p-4 md:text-xl">
+				<p class="self-start-end text:sm sm:text-md font-serif text-[#b3b3b3] md:p-4 md:text-xl">
 				    {pakka[aihe as keyof typeof pakka]}
 				</p>
 				<div class="mt-[60px] mb-6 flex flex-col items-center sm:mt-0 sm:mr-[250px]">
