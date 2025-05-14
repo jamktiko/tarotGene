@@ -1,10 +1,10 @@
 # Deck of Destiny
 
-Simple overview of use/purpose.
+Deck of Destiny is a tarot card generator designed to offer users quick, personalized insights.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+ Users can draw 1 to 3 cards and select a theme: Love, School, or Future —for more focused predictions. Each card reveals a unique message meant to inspire reflection and guidance. The app also includes a gallery where all cards and their meanings can be explored. It’s a simple, engaging tool for daily inspiration or deeper self-discovery.
 
 ## Getting Started
 
@@ -18,27 +18,26 @@ An in-depth paragraph about your project and overview of use.
 
 ### Installing
 
--
-
-### Executing program
-
 - Run this command to install the needed packages for executing
 
 ```
-code blocks for commands
+npm i install
 ```
 
-## Help
+### Executing program
 
-Any advise for common problems or issues.
+Command used to start the server locally
 
 ```
-command to run if program contains helper info
+npm run dev
 ```
+
 
 ## Authors
 
-Contributors names
+Thomas Vainikainen
+Eetu Auvinen
+Joonathan Anjam
 
 ## Version History
 
@@ -58,4 +57,4 @@ This project is licensed under the CC BY-SA 4.0 License - see the LICENSE.md fil
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+tarot api from github user "krates98"
