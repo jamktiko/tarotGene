@@ -71,7 +71,7 @@
 
 <div
 	class="mx-auto space-y-4">
-	<div class="gap grid p-6">
+	<div class="gap grid p-3 sm:p-6">
 		{#if !fiftyFifty.booleani}
 			<!-- Alkusivu -->
 
@@ -96,7 +96,7 @@
 
 			<div class="flex flex-row items-center justify-center gap-6 p-4 sm:gap-10">
 				<!--Plus nappi-->
-				<div class="w-16 sm:w-20">
+				<div class="w-12 sm:w-20">
 					<Button onclick={() => fiftyFifty.maara--} text="/images/minus.png" disabled={fiftyFifty.maara <= 0}/>
 				</div>
 				<!--BOUNCY KORTIT-->
@@ -156,7 +156,7 @@
 				<!--/BOUNCY KORTIT-->
 
 				<!--korttien lkm "index"-->
-				<div class="w-16 sm:w-20">
+				<div class="w-12 sm:w-20">
 					<Button
 						onclick={() => fiftyFifty.maara++}
 						text="/images/plus.png"
